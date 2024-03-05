@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-33b9929|xiaorouji|Mon Mar 4 20:43:30 2024 +0800|luci: fix direct DNS error that may be triggered
+b04d86f|xiaorouji|Tue Mar 5 01:31:37 2024 +0800|luci: optimize
+9a63b3c|xiaorouji|Tue Mar 5 00:50:42 2024 +0800|luci: update iface script
 </details>
