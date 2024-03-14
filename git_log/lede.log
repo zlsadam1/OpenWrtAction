@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-df237c7e3|coolsnowwolf|Thu Mar 14 11:22:28 2024 +0800|generic: add missing kernel 6.6 patches
+9a345491d|aiamadeus|Sat Nov 11 23:06:38 2023 +0800|generic: 6.1: backport AXP313a PMIC support
 </details>
