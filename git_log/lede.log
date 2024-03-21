@@ -2,6 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
+36e6d2962|sKyissKy|Thu Mar 21 21:25:10 2024 +0800|ramips : fix zte e8820s upgrade (#12021)
+1dce30889|coolsnowwolf|Sun Mar 17 14:26:15 2024 +0800|quectel-cm: update to version 1.6.5
+68253688d|coolsnowwolf|Sun Mar 17 14:30:20 2024 +0800|quectel_MHI: add support Linux Kernel 6.1+
 431daede4|coolsnowwolf|Thu Mar 21 14:52:11 2024 +0800|generic: 6.6: backport support for various PCIE MHI 5G modems
 1f3d5dca2|coolsnowwolf|Thu Mar 21 14:45:38 2024 +0800|mac80211: backport rtw88 from linux next
 17888aba0|coolsnowwolf|Thu Mar 21 14:30:20 2024 +0800|quectel_MHI: add support Linux Kernel 6.1+
