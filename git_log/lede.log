@@ -2,6 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-9d50fcccf|aiamadeus|Sun Mar 10 23:25:50 2024 +0800|sunxi: h616: cpufreq and thermal support
-f69a1db02|aiamadeus|Fri Nov 24 23:19:36 2023 +0800|sunxi: add support for Orange Pi Zero 3
+431daede4|coolsnowwolf|Thu Mar 21 14:52:11 2024 +0800|generic: 6.6: backport support for various PCIE MHI 5G modems
+1f3d5dca2|coolsnowwolf|Thu Mar 21 14:45:38 2024 +0800|mac80211: backport rtw88 from linux next
+17888aba0|coolsnowwolf|Thu Mar 21 14:30:20 2024 +0800|quectel_MHI: add support Linux Kernel 6.1+
+6e559db4e|coolsnowwolf|Thu Mar 21 14:26:15 2024 +0800|quectel-cm: update to v1.6.5
+179a1e06a|coolsnowwolf|Thu Mar 21 14:17:41 2024 +0800|generic: 6.1: backport support for various PCIE MHI 5G modems
 </details>
