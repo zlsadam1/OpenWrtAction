@@ -1,0 +1,6 @@
+<details> <summary> <b>passwall packages new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+80e5027|lwb1978|Sat Mar 30 13:06:53 2024 +0800|chinadns-ng: download cache named after $(PKG_VERSION) (#189)
+</details>
