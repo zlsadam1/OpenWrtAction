@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-445a484|MoetaYuko|Sun Mar 31 19:06:59 2024 +0800|shadowsocksr-libev: fix use-after-free due to a typo (#193)
+8b44f32|lwb1978|Mon Apr 1 13:10:21 2024 +0800|naiveproxy: use prebuilt binaries (#194)
 </details>
