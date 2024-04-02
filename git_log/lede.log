@@ -1,0 +1,7 @@
+<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+05c7666b4|Florian Eckert|Mon Aug 7 11:15:28 2023 +0200|tools: add tmon package
+d3c28faf8|Rosen Penev|Sat Dec 16 17:12:33 2023 -0800|kernel: backport ethtool_puts
+</details>
