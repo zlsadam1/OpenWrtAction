@@ -2,6 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-80fdc8951|coolsnowwolf|Sun Apr 28 00:07:57 2024 +0800| kernel: modules: jitterentropy_rng requires SHA3 support for kernel 6.1.87+
-5ebdcf2f4|coolsnowwolf|Mon Apr 8 23:16:02 2024 +0800|atf-rockchip-vendor: add rk3528 support
+e72f8049c|Daniel Golle|Sat Oct 28 00:27:12 2023 +0100|arm-trusted-firmware-mediatek: update to release 2023-10-13
 </details>
