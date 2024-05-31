@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-877f54b|Tianhe Y.|Thu May 30 22:00:17 2024 +0800|Revert "luci: eliminate JS LuCI behavior"
+af556d2|Tianhe Y|Fri May 31 14:39:43 2024 +0800|luci: optimize the settings of shunt_rules fix #3230
 </details>
