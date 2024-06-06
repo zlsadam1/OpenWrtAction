@@ -1,6 +1,0 @@
-<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-cb1f2c6a5|aiamadeus|Wed May 29 23:15:09 2024 +0800|rockchip: fix rk3568 nvme detection issue
-</details>
