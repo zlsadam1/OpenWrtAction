@@ -27,8 +27,8 @@ on:
         description: 'Whether single-threaded compilation'
         required: false
         default: 'false'
-  # schedule:
-  #   - cron: 0 */8 * * *
+  schedule:
+    - cron: 0 8 */7 * *
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -94,7 +94,7 @@ jobs:
           $GITHUB_WORKSPACE/$DIY_P2_SH
           
           cd ..
-          platforms=(X86 R5S R5C R4S R4SE R2S R2C H66K H68K H69K R66S R68S R_PI_3b R_PI_4b)
+          platforms=(X86 R66S)
           for i in "${platforms[@]}"; do
             [ -e $CONFIGS/$i.config ] && cp -r $CONFIGS/$i.config openwrt/.config
             cd openwrt
@@ -142,20 +142,8 @@ jobs:
           line013="platform|kernel|compile status" 
           line014="-|-|-" 
           line015="**:ice_cube: X86**|**$kernel_X86_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line016="**:ice_cube: R5S**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line017="**:ice_cube: R5C**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line018="**:ice_cube: R4S**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line019="**:ice_cube: R4SE**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line020="**:ice_cube: R2S**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line021="**:ice_cube: R2C**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line022="**:ice_cube: H66K**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line023="**:ice_cube: H68K**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line024="**:ice_cube: H69K**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
           line025="**:ice_cube: R66S**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line026="**:ice_cube: R68S**|**$kernel_rockchip_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line027="**:ice_cube: R_Pi_3b**|**$kernel_bcm27xx_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)" 
-          line028="**:ice_cube: R_Pi_4b**|**$kernel_bcm27xx_version**|![](https://img.shields.io/badge/build-in_progress_or_waiting.....-yellow?logo=githubactions&logoColor=yellow&style=flat-square)"
-
+          
           echo $line001 >> release.txt
           echo $line002 >> release.txt
           echo $line003 >> release.txt
@@ -253,7 +241,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platforms: [X86, R5S, R5C, R4S, R4SE, R2S, R2C, H66K, H68K, H69K, R66S, R68S, R_PI_3b, R_PI_4b]
+        platforms: [X86, R66S]
 
     steps:
       - name: Initialization Environment
@@ -520,7 +508,7 @@ jobs:
           json_data=$(curl -s -H "Authorization: Bearer ${{ github.token }}" "https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs")
           name_conclusion_array=($(echo "$json_data" | jq -r '.jobs[] | select(.name | startswith("Build-OpenWrt-")) | "\(.name).\(.conclusion)"'))
 
-          platforms=(X86 R5S R5C R4S R4SE R2S R2C H66K H68K H69K R66S R68S R_PI_3b R_PI_4b)
+          platforms=(X86 R66S)
           
           is_success_compiled=false
           for ((i = 0; i < ${#platforms[@]}; i++)); do
@@ -718,7 +706,7 @@ jobs:
           json_data=$(curl -s -H "Authorization: Bearer ${{ github.token }}" "https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs")
           name_conclusion_array=($(echo "$json_data" | jq -r '.jobs[] | select(.name | startswith("Build-OpenWrt-")) | "\(.name).\(.conclusion)"'))
 
-          platforms=(X86 R5S R5C R4S R4SE R2S R2C H66K H68K H69K R66S R68S R_PI_3b R_PI_4b)
+          platforms=(X86 R66S)
 
           echo "-------------------build status--------------------------"
           for item in "${name_conclusion_array[@]}"; do
