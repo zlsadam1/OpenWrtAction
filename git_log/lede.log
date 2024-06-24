@@ -2,5 +2,19 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-6f4bb7ec5|coolsnowwolf|Wed Jun 19 21:53:05 2024 +0800|ipq-wifi: JDCloud AX6600 bdf file
+cd3fe52be|Beginner|Mon Jun 24 10:01:08 2024 +0800|kernel: bump 5.10 to 5.10.220 (#12265)
+2ef8b6a61|coolsnowwolf|Sun Jun 23 02:39:58 2024 +0800|fullconenat: make xt_FULLCONENAT autoload
+d1bc8d77c|coolsnowwolf|Sun Jun 23 02:20:18 2024 +0800|fullconenat: add libxtables dependence
+f06cea1ee|coolsnowwolf|Sat Jun 22 18:29:27 2024 +0800|qca-nss-ecm: enable iptables NAT loopback
+9728c59e9|coolsnowwolf|Sat Jun 22 18:16:32 2024 +0800|firewall: add iptables-mod-conntrack-extra by default
+39a4bb9bb|coolsnowwolf|Sat Jun 22 17:55:14 2024 +0800|csstidy: move to luci feed
+809deeee2|coolsnowwolf|Sat Jun 22 17:50:09 2024 +0800|Revert "qca-nss-ecm: add kmod-nat46 as dependencies package"
+847b81b67|Beginner|Sat Jun 22 04:14:04 2024 +0800|kernel: bump 6.6 to 6.6.35 (#12256)
+0e02e8ae0|Beginner|Sat Jun 22 04:13:43 2024 +0800|kernel: bump 6.1 to 6.1.95 (#12257)
+8482b8958|coolsnowwolf|Fri Jun 21 20:45:27 2024 +0800|cpufreq: add CPU Scaling adjustment tool
+a93701bee|coolsnowwolf|Fri Jun 21 19:04:56 2024 +0800|qca-nss-ecm: add kmod-nat46 as dependencies package
+dfa293560|coolsnowwolf|Fri Jun 21 18:37:12 2024 +0800|base-files: add TARGET_DEFAULT_LAN_IP_FROM_PREINIT for setting the default LAN IP address and netmask
+f2f2ca1e5|coolsnowwolf|Fri Jun 21 18:09:43 2024 +0800|quectel_QMI_WWAN: add linux 6.6 kernel support
+de0b0aa0b|Beginner|Fri Jun 21 10:01:05 2024 +0800|kernel: bump 6.6 to 6.6.34 (#12252)
+6ba427f2f|John Audia|Wed Jun 5 15:55:29 2024 -0400|openssl: update to 3.0.14
 </details>

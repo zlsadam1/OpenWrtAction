@@ -1,0 +1,7 @@
+<details> <summary> <b>lean luci new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+b8fa320|coolsnowwolf|Sat Jun 22 17:55:35 2024 +0800|csstidy: move to luci feed
+2c766c3|Pr0m1x|Thu Jun 20 15:30:07 2024 +0800|luci-app-mwan3: fixes status page load issue (#284)
+</details>

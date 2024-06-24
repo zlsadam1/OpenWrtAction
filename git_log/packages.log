@@ -1,0 +1,8 @@
+<details> <summary> <b>lean package new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+f3061661|coolsnowwolf|Sun Jun 23 02:25:21 2024 +0800|vsftpd: disable seccomp_sandbox
+ad47e812|coolsnowwolf|Sat Jun 22 18:25:14 2024 +0800|ua2f: add package
+3c99eef3|coolsnowwolf|Sat Jun 22 18:23:25 2024 +0800|ngrokc: add package
+</details>
