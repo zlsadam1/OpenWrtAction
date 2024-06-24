@@ -1,0 +1,8 @@
+<details> <summary> <b>openwrt telephony new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+a828b9e|Jiri Slachta|Mon Jun 24 11:19:14 2024 +0200|Merge pull request #872 from dangowrt/asterisk-20.8.1
+11353e1|Daniel Golle|Sat Jun 22 15:40:52 2024 +0100|asterisk: update to version 20.8.1
+8ef219c|Daniel Golle|Sun May 19 09:05:42 2024 +0200|pjproject: bump to 2.14.1
+</details>
