@@ -1,0 +1,6 @@
+<details> <summary> <b>openwrt telephony new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+a21103a|Daniel Golle|Thu Jun 20 12:11:56 2024 +0100|asterisk-chan-lantiq: apply hook state timing in right order
+</details>
