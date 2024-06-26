@@ -1,7 +1,0 @@
-<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-d96fcb36d|Tony Ambardar|Tue Jun 11 22:30:48 2024 -0700|toolchain/musl: add support for renameat2()
-b7c03c0fc|coolsnowwolf|Tue Jun 25 12:17:21 2024 +0800|feeds.conf.default: adjust config defaults
-</details>
