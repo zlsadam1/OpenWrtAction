@@ -1,0 +1,6 @@
+<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+487e18076|Daniel Golle|Tue Jun 25 19:41:06 2024 +0100|generic: 6.6: (re-)add support multiple PPE to mtk_eth_soc
+</details>
