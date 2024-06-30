@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-487e18076|Daniel Golle|Tue Jun 25 19:41:06 2024 +0100|generic: 6.6: (re-)add support multiple PPE to mtk_eth_soc
+6924a18f3|coolsnowwolf|Sun Jun 30 11:12:58 2024 +0800|mt76: add linux kernel 6.6 support for mediatek
+aea7d683f|coolsnowwolf|Sun Jun 30 10:44:13 2024 +0800|mediatek: 6.6: refresh patches
 </details>
