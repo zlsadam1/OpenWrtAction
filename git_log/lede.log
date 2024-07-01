@@ -2,8 +2,23 @@
 
 SHA|Author|Date|Message
 -|-|-|-
+08aaf074b|Daniel Golle|Mon Jul 1 13:36:10 2024 +0800|mediatek: add support for BananaPi BPI-R4 board
+21ab9a9f1|Daniel Golle|Wed Dec 13 05:37:20 2023 +0000|uboot-mediatek: update to U-Boot 2024.01 release
+15d850a5e|Daniel Golle|Fri Jan 12 02:36:59 2024 +0000|arm-trusted-firmware-mediatek: use UBI on new NAND targets
+052d09668|Daniel Golle|Tue Jun 13 15:32:15 2023 +0100|package: add fitblk util to release /dev/fit* devices
+8acf60b77|Daniel Golle|Tue Dec 5 00:20:42 2023 +0000|kernel: add pending fitblk uImage.FIT sub-image block driver
+2dd024a02|Daniel Golle|Fri Nov 24 12:22:27 2023 +0000|kernel: allow skipping deprecated uImage.FIT partition parser
+b763c5cb7|Daniel Golle|Mon Dec 4 23:25:12 2023 +0000|kernel: move uImage.FIT partition parser to mediatek target
 d7126b691|coolsnowwolf|Mon Jul 1 04:48:30 2024 +0800|build: enable ipv6 support by default
 de58bd76f|coolsnowwolf|Mon Jul 1 04:34:12 2024 +0800|Version update to R24.7.1
 521d52180|Shiji Yang|Fri Jun 21 13:56:23 2024 +0000|kernel: mtd: ubi: avoid attaching "linux,ubi" mtd again
 1daefbe1f|coolsnowwolf|Mon Jul 1 04:27:36 2024 +0800|base-files: upgrade: nand: add JFFS2 cleanmarkers support
+816cb54e2|coolsnowwolf|Mon Jul 1 03:55:59 2024 +0800|base-files: treewide: replace /sys/devices/virtual/ubi by /sys/class/ubi
+9f2db43da|coolsnowwolf|Mon Jul 1 02:06:35 2024 +0800|mediatek: bpi-r4: store random MAC addresses for the BPi-R4
+b35c02ad4|coolsnowwolf|Mon Jul 1 01:58:56 2024 +0800|mediatek: add support for BananaPi BPI-R4 MT7988 board
+e157234de|coolsnowwolf|Mon Jul 1 01:48:15 2024 +0800|mediatek: switch to Linux 6.6
+cdd40f508|coolsnowwolf|Mon Jul 1 01:46:35 2024 +0800|arm-trusted-firmware-mediatek: use USE_UBI for TFA_MAKE_FLAGS
+20c63769d|coolsnowwolf|Mon Jul 1 01:42:01 2024 +0800|arm-trusted-firmware-mediatek: use UBI on new NAND targets
+88146d3fc|coolsnowwolf|Mon Jul 1 01:08:49 2024 +0800|uboot-mediatek: add build for MT7988 BPi-R4
+f441b4c9a|coolsnowwolf|Mon Jul 1 00:40:22 2024 +0800|package: add fitblk util to release /dev/fit* devices
 </details>
