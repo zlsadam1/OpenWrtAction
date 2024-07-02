@@ -2,6 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
+03835617b|coolsnowwolf|Mon Jul 1 22:41:46 2024 +0800|cryptodev-linux: fix build with linux-5.10.220+
 ea5d459f7|coolsnowwolf|Mon Jul 1 16:59:18 2024 +0800|hf m7986r1: auto part emmc when first flashed boot
-141a53a02|coolsnowwolf|Mon Jul 1 16:39:42 2024 +0800|mediatek: filogic: enable HF-M7986R1 emmc support
 </details>
