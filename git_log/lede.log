@@ -2,6 +2,17 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-03835617b|coolsnowwolf|Mon Jul 1 22:41:46 2024 +0800|cryptodev-linux: fix build with linux-5.10.220+
-ea5d459f7|coolsnowwolf|Mon Jul 1 16:59:18 2024 +0800|hf m7986r1: auto part emmc when first flashed boot
+e5017ff7c|coolsnowwolf|Tue Jul 2 15:58:53 2024 +0800|mt76: fix linux kernel 6.1 support for mediatek
+e1132c36d|coolsnowwolf|Tue Jul 2 15:55:07 2024 +0800|mediatek: backport a hell of thermal commits
+b3e60d189|coolsnowwolf|Tue Jul 2 15:24:05 2024 +0800|generic: sync kernel 6.1 from upstream
+2f7ba54f9|coolsnowwolf|Tue Jul 2 13:44:11 2024 +0800|mediatek: include fitblk package for subtargets
+b9b078da8|coolsnowwolf|Tue Jul 2 13:16:51 2024 +0800|base-files: upgrade: nand.sh: mute umount error
+319b46b4b|coolsnowwolf|Tue Jul 2 13:14:41 2024 +0800|base-files: recognize bootdevice on devices using fitblk
+ea86509cd|Daniel Golle|Mon Jul 1 20:37:58 2024 +0100|generic: 6.6: net: ethernet: mediatek: Allow gaps in MAC allocation
+eb6cb4abf|Shiji Yang|Fri Jun 21 13:56:23 2024 +0000|kernel: mtd: ubi: avoid attaching "linux,ubi" mtd again
+d0c0f941a|coolsnowwolf|Tue Jul 2 13:01:05 2024 +0800|generic: kernel add 6.6 missing symbols
+f2d670b67|coolsnowwolf|Tue Jul 2 12:33:45 2024 +0800|fstools: update to Git HEAD (2024-01-22)
+02b1ec252|coolsnowwolf|Tue Jul 2 12:26:11 2024 +0800|target: x86: add intel-microcode for Intel CPU microcode update
+05d2fc3d9|coolsnowwolf|Tue Jul 2 12:22:58 2024 +0800|autocore: disable gso offload for some x86 network card hw issue
+4d50adb8e|coolsnowwolf|Tue Jul 2 12:09:12 2024 +0800|mediatek: filogic: add HF-M7986R1 EMMC Version support
 </details>
