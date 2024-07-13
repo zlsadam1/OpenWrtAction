@@ -2,6 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-5707944|Milinda Brantini|Thu Jul 11 19:48:56 2024 +0800|action: add dns2tcp auto update (#249)
-f3eda27|Milinda Brantini|Thu Jul 11 19:47:09 2024 +0800|dns2tcp: Update to 1.1.2 (#248)
+fc029d5|github-actions[bot]|Fri Jul 12 23:24:06 2024 +0800|xray-core: update to 1.8.17 (#251)
+d6c9e6f|github-actions[bot]|Fri Jul 12 23:23:56 2024 +0800|xray-plugin: update to 1.8.17 (#250)
 </details>
