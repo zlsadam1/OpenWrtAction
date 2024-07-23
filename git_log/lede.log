@@ -1,0 +1,7 @@
+<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+150b74525|coolsnowwolf|Sun Jul 21 20:39:03 2024 +0800|mt76: fixes build for older kernel
+2dde298ca|coolsnowwolf|Mon Jul 15 23:36:17 2024 +0800|config: sync with upstream source code
+</details>
