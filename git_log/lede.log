@@ -1,0 +1,6 @@
+<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+5859fc60a|coolsnowwolf|Sat Jul 20 23:40:06 2024 +0800|config: revert to use GRUB_SERIAL
+</details>
