@@ -1,0 +1,6 @@
+<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+3bbf60335|Yogi Hermawan|Sat Jul 27 17:01:35 2024 +0700|ramips: fix Bolt BL201 support (#12361)
+</details>
