@@ -1,6 +1,0 @@
-<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-f252f21b3|XIE Zhibang|Mon Jun 17 16:07:53 2024 +0000|netfilter: kmod-nft-netdev: add egress support
-</details>
