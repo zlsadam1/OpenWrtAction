@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-deb218ea2|aiamadeus|Tue Jul 23 22:01:26 2024 +0800|generic: 6.1/6.6: remove gro improvement patch
+a03505e14|Daniel Golle|Tue Oct 3 02:32:35 2023 +0100|mediatek: fix PCIe #PERST de-asserted too early
+88450c61a|Daniel Golle|Mon Sep 11 12:50:38 2023 +0100|kernel: backport fixes for MTK Ethernet driver
 </details>
