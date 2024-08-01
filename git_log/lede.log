@@ -1,7 +1,0 @@
-<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-576235b0f|coolsnowwolf|Thu Aug 1 11:29:55 2024 +0800|phy-aquantia: fix build with 6.1.100+
-31c0baa4d|Álvaro Fernández Rojas|Sun Jun 23 19:19:47 2024 +0200|generic: 6.6: backport upstream r8169 patches
-</details>
