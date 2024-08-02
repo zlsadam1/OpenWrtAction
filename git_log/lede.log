@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-e53905ae4|喵二|Fri Aug 2 01:49:26 2024 +0800| leigod-acc: fix typo and add conntrack depends (#12376)
+0d4e0de6a|coolsnowwolf|Fri Aug 2 16:37:53 2024 +0800|luci-app-leigod-acc: add tun mode support
 </details>
