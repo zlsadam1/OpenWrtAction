@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-f24d17e|YunClick|Fri Aug 2 21:19:21 2024 +0800|luci: fix nftables rules will repeated in some cases
+c735efe|lwb1978|Sat Aug 3 18:35:37 2024 +0800|luci: fix #3342
+00a4d7f|lwb1978|Sat Aug 3 18:26:50 2024 +0800|luci: some DNS optimize and fix #3348
 </details>
