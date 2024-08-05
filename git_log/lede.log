@@ -1,0 +1,6 @@
+<details> <summary> <b>lean openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+2c6595fa4|Marek Behún|Mon Jul 22 15:33:17 2024 +0200|gpio-button-hotplug: add vendor button
+</details>

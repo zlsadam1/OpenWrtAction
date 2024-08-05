@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-cd2922f|lwb1978|Sun Aug 4 13:33:04 2024 +0800|luci: optimize connect status
+cb62073|lwb1978|Sun Aug 4 21:47:15 2024 +0800|luci: app update adds mips64 for xray and chinadns-ng
+f0e062b|lwb1978|Sun Aug 4 20:54:04 2024 +0800|luci: simplify the node names for xray and sing-box
 </details>
