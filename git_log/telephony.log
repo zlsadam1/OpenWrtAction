@@ -1,0 +1,8 @@
+<details> <summary> <b>openwrt telephony new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+d3f3205|micmac1|Wed Aug 7 22:07:10 2024 +0200|Merge pull request #880 from micmac1/fs-1.10.12
+6c4f646|Sebastian Kemper|Sun Aug 4 18:33:56 2024 +0200|freeswitch: bump to 1.10.12
+db2b0f2|Sebastian Kemper|Sun Aug 4 18:28:48 2024 +0200|libks: bump to 2.0.6
+</details>
