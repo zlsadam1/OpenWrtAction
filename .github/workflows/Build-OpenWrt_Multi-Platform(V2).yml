@@ -577,6 +577,6 @@ jobs:
       - name: Trigger build
         uses: peter-evans/repository-dispatch@main
         with:
-          token: GITHUB_TOKEN:${{ secrets.MY_SECRET_PAT }}
+          token: ${{ secrets.MY_SECRET_PAT }}
           repository: zlsadam1/MyAction
           event-type: openwrt_compilation_completed
