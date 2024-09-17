@@ -1,0 +1,7 @@
+<details> <summary> <b>luci-app-mosdns new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+b7d0bec|Bard|Mon Sep 16 16:09:02 2024 +0800|luci-app-mosdns: init.d: set the boot order to S75
+5df6a93|sbwml|Thu Sep 12 22:14:56 2024 +0800|luci-app-mosdns: fix i18n
+</details>
