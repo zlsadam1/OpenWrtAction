@@ -2,11 +2,10 @@
 
 SHA|Author|Date|Message
 -|-|-|-
+6dc420855|coolsnowwolf|Thu Sep 19 22:24:09 2024 +0800|kernel: bump 6.6 to 6.6.52
+718ac376b|coolsnowwolf|Thu Sep 19 22:14:36 2024 +0800|kernel: bump 6.1 to 6.1.111
+6da40576e|John Audia|Thu Sep 12 07:14:13 2024 -0400|kernel: bump 6.6 to 6.6.51 (#16370)
+fa54bfe3d|coolsnowwolf|Tue Sep 17 23:15:05 2024 +0800|rockchip: fixes r8125 nic support
 7b04035b7|coolsnowwolf|Wed Sep 18 22:43:52 2024 +0800|kernel: bump 5.4 to 5.4.284
 037eb4438|coolsnowwolf|Wed Sep 18 17:40:57 2024 +0800|kernel: bump 6.6 to 6.6.51
-53661b6a1|coolsnowwolf|Wed Sep 18 17:14:00 2024 +0800|rockchip: add RUMU3F FINE 3399 support
-92d4a09c0|coolsnowwolf|Wed Sep 18 17:01:32 2024 +0800|Version update to R24.9.18
-dc8ed6a7b|coolsnowwolf|Wed Sep 18 15:08:32 2024 +0800|rockchip: switch to kernel 6.6
-2ad20218e|coolsnowwolf|Wed Sep 18 15:01:54 2024 +0800|uboot-rockchip: add ArmSoM Sige7 support
-98e2f0b48|coolsnowwolf|Wed Sep 18 14:05:09 2024 +0800|rockchip: add ArmSom Sige3 RK3568 (ARM64 4 cores) support
 </details>
