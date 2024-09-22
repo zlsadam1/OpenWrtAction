@@ -1,0 +1,7 @@
+<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+5ea6cb7c3|coolsnowwolf|Sat Sep 21 17:22:54 2024 +0800|rockchip: backport driver updates for rk3588
+801f34513|aiamadeus|Tue Sep 17 23:15:26 2024 +0800|kernel: refresh 6.1 patches
+</details>
