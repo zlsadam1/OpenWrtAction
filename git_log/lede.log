@@ -2,6 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-0dc62d9d8|Chuanhong Guo|Thu Aug 8 12:56:03 2024 +0800|siflower: new target for Siflower SF19A2890
-a5d881f3a|Chuanhong Guo|Thu Aug 15 16:04:30 2024 +0800|package: busybox: disable mips16 on hard-float
+90131838f|Hauke Mehrtens|Mon Sep 23 00:47:40 2024 +0200|linux-firmware: Update to version 20240909
 </details>

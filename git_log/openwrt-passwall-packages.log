@@ -1,7 +1,0 @@
-<details> <summary> <b>passwall packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-deda3aa|github-actions[bot]|Mon Sep 23 00:20:50 2024 +0800|xray-core: update to 24.9.19 (#291)
-8b4e169|github-actions[bot]|Mon Sep 23 00:17:39 2024 +0800|shadowsocks-rust: update to 1.21.0 (#289)
-</details>
