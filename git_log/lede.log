@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-90131838f|Hauke Mehrtens|Mon Sep 23 00:47:40 2024 +0200|linux-firmware: Update to version 20240909
+af5276890|coolsnowwolf|Tue Sep 24 16:40:57 2024 +0800|README.md: update Armsom Sige Board series info
+3d47ebac7|coolsnowwolf|Tue Sep 24 15:15:27 2024 +0800|rockchip: add ArmSoM Sige7 (RK3588 ARM64 8 cores) support
 </details>

@@ -1,7 +1,0 @@
-<details> <summary> <b>passwall2 new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-a1fb65f|Jarao|Mon Sep 23 23:10:33 2024 +0800|luci: support device interface level acl
-2fd2b58|Pacalini|Mon Sep 23 23:09:22 2024 +0800|luci: Xray nonIPQuery blockTypes
-</details>
