@@ -2,6 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-af5276890|coolsnowwolf|Tue Sep 24 16:40:57 2024 +0800|README.md: update Armsom Sige Board series info
-3d47ebac7|coolsnowwolf|Tue Sep 24 15:15:27 2024 +0800|rockchip: add ArmSoM Sige7 (RK3588 ARM64 8 cores) support
+a75453bbc|coolsnowwolf|Wed Sep 25 15:39:42 2024 +0800|rtw88-usb: fix rtw8703b build with kernel 6.6+
+297d4adf0|coolsnowwolf|Wed Sep 25 13:39:22 2024 +0800|Update README_EN.md
 </details>
