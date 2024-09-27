@@ -2,6 +2,7 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-a75453bbc|coolsnowwolf|Wed Sep 25 15:39:42 2024 +0800|rtw88-usb: fix rtw8703b build with kernel 6.6+
-297d4adf0|coolsnowwolf|Wed Sep 25 13:39:22 2024 +0800|Update README_EN.md
+42d626f8d|Oskari Lemmela|Thu Jul 11 11:01:32 2024 +0300|kernel: netdevices: add leds support
+d51d4477e|Oskari Lemmela|Wed Jul 10 19:34:47 2024 +0300|kernel: netdevices: add phy modules
+6ca5e8551|Oskari Lemmela|Thu Jul 11 10:47:36 2024 +0300|kernel: modules: add irq support for pca953x
 </details>
