@@ -6,7 +6,7 @@ config=$3
 
 source $GITHUB_WORKSPACE/compile_script/platforms.sh
 
-# echo "[![](https://img.shields.io/github/downloads/smallprogram/OpenWrtAction/$release_tag/total?style=flat-square)](https://github.com/smallprogram/MyAction)">> release.txt
+# echo "[![](https://img.shields.io/github/downloads/zlsadam1/OpenWrtAction/$release_tag/total?style=flat-square)](https://github.com/zlsadam1/MyAction)">> release.txt
 # echo ""
 # echo "## Source Code Information">> release.txt
 # echo "[![](https://img.shields.io/badge/sorce-immortalwrt-green?logo=openwrt&logoColor=green&style=flat-square)](https://github.com/immortalwrt/immortalwrt) [![](https://img.shields.io/badge/sorce-lean-green?logo=openwrt&logoColor=green&style=flat-square)](https://github.com/coolsnowwolf/lede) [![](https://img.shields.io/badge/sorce-openwrt-green?logo=openwrt&logoColor=green&style=flat-square)](https://github.com/openwrt/openwrt)
