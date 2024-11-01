@@ -2,6 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-f9899fd1a3|Hosted Weblate|Wed Oct 30 13:47:28 2024 +0100|Translated using Weblate (Irish)
-2becdcc2f5|Rudy Andram|Tue Oct 29 05:21:16 2024 +0000|luci-mod-network: add 11be support - revert hwval null check for 5g/2g mode
+23657ad52c|Stan Grishin|Thu Oct 31 10:05:01 2024 -0700|Merge pull request #7368 from stangri/master-luci-app-pbr
+2a09205aed|Stan Grishin|Thu Oct 31 01:59:47 2024 +0000|luci-app-pbr: update to sync with principal package
 </details>

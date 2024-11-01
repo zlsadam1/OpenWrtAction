@@ -2,21 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-cdc607d535|Álvaro Fernández Rojas|Wed Oct 30 13:49:02 2024 +0100|bcm27xx-utils: update to latest version
-b5e1544f4d|Rafal Boni|Thu Oct 24 03:06:22 2024 -0400|ipq806x: Revert "ipq806x: swap lan leds for Meraki MR52"
-73edd3a41e|Christian Marangi|Wed Oct 30 14:07:22 2024 +0100|ramips: ignore errors from trx utility
-def70fa85b|Christian Marangi|Wed Oct 30 14:05:10 2024 +0100|image: ignore errors from more commands
-f303471ae9|Paul Spooren|Wed Oct 30 13:41:23 2024 +0100|imagebuilder: fix copying of missing kernel/libc
-5ba701fe19|Christian Marangi|Wed Oct 30 11:21:58 2024 +0100|image: ignore errors from mktplinkfw command
-618f079f5d|Christian Marangi|Wed Oct 30 11:19:33 2024 +0100|build: correctly ignore Initramfs image on error
-f9afff8b28|Christian Marangi|Wed Oct 30 10:25:25 2024 +0100|mxs: drop removal of firewall4 package
-d6c6e4f722|Christian Marangi|Wed Oct 30 10:23:10 2024 +0100|mvebu: cortexa9: drop removal of firewall4 package
-559df6cb99|Paul Spooren|Wed Oct 30 09:28:30 2024 +0100|build: Honor DEFAULT_VARIANT for APK packages
-07b845b1f2|Paul Spooren|Tue Oct 29 11:09:24 2024 +0100|build: don't include kernel/libc in package index
-36834ea340|John Thomson|Wed Oct 16 12:51:22 2024 +1000|kernel: mtdsplit_minor: accept bootimage filename
-ade045084b|John Thomson|Wed Oct 16 07:13:25 2024 +1000|kernel: mtdsplit_minor: return 0 if not fatal
-a6a44f94bf|Rosen Penev|Mon Oct 21 17:14:41 2024 -0700|ramips: linkit: replace driver with gpio-hog
-cbefc64cb3|Andreas Böhler|Mon Oct 28 18:52:02 2024 +0100|ramips: Fix WiFi on Sercomm NA502 and NA502s
-4929bafb0b|Álvaro Fernández Rojas|Tue Oct 29 15:30:09 2024 +0100|bcm27xx-utils: fix PKG_MIRROR_HASH
-57572de43a|Álvaro Fernández Rojas|Tue Oct 29 09:58:57 2024 +0100|generic: backport upstream r8169 irq patch
+fc236f3b3c|Lech Perczak|Thu Oct 24 20:51:00 2024 +0200|ath79: Really fix 5GHz on QCA9886 variant of ZTE MF286
+538a1d740c|Álvaro Fernández Rojas|Thu Oct 31 10:09:44 2024 +0100|bcm27xx: update to latest RPi patches
+7afdbc0955|Álvaro Fernández Rojas|Thu Oct 31 00:25:41 2024 +0100|bcm27xx-gpu-fw: update to latest version
+9c6cd2241d|Rosen Penev|Fri Oct 25 15:39:30 2024 -0700|ramips: m4r v4: fix typo
+67b0cd8976|Álvaro Fernández Rojas|Thu Oct 31 08:52:16 2024 +0100|CI: labeler: add bcm27xx-utils
 </details>

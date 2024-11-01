@@ -2,19 +2,8 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-2255c9b9a|Eric Fahlgren|Wed Oct 30 17:42:19 2024 -0700|attendedsysupgrade-common: give the uci-defaults script a run level
-22ad5d889|Rosen Penev|Tue Oct 29 18:26:53 2024 -0700|apparmor: update to 3.0.13
-4a55b26f9|Rosen Penev|Fri Aug 23 13:51:36 2024 -0700|nsutils: update to latest master
-30f8c9a76|Rosen Penev|Thu Aug 22 20:44:23 2024 -0700|luasoap: update to latest release
-2b6991a30|Javier Marcet|Wed Oct 30 12:26:36 2024 +0100|docker-compose: Update to version 2.30.1
-c91ce9677|Javier Marcet|Wed Oct 30 11:33:56 2024 +0100|docker-compose: Update to version 2.30.0
-4275b6930|Rosen Penev|Tue Oct 29 18:16:54 2024 -0700|pptp: fix compilation with GCC14
-b3d9e9094|Dillon Dixon|Sun Oct 27 15:22:56 2024 -0700|ddns-scripts: porkbun bugfix for subdomain on A/AAAA record
-0a0680af1|Othmar Truniger|Tue Oct 29 19:56:45 2024 +0100|knxd: bump to new version 0.14.66
-7e272a577|Rosen Penev|Sat Aug 17 21:35:49 2024 -0700|libuwifi: update to latest master
-0532015a2|Florian Eckert|Tue Oct 29 10:45:00 2024 +0100|mwan3: bump PKG_RELEASE
-138766c96|Stijn Tintel|Mon Oct 28 19:19:57 2024 +0200|keepalived: bump to 2.3.1
-eee70036a|Stijn Tintel|Mon Oct 28 19:18:07 2024 +0200|keepalived: bump to 2.3.0
-03691c224|Christian Marangi|Wed Oct 23 18:55:40 2024 +0200|luajit2: switch to GIT source and adapt to APK friendly version
-619629ce8|Florian Eckert|Mon Jul 29 09:23:35 2024 +0200|mwan3: close flock fd when starting mwan3.user scripts
+ceda7c95f|Stan Grishin|Thu Oct 31 01:45:57 2024 +0000|pbr: update to 1.1.7-47
+185c5f038|Yury Potapov|Tue Oct 15 18:14:51 2024 +0300|openconnect: introduced script parameter
+1fcaf0ac1|Rosen Penev|Mon Oct 7 18:13:17 2024 -0700|libseccomp: update to 2.5.5
+12622acfc|Álvaro Fernández Rojas|Wed Oct 30 23:43:51 2024 +0100|bcm27xx-eeprom: update to latest version
 </details>

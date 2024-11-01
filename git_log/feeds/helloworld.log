@@ -1,7 +1,0 @@
-<details> <summary> <b>helloworld new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-8c362ba|zxl hhyccc|Tue Oct 29 21:54:21 2024 +0800|luci-app-ssr-plus: update.sh: adapt to openwrt official dnsmasq modifiy.
-1603b69|zxl hhyccc|Tue Oct 29 14:27:39 2024 +0800|luci-app-ssr-plus: ssr-rules: Delete unnecessary rules from the gfw.
-</details>
