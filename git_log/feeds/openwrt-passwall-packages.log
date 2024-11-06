@@ -2,8 +2,7 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-290ac18|github-actions[bot]|Thu Oct 31 16:46:37 2024 +0800|xray-core: update to 24.10.31 (#308)
-4aa6b68|github-actions[bot]|Thu Oct 31 16:46:18 2024 +0800|v2ray-geoip: update to 202410310053 (#310)
-799daa0|github-actions[bot]|Thu Oct 31 16:46:06 2024 +0800|v2ray-core: update to 5.22.0 (#307)
-4e026f5|lwb1978|Thu Oct 31 12:37:30 2024 +0800|naiveproxy: add mipsel_24kc_24kf & mipsel_74kc architecture
+f0a15fd|github-actions[bot]|Tue Nov 5 13:29:14 2024 +0800|v2ray-geosite: update to 20241104071109 (#311)
+5e05117|zhusir|Tue Nov 5 13:28:51 2024 +0800|xray-core: update to 24.11.5 (#314)
+4fd11f3|zhusir|Tue Nov 5 13:27:23 2024 +0800|action: update version number comparison logic (#313)
 </details>

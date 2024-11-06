@@ -2,7 +2,14 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-bd85b6392|coolsnowwolf|Thu Oct 31 17:11:03 2024 +0800|build: correctly ignore Initramfs image might fail as it's too big
-568395dbb|coolsnowwolf|Thu Oct 31 17:03:54 2024 +0800|ramips: switch to kernel 5.10
-f3d6035d7|coolsnowwolf|Thu Oct 31 16:53:49 2024 +0800|kernel: bump 5.10 to 5.10.221
+d83c55af8|aiamadeus|Tue Oct 29 23:01:02 2024 +0800|rockchip: enable lcd/pwm-fan for srcm3588
+6cbe4f513|aiamadeus|Mon Oct 7 23:26:40 2024 +0800|ipq60xx: fixes usb3 power for jdc ax6600
+4915cc9ed|喵二|Mon Nov 4 10:08:08 2024 +0800|leigod-acc: update binary program (#12608)
+963090631|Daniel Golle|Fri Nov 1 03:37:51 2024 +0000|mediatek: mt7988: fix peripheral SPI busses
+f942a330f|Daniel Golle|Sat Nov 2 20:17:52 2024 +0000|mediatek: filogic: BPi-R4: wire up pinctrl for pwm-fan
+6bcceed65|Daniel Golle|Sat Nov 2 20:01:05 2024 +0000|mediatek: pinctrl-mt7988: add missing PWM pingroups
+011c3ad78|Daniel Golle|Tue Aug 20 17:20:29 2024 +0100|mediatek: backport pending Ethernet PHY driver patches
+407888519|Daniel Golle|Mon Jun 17 15:31:12 2024 +0100|generic: backport pending driver for Winchip CH348 USB
+897572506|Daniel Golle|Sat Oct 5 22:19:43 2024 +0100|generic: phy: aquantia: correctly describe LED polarity
+e5c20ddcd|Robert Marko|Sun Feb 11 18:56:54 2024 +0100|generic: add fix for AQR113 PMD Global Transmit Disable bit
 </details>

@@ -2,9 +2,37 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-fc236f3b3c|Lech Perczak|Thu Oct 24 20:51:00 2024 +0200|ath79: Really fix 5GHz on QCA9886 variant of ZTE MF286
-538a1d740c|Álvaro Fernández Rojas|Thu Oct 31 10:09:44 2024 +0100|bcm27xx: update to latest RPi patches
-7afdbc0955|Álvaro Fernández Rojas|Thu Oct 31 00:25:41 2024 +0100|bcm27xx-gpu-fw: update to latest version
-9c6cd2241d|Rosen Penev|Fri Oct 25 15:39:30 2024 -0700|ramips: m4r v4: fix typo
-67b0cd8976|Álvaro Fernández Rojas|Thu Oct 31 08:52:16 2024 +0100|CI: labeler: add bcm27xx-utils
+685e979d47|David Bauer|Tue Nov 5 20:03:39 2024 +0100|fritz-tools: fix mixed indentation
+6490c88c75|Álvaro Fernández Rojas|Tue Nov 5 14:01:06 2024 +0100|kernel: r8168: refresh patch
+21b5ac862e|Daniel Golle|Tue Nov 5 03:05:31 2024 +0000|build: set PATH for post-install scripts
+48028cd102|John Crispin|Tue Nov 5 09:43:38 2024 +0100|mediatek: set 7 MACs per wifi band in board.json on OpenWrt One
+6ec1477b4d|John Crispin|Sun Sep 22 09:07:58 2024 +0200|mediatek: set mac increment to 7 for the 5G radio on OpenWrt One
+f35a29d63f|Paul Spooren|Mon Nov 4 22:34:52 2024 +0100|packages: drop DEVICE specific dependency for omnia
+562b2c22ff|Álvaro Fernández Rojas|Tue Nov 5 00:33:02 2024 +0100|kernel: r8126: update to v10.014.01
+31f1dabb4b|Mieczyslaw Nalewaj|Fri Nov 1 21:59:23 2024 +0100|mac80211: compatibility with kernel 6.6.59
+4fc47c6000|Mieczyslaw Nalewaj|Sun Nov 3 08:53:37 2024 +0100|kernel: bump 6.6 to 6.6.59
+8508d87495|Robert Marko|Mon Nov 4 18:20:06 2024 +0100|nu801: Mark as nonshared to build in step 1
+11ba2b141f|Mauri Sandberg|Fri Oct 11 10:38:07 2024 +0300|ramips: Fix EX400 imagebuilder
+f2bddc1789|Enrico Mioso|Mon Oct 21 23:39:59 2024 +0200|uboot-mediatek: fix boot media for mt7981 RFB NOR profile
+c6a6aac763|Rosen Penev|Fri Aug 2 14:30:32 2024 -0700|gpio-button-hotplug: use flexible array member
+37784c48e9|Petr Štetiar|Mon Nov 4 07:33:37 2024 +0000|openwrt-keyring: fix missing 24.10 usign key by installing it
+7da9d6bfe0|Linus Walleij|Sun Nov 3 09:34:31 2024 +0100|mtd: Add backported Winbond fix
+d64e1ed421|Leon M. Busch-George|Sat Nov 2 12:28:51 2024 +0100|mediatek: YunCore AX835: fix voltage regulator
+e99b5832e8|Rosen Penev|Sat Oct 19 15:51:51 2024 -0700|ath79: gpio-rb91x-key: use gpiochip_get_data
+6d2ed484fa|Rosen Penev|Sat Oct 19 15:49:42 2024 -0700|ath79: gpio-latch-miktorik: use gpiochip_get_data
+e612900ae0|Rosen Penev|Thu Oct 24 14:51:29 2024 -0700|ramips: mt7621: convert usb power to regulators
+ef4df2b5e9|Chuanhong Guo|Sat Nov 2 22:24:21 2024 +0800|kernel: can: package driver for Geschwister Schneider interface
+675d7c8849|Daniel Golle|Sun Nov 3 02:38:17 2024 +0000|mediatek: refresh patches
+591272d197|Daniel Golle|Sat Nov 2 20:17:52 2024 +0000|mediatek: filogic: BPi-R4: wire up pinctrl for pwm-fan
+2cbd230091|Daniel Golle|Sat Nov 2 20:01:05 2024 +0000|mediatek: pinctrl-mt7988: add missing PWM pingroups
+5745b7e815|Daniel Golle|Thu Oct 31 21:08:10 2024 +0000|uboot-mediatek: import patches improving menu navigation
+57f2c72505|Rosen Penev|Fri Oct 18 18:56:30 2024 -0700|ipq40xx: use devm for mutex_init
+efd1ec51a1|Álvaro Fernández Rojas|Fri Nov 1 21:44:43 2024 +0100|bcm27xx-gpu-fw: fix package
+2915cfb626|Paul Donald|Tue Oct 29 21:49:00 2024 +0100|kernel: KERNEL_NET_L3_MASTER_DEV default to y if !SMALL_FLASH
+a85f11f191|John Crispin|Sat Sep 21 09:48:47 2024 +0200|mediatek: filogic: add Arcadyan Mozart platform
+ddfae94a14|John Crispin|Tue Oct 29 13:40:11 2024 +0100|mediatek: add support for swapping the polarity on usxgmii interfaces
+cfe8e6e75f|John Crispin|Tue Oct 29 13:37:40 2024 +0100|mediatek: add support for Realtek RTL8261n 10G PHYs
+88fa1f7b1e|John Crispin|Sat Sep 21 09:47:26 2024 +0200|uboot-mediatek: add support for arcadyan,mozart
+a535cfc09e|Petr Štetiar|Fri Nov 1 06:25:07 2024 +0000|openwrt-keyring: add OpenWrt 24.10 release build usign key
+2b173ab730|Daniel Golle|Fri Nov 1 03:37:51 2024 +0000|mediatek: mt7988: fix peripheral SPI busses
 </details>
