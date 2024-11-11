@@ -2,9 +2,12 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-6ffe77c|zxlhhyccc|Mon Nov 4 21:51:51 2024 +0800|luci-app-ssr-plus: Fix fragment 'sockopt' tcpMptcp and tcpNoDelay options together use.
-b10949e|zxlhhyccc|Mon Nov 4 21:36:40 2024 +0800|luci-app-ssr-plus: Delete unnecessary rules from the gfw. In gfw mode, if this rule is used, foreign IP addresses that can be directly connected are proxy.
-2603ac7|coolsnowwolf|Sun Nov 3 23:16:49 2024 +0800|luci-app-ssr-plus: refact config reset default button
-de32f32|coolsnowwolf|Sat Nov 2 12:53:39 2024 +0800|xray-core: update to 24.10.31
-c68309f|coolsnowwolf|Sat Nov 2 12:48:55 2024 +0800|Revert "luci-app-ssr-plus: ssr-rules: Delete unnecessary rules from the gfw."
+dbb63e6|zxlhhyccc|Sat Nov 9 17:12:27 2024 +0800|luci-app-ssr-plus: Add update time choose.
+cf1aeac|zxl hhyccc|Sat Nov 9 13:29:27 2024 +0800|luci-app-ssr-plus: Update translate
+96fff44|zxl hhyccc|Sat Nov 9 13:26:46 2024 +0800|luci-app-ssr-plus: update.lua: optimized code
+88e303d|zxl hhyccc|Sat Nov 9 09:02:27 2024 +0800|Merge pull request #1583 from zxlhhyccc/Xray-update
+2278b99|zxlhhyccc|Thu Nov 7 22:56:04 2024 +0800|luci-app-ssr-plus: Fix wrong path is:`/dnsmasq-ssrplus.d/gfw_list.conf`.
+04bb122|zxl hhyccc|Thu Nov 7 00:01:47 2024 +0800|luci-app-ssr-plus: Generated original order `gfw` list.
+8f3b7ea|zxl hhyccc|Wed Nov 6 23:44:09 2024 +0800|luci-app-ssr-plus: Fix `cp: can't create '/dnsmasq-ssrplus.d/gfw_list.conf': No such file or directory`.
+65ff69c|zxlhhyccc|Mon Nov 4 22:53:22 2024 +0800|luci-app-ssr-plus: Add Xray new version RAW transport (formerly tcp transport) support. See: https://xtls.github.io/config/transports/raw.html
 </details>

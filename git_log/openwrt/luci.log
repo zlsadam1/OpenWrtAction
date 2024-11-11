@@ -2,13 +2,15 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-1c61a66950|Paul Donald|Tue Nov 5 19:31:33 2024 +0100|luci-mod-network: show 'Interface disabled' in status
-7dde3239e0|Paul Donald|Tue Nov 5 19:06:49 2024 +0100|luci-mod-status: rework interface status info
-247820d854|Paul Donald|Tue Nov 5 18:34:18 2024 +0100|luci-mod-network: rework interface status info
-37682ded6f|Paul Donald|Tue Nov 5 18:33:05 2024 +0100|luci-base: network; implement getIP6Prefixes()
-d90728d2c0|Hannu Nyman|Sun Nov 3 16:19:15 2024 +0200|luci-app-package-manager: Show the executed command
-5c27cf3671|Hannu Nyman|Sat Nov 2 18:27:05 2024 +0200|luci-app-package-manager: Fix upgrade action for apk
-22971a5bf8|Hannu Nyman|Sat Nov 2 13:46:14 2024 +0200|luci-app-package-manager: fix 'Update lists' button for apk
-91481d83fb|Stan Grishin|Fri Nov 1 17:47:02 2024 -0700|Merge pull request #7369 from stangri/master-luci-app-adblock-fast
-ea170f1f6a|Stan Grishin|Thu Oct 31 02:01:41 2024 +0000|luci-app-adblock-fast: update to sync with principal package
+d6506880ed|Aleksander Jan Bajkowski|Thu Oct 31 22:27:54 2024 +0100|luci-mod-status: channel_analysis: detect 40 MHz (20+20 bonded) APs
+c16643f7a7|Hosted Weblate|Sun Nov 10 09:41:16 2024 +0100|Translated using Weblate (Finnish)
+174e861e3d|Hannu Nyman|Sun Nov 10 10:16:51 2024 +0200|luci-app-dockerman: Use apk compatible versioning
+384790944d|Hannu Nyman|Sat Nov 9 21:10:12 2024 +0200|luci.mk: Add apk compatibility to PKG_RELEASE handling
+96fa870979|Hannu Nyman|Sat Nov 9 19:10:05 2024 +0200|Merge pull request #7367 from abajk/channel-160mhz
+0691504ef0|Paul Donald|Fri Nov 8 11:33:44 2024 +0100|luci-app-wifischedule: tighten acl perms
+aa79c3f30d|Aleksander Jan Bajkowski|Wed Oct 30 00:12:52 2024 +0100|luci-mod-status: channel_analysis: detect 160 MHz capable AP
+8f7f14208a|Paul Donald|Thu Nov 7 21:23:25 2024 +0100|luci-base: fix documented path
+1de73e16f5|Paul Donald|Thu Nov 7 01:45:41 2024 +0100|luci-proto-vxlan: fix tos write and load handlers
+9ddbc11555|Ramon Van Gorkom|Thu Oct 31 21:38:11 2024 +0100|luci-app-wifischedule: Convert to JS
+b49fdd19a3|Hosted Weblate|Wed Nov 6 08:41:44 2024 +0100|Translated using Weblate (Filipino)
 </details>
