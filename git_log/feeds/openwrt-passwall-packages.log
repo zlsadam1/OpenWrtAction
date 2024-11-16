@@ -1,0 +1,8 @@
+<details> <summary> <b>openwrt-passwall-packages new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+b47e4de|lwb1978|Wed Nov 13 21:07:00 2024 +0800|chinadns-ng: add mips64el architecture
+e71b09b|github-actions[bot]|Tue Nov 12 13:01:05 2024 +0800|hysteria: update to 2.6.0 (#316)
+dffa6e6|github-actions[bot]|Mon Nov 11 16:37:36 2024 +0800|xray-core: update to 24.11.11 (#315)
+</details>

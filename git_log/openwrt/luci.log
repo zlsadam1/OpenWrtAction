@@ -2,15 +2,8 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-d6506880ed|Aleksander Jan Bajkowski|Thu Oct 31 22:27:54 2024 +0100|luci-mod-status: channel_analysis: detect 40 MHz (20+20 bonded) APs
-c16643f7a7|Hosted Weblate|Sun Nov 10 09:41:16 2024 +0100|Translated using Weblate (Finnish)
-174e861e3d|Hannu Nyman|Sun Nov 10 10:16:51 2024 +0200|luci-app-dockerman: Use apk compatible versioning
-384790944d|Hannu Nyman|Sat Nov 9 21:10:12 2024 +0200|luci.mk: Add apk compatibility to PKG_RELEASE handling
-96fa870979|Hannu Nyman|Sat Nov 9 19:10:05 2024 +0200|Merge pull request #7367 from abajk/channel-160mhz
-0691504ef0|Paul Donald|Fri Nov 8 11:33:44 2024 +0100|luci-app-wifischedule: tighten acl perms
-aa79c3f30d|Aleksander Jan Bajkowski|Wed Oct 30 00:12:52 2024 +0100|luci-mod-status: channel_analysis: detect 160 MHz capable AP
-8f7f14208a|Paul Donald|Thu Nov 7 21:23:25 2024 +0100|luci-base: fix documented path
-1de73e16f5|Paul Donald|Thu Nov 7 01:45:41 2024 +0100|luci-proto-vxlan: fix tos write and load handlers
-9ddbc11555|Ramon Van Gorkom|Thu Oct 31 21:38:11 2024 +0100|luci-app-wifischedule: Convert to JS
-b49fdd19a3|Hosted Weblate|Wed Nov 6 08:41:44 2024 +0100|Translated using Weblate (Filipino)
+1a4b6adf72|Hosted Weblate|Fri Nov 15 17:04:53 2024 +0100|Translated using Weblate (Filipino)
+9fe1e347f5|Paul Donald|Thu Nov 14 21:01:08 2024 +0100|luci-base: i18n refresh
+53e66da926|Paul Donald|Fri Nov 8 16:39:19 2024 +0100|luci-mod-network: dhcp; implement ignore_hosts_dir dnsmasq setting
+a9e1685f64|Paul Donald|Thu Nov 14 20:42:41 2024 +0100|luci-mod-network: improve route setting descriptions
 </details>

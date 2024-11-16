@@ -2,10 +2,10 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-01f8914|lwb1978|Sun Nov 10 21:08:42 2024 +0800|luci: ChinaDNS-NG no longer relies on Dnsmasq
-362fc3d|lwb1978|Sun Nov 10 20:54:18 2024 +0800|luci: fix xhttp typo
-cd67fdb|lwb1978|Sat Nov 9 17:39:54 2024 +0800|luci: optimize DNS related log output logic
-12a5d09|lwb1978|Sat Nov 9 01:27:20 2024 +0800|luci: Optimization when using ChinaDNS-NG
-afff9ee|lwb1978|Thu Nov 7 21:11:31 2024 +0800|luci: iptables/nftables optimize and fix
-07974c2|lwb1978|Thu Nov 7 00:05:10 2024 +0800|luci: use chinadns-ng to handle domain lists for shunt rules
+aac189c|lwb1978|Fri Nov 15 23:40:30 2024 +0800|luci: add shuntlist based on the usage of shunt nodes
+ac166eb|lwb1978|Fri Nov 15 11:49:55 2024 +0800|luci: update the code to retrieve the passwall version
+c14a054|lwb1978|Thu Nov 14 23:14:11 2024 +0800|luci: iptables/nftables optimize and fix
+84ae1c0|lwb1978|Thu Nov 14 22:00:38 2024 +0800|luci: update the depends check code
+bf5d7e0|lwb1978|Wed Nov 13 21:39:40 2024 +0800|luci: app_update add mips64el architecture
+6f3f2ac|lwb1978|Tue Nov 12 13:39:22 2024 +0800|luci: optimize shunt logic
 </details>

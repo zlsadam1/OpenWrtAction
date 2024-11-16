@@ -2,7 +2,11 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-98b47a0b|coolsnowwolf|Sat Nov 9 23:27:56 2024 +0800|ddns-scripts: fix cloudflare v4 script
-00fb8ee5|coolsnowwolf|Tue Nov 5 23:10:16 2024 +0800|cloudflared: bump to latest
-0fa76a3e|coolsnowwolf|Wed Nov 6 23:10:25 2024 +0800|ddns-go: update to v6.7.6
+3c2b3bd8|coolsnowwolf|Fri Nov 15 22:53:02 2024 +0800|forked-daapd: add package
+5d263760|coolsnowwolf|Fri Nov 15 22:33:01 2024 +0800|davici: add package
+3c01d865|coolsnowwolf|Fri Nov 15 22:31:43 2024 +0800|swanmon: add package
+d58e68ac|coolsnowwolf|Fri Nov 15 20:05:37 2024 +0800|ddns-scripts: fix cloudflare.com-v4 for lua luci
+cf62b548|coolsnowwolf|Thu Nov 14 11:18:55 2024 +0800|libpfring: bump version
+7b5a8f41|coolsnowwolf|Thu Nov 14 11:03:50 2024 +0800|jool: add hotplug script to disable fraglist GRO
+1c38018e|coolsnowwolf|Tue Nov 12 23:16:41 2024 +0800|uugamebooster: update version
 </details>

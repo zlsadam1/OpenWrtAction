@@ -2,22 +2,74 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-dad5350c6f|Tianling Shen|Sat Nov 9 20:24:56 2024 +0800|Merge Official Source
-a7abc7ec3b|David Lutz|Tue Nov 5 10:55:43 2024 +0100|ath79: Add support for Sophos AP15C
-ca53f2d430|Andrew MacIntyre|Fri Nov 8 23:44:13 2024 +1100|vrx518_tc: allow larger MTU to support RFC4638
-5b406bccac|Tim Lunn|Fri Apr 26 11:27:45 2024 +1000|rampis: mt7621: Edgerouter-X adjust IMAGE_SIZE to reflect new kernel size
-4d90b79704|Tim Lunn|Fri Apr 19 22:16:11 2024 +1000|ramips: mt7621: Edgerouter-X drop factory image
-71b4842e3b|Tim Lunn|Thu Apr 18 10:53:54 2024 +1000|rampis: mt7621: Re-enable Edgerouter-X image builds
-1bdbd511b2|Tim Lunn|Thu Apr 18 10:57:17 2024 +1000|rampis: mt7621: Edgerouter-X update compat version to 2.0
-70c371d91c|Tim Lunn|Thu Apr 18 10:56:07 2024 +1000|rampis: mt7621: Edgerouter-X set compat version message
-09a6bffb6e|Tim Lunn|Wed Apr 17 10:51:35 2024 +1000|rampis: mt7621: resize Edgerouter-X kernel size to 6MB
-5e355f1f90|Tim Lunn|Wed Apr 17 12:51:22 2024 +1000|rampis: mt7621: Edgerouter-X disable toggling of kernel slots
-dc51c4355d|Tim Lunn|Wed Apr 17 10:49:49 2024 +1000|rampis: mt7621: Convert Edgerouter-X dts to single kernel config
-5f68e24333|Felix Fietkau|Fri Nov 8 10:50:39 2024 +0100|netifd: update to Git HEAD (2024-11-08)
-a3ec35cadb|Felix Fietkau|Fri Nov 8 09:13:54 2024 +0100|wifi-scripts: add free-form "tags" array option for wifi-iface
-0a7b7ef27c|Daniel Golle|Sat Nov 2 20:22:35 2024 +0000|kernel: modules: package driver for generic MIPI DBI TFT panels
-6691ff86b7|Edward Chow|Tue Mar 5 01:24:10 2024 +0800|ath79: linksys_ea4500-v3: take over the space for user data
-e29bc67f9d|Álvaro Fernández Rojas|Wed Nov 6 10:00:56 2024 +0100|kernel: r8125: update to v9.014.01
-09a8b4920c|Christian Marangi|Wed Nov 6 10:38:20 2024 +0100|procd: update to Git HEAD (2024-11-06)
-685e979d47|David Bauer|Tue Nov 5 20:03:39 2024 +0100|fritz-tools: fix mixed indentation
+251fca13e8|Tianling Shen|Fri Nov 15 18:05:13 2024 +0800|linux-firmware: update firmware for wcn6750
+da43e8ebdf|Tianling Shen|Fri Nov 15 16:58:30 2024 +0800|ramips: disable build for zyxel keenetic-omni(-ii)
+a0bab0ccc8|Tianling Shen|Thu Nov 14 20:03:33 2024 +0800|Merge Official Source
+b67db1b0fc|Jonas Gorski|Thu Nov 14 12:03:44 2024 +0100|apk: explicitly enable help
+954d2ad81b|Jonas Gorski|Thu Nov 14 12:01:40 2024 +0100|apk: move common meson args to its own variable
+deeb29e6fe|Jonas Gorski|Thu Nov 14 11:21:41 2024 +0100|apk: host: set lua version to 5.1 to fix help
+dab5ca818e|Petr Štetiar|Thu Nov 14 09:02:13 2024 +0000|Revert "apk: update to Git 417a93ceae540444fdbd3f76d1dadf0e15621fdc (2024-11-13)"
+0e59eaa796|Rodrigo Balerdi|Wed Nov 13 17:23:52 2024 -0300|ipq806x: tr4400v2: revert nesting of MTD partitions that bricks device
+83ad25fcaf|Tianling Shen|Thu Nov 14 15:47:06 2024 +0800|ramips: disable build for nexx wt3020-8m by default
+7ec8108be5|Tianling Shen|Thu Nov 14 13:41:22 2024 +0800|ramips: fix read mac for jdcloud re-sp-01b again
+b43194e041|Enrico Mioso|Sat Nov 9 22:14:33 2024 +0100|mediatek: filogic: add support for GatoNetworks GDSP
+785ebf2baf|Enrico Mioso|Sat Nov 9 22:14:32 2024 +0100|uboot-envtools: add support for GatoNetworks GDSP
+7f2c7b3238|Enrico Mioso|Sat Nov 9 22:14:31 2024 +0100|uboot-mediatek: add support for GatoNetworks GDSP
+2546d5098f|Tianling Shen|Thu Nov 14 12:05:10 2024 +0800|automount: fix dependencies
+0cf27f810f|Tianling Shen|Thu Nov 14 11:55:26 2024 +0800|ath79: disable build for zyxel nwa1123-ac by default
+4e4c43b15a|Tianling Shen|Thu Nov 14 11:43:56 2024 +0800|Merge Official Source
+27c2c140b1|Petr Štetiar|Wed Nov 6 10:40:37 2024 +0000|scripts: download-check-artifact.sh: fix shellcheck and improve
+4c9031fda2|David S. H. Rosenthal|Wed Nov 6 10:19:17 2024 +0000|scripts: add download-check-artifact.sh script
+c6a3a11c07|Petr Štetiar|Wed Nov 13 08:11:38 2024 +0000|apk: update to Git 417a93ceae540444fdbd3f76d1dadf0e15621fdc (2024-11-13)
+93d005e6bc|Kuan-Yi Li|Thu Nov 14 00:29:21 2024 +0800|imagebuilder: fix APK keys dir creation
+c0c480daa7|Tianling Shen|Wed Nov 13 23:13:17 2024 +0800|ramips: fix mac for jdcloud re-sp-01b 128g emmc version
+f32cd19e9d|Tianling Shen|Wed Nov 13 21:14:00 2024 +0800|mac80211: add more USB vid pid to rtw8812au/rtw8821au driver
+af9acb87aa|Tianling Shen|Wed Nov 13 20:26:08 2024 +0800|rtl8812au-ac: drop package
+1ef0d0e422|Tianling Shen|Wed Nov 13 20:24:42 2024 +0800|mac80211: backport RTL8812AU/RTL8821AU support
+10da84b588|Tianling Shen|Wed Nov 13 20:04:25 2024 +0800|linux-firmware: add firmware for Realtek RTL8812AU/RTL8821AU
+264c5725f2|Tianling Shen|Wed Nov 13 19:13:34 2024 +0800|linux-firmware: Update to 20241110
+b902284290|John Crispin|Tue Nov 12 07:49:22 2024 +0100|base-files: improve default root-passwd script
+1c8d86eb3a|Tianling Shen|Wed Nov 13 14:24:28 2024 +0800|Merge Official Source
+4c65359af4|Felix Fietkau|Wed Nov 13 07:04:31 2024 +0100|build: fix including busybox, procd and apk/opkg in imagebuilder
+f84187035e|Eric Fahlgren|Tue Nov 12 09:10:02 2024 -0800|build: create package index.json
+a72c8c7705|Sergey Matsievskiy|Fri Nov 8 14:43:52 2024 +0300|build: add comments to makefiles
+dbe01f7d99|Til Kaiser|Tue Nov 12 16:33:56 2024 +0100|perf: fix version for APK
+8729d2a64d|Robert Marko|Wed Nov 6 20:13:06 2024 +0100|qualcommax: ipq60xx: add NSS reserved memory
+ce0b843ac7|Paul Donald|Sun Nov 10 19:47:34 2024 +0100|cryptodev-linux: change home-page URL
+3df5966f94|Paul Donald|Sun Nov 10 19:53:07 2024 +0100|cryptodev-linux: give a coherent description
+64fbc96595|Christian Marangi|Tue Nov 12 13:55:30 2024 +0100|airoha: an7581: backport upstream ethernet fixes
+4dc1ec4751|zxl hhyccc|Tue Nov 12 20:51:53 2024 +0800|libnftnl: adapt upstream update
+8c87fe1a41|Tianling Shen|Tue Nov 12 19:39:24 2024 +0800|nftables: drop useless patch file
+1125ed408c|Rosen Penev|Sun Nov 10 15:54:14 2024 -0800|realtek: rtl83xx: use devm for mutex_init
+4fa04343dd|Tianling Shen|Tue Nov 12 12:29:27 2024 +0800|Merge Official Source
+be3e7a84bd|Daniel Golle|Sun Nov 10 00:32:05 2024 +0100|include: meson.mk: honor CONFIG_DEBUG
+fc9ec5bd3d|Daniel Golle|Sun Nov 10 00:31:18 2024 +0100|include: cmake.mk: honor CONFIG_DEBUG
+3e42526404|Rosen Penev|Mon Nov 11 12:23:01 2024 -0800|ramips: mt7621: fix typo
+1f3d5858b4|Rosen Penev|Sat Nov 9 15:46:26 2024 -0800|mdadm: backport musl patch
+44598c233d|Felix Fietkau|Mon Nov 11 19:52:14 2024 +0100|build: remove broken dependency of metadata on toplevel .config variables
+4cdd1104c5|Tianling Shen|Mon Nov 11 23:03:29 2024 +0800|libnftnl: fixup fullcone patch
+d9458710a2|Tianling Shen|Mon Nov 11 22:49:43 2024 +0800|openwrt-keyring: update to Git HEAD (2024-11-11)
+8e8882a231|Tianling Shen|Mon Nov 11 17:51:14 2024 +0800|Merge Official Source
+cdfe413d26|Mieczyslaw Nalewaj|Mon Nov 11 09:14:28 2024 +0100|spidev_test: fix version for APK
+40b8fbaa97|Paul Spooren|Wed Nov 6 16:08:32 2024 +0100|config: Use APK as package manager by default
+c11a18be0d|Hauke Mehrtens|Thu Oct 24 00:09:22 2024 +0200|nftables: update to 1.1.1
+d9ed0d438b|Hauke Mehrtens|Thu Oct 24 00:06:09 2024 +0200|libnftnl: update to 1.2.8
+fccff963c0|Rosen Penev|Thu Oct 31 12:22:04 2024 -0700|lantiq: use devm for mutex_init
+44824f0b78|Rosen Penev|Fri Oct 18 19:08:02 2024 -0700|lantiq: use more devm for i2c
+adb921c34f|Hannu Nyman|Sun Nov 10 17:16:51 2024 +0200|gdb: Fix description for apk, remove backtick
+be952e98bc|Hannu Nyman|Sun Nov 10 15:57:01 2024 +0200|wolfssl: Adjust version for apk
+0ce237a20c|Hauke Mehrtens|Thu Nov 7 22:49:21 2024 +0100|base-files: Remove pkg_check when using apk
+85844cfc5c|John Audia|Fri Nov 8 14:57:44 2024 -0500|kernel: bump 6.6 to 6.6.60
+999ef8270f|Paul Spooren|Sun Nov 10 04:26:43 2024 +0100|imagebuilder: fix OPKG package inclusion
+cc98cfafd7|Rosen Penev|Thu Oct 31 12:22:04 2024 -0700|treewide: remove THIS_MODULE assignment
+8b6d5874b8|Leon M. Busch-George|Mon Feb 19 12:49:28 2024 +0100|hostapd: split long lines
+cbf7be9fb3|Marius Dinu|Sat Nov 9 19:20:47 2024 +0200|menuconfig: add help description for Stack Smashing Protection options
+79f06827ff|Christian Marangi|Wed Oct 23 01:13:15 2024 +0200|apk: Implement apk list --full patch
+b18ed663a5|Christian Marangi|Sun Nov 10 02:09:43 2024 +0100|apk: Bump to version 2024-11-08
+a7bc6bf7db|Rosen Penev|Wed Nov 6 13:23:35 2024 -0800|ramips: mt7621: add missing regulator-boot-on
+12a7307869|Paul Spooren|Fri Nov 8 10:37:16 2024 +0100|imagebuilder: init APK dirs every time
+15b7994c01|Paul Spooren|Wed Nov 6 16:34:32 2024 +0100|imagebuilder: cleanup package inclusion
+451e2ce006|Paul Spooren|Wed Nov 6 16:32:03 2024 +0100|imagebuilder: fix package inclusion and APK index
+ad1c1b7047|Paul Spooren|Fri Nov 1 12:33:49 2024 +0100|imagebuilder: fix APK for packages dir and cache
+15de218a56|Daniel Golle|Sat Nov 9 13:06:02 2024 +0000|Revert "build: set PATH for post-install scripts"
 </details>
