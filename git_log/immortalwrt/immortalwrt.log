@@ -2,74 +2,67 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-251fca13e8|Tianling Shen|Fri Nov 15 18:05:13 2024 +0800|linux-firmware: update firmware for wcn6750
-da43e8ebdf|Tianling Shen|Fri Nov 15 16:58:30 2024 +0800|ramips: disable build for zyxel keenetic-omni(-ii)
-a0bab0ccc8|Tianling Shen|Thu Nov 14 20:03:33 2024 +0800|Merge Official Source
-b67db1b0fc|Jonas Gorski|Thu Nov 14 12:03:44 2024 +0100|apk: explicitly enable help
-954d2ad81b|Jonas Gorski|Thu Nov 14 12:01:40 2024 +0100|apk: move common meson args to its own variable
-deeb29e6fe|Jonas Gorski|Thu Nov 14 11:21:41 2024 +0100|apk: host: set lua version to 5.1 to fix help
-dab5ca818e|Petr Štetiar|Thu Nov 14 09:02:13 2024 +0000|Revert "apk: update to Git 417a93ceae540444fdbd3f76d1dadf0e15621fdc (2024-11-13)"
-0e59eaa796|Rodrigo Balerdi|Wed Nov 13 17:23:52 2024 -0300|ipq806x: tr4400v2: revert nesting of MTD partitions that bricks device
-83ad25fcaf|Tianling Shen|Thu Nov 14 15:47:06 2024 +0800|ramips: disable build for nexx wt3020-8m by default
-7ec8108be5|Tianling Shen|Thu Nov 14 13:41:22 2024 +0800|ramips: fix read mac for jdcloud re-sp-01b again
-b43194e041|Enrico Mioso|Sat Nov 9 22:14:33 2024 +0100|mediatek: filogic: add support for GatoNetworks GDSP
-785ebf2baf|Enrico Mioso|Sat Nov 9 22:14:32 2024 +0100|uboot-envtools: add support for GatoNetworks GDSP
-7f2c7b3238|Enrico Mioso|Sat Nov 9 22:14:31 2024 +0100|uboot-mediatek: add support for GatoNetworks GDSP
-2546d5098f|Tianling Shen|Thu Nov 14 12:05:10 2024 +0800|automount: fix dependencies
-0cf27f810f|Tianling Shen|Thu Nov 14 11:55:26 2024 +0800|ath79: disable build for zyxel nwa1123-ac by default
-4e4c43b15a|Tianling Shen|Thu Nov 14 11:43:56 2024 +0800|Merge Official Source
-27c2c140b1|Petr Štetiar|Wed Nov 6 10:40:37 2024 +0000|scripts: download-check-artifact.sh: fix shellcheck and improve
-4c9031fda2|David S. H. Rosenthal|Wed Nov 6 10:19:17 2024 +0000|scripts: add download-check-artifact.sh script
-c6a3a11c07|Petr Štetiar|Wed Nov 13 08:11:38 2024 +0000|apk: update to Git 417a93ceae540444fdbd3f76d1dadf0e15621fdc (2024-11-13)
-93d005e6bc|Kuan-Yi Li|Thu Nov 14 00:29:21 2024 +0800|imagebuilder: fix APK keys dir creation
-c0c480daa7|Tianling Shen|Wed Nov 13 23:13:17 2024 +0800|ramips: fix mac for jdcloud re-sp-01b 128g emmc version
-f32cd19e9d|Tianling Shen|Wed Nov 13 21:14:00 2024 +0800|mac80211: add more USB vid pid to rtw8812au/rtw8821au driver
-af9acb87aa|Tianling Shen|Wed Nov 13 20:26:08 2024 +0800|rtl8812au-ac: drop package
-1ef0d0e422|Tianling Shen|Wed Nov 13 20:24:42 2024 +0800|mac80211: backport RTL8812AU/RTL8821AU support
-10da84b588|Tianling Shen|Wed Nov 13 20:04:25 2024 +0800|linux-firmware: add firmware for Realtek RTL8812AU/RTL8821AU
-264c5725f2|Tianling Shen|Wed Nov 13 19:13:34 2024 +0800|linux-firmware: Update to 20241110
-b902284290|John Crispin|Tue Nov 12 07:49:22 2024 +0100|base-files: improve default root-passwd script
-1c8d86eb3a|Tianling Shen|Wed Nov 13 14:24:28 2024 +0800|Merge Official Source
-4c65359af4|Felix Fietkau|Wed Nov 13 07:04:31 2024 +0100|build: fix including busybox, procd and apk/opkg in imagebuilder
-f84187035e|Eric Fahlgren|Tue Nov 12 09:10:02 2024 -0800|build: create package index.json
-a72c8c7705|Sergey Matsievskiy|Fri Nov 8 14:43:52 2024 +0300|build: add comments to makefiles
-dbe01f7d99|Til Kaiser|Tue Nov 12 16:33:56 2024 +0100|perf: fix version for APK
-8729d2a64d|Robert Marko|Wed Nov 6 20:13:06 2024 +0100|qualcommax: ipq60xx: add NSS reserved memory
-ce0b843ac7|Paul Donald|Sun Nov 10 19:47:34 2024 +0100|cryptodev-linux: change home-page URL
-3df5966f94|Paul Donald|Sun Nov 10 19:53:07 2024 +0100|cryptodev-linux: give a coherent description
-64fbc96595|Christian Marangi|Tue Nov 12 13:55:30 2024 +0100|airoha: an7581: backport upstream ethernet fixes
-4dc1ec4751|zxl hhyccc|Tue Nov 12 20:51:53 2024 +0800|libnftnl: adapt upstream update
-8c87fe1a41|Tianling Shen|Tue Nov 12 19:39:24 2024 +0800|nftables: drop useless patch file
-1125ed408c|Rosen Penev|Sun Nov 10 15:54:14 2024 -0800|realtek: rtl83xx: use devm for mutex_init
-4fa04343dd|Tianling Shen|Tue Nov 12 12:29:27 2024 +0800|Merge Official Source
-be3e7a84bd|Daniel Golle|Sun Nov 10 00:32:05 2024 +0100|include: meson.mk: honor CONFIG_DEBUG
-fc9ec5bd3d|Daniel Golle|Sun Nov 10 00:31:18 2024 +0100|include: cmake.mk: honor CONFIG_DEBUG
-3e42526404|Rosen Penev|Mon Nov 11 12:23:01 2024 -0800|ramips: mt7621: fix typo
-1f3d5858b4|Rosen Penev|Sat Nov 9 15:46:26 2024 -0800|mdadm: backport musl patch
-44598c233d|Felix Fietkau|Mon Nov 11 19:52:14 2024 +0100|build: remove broken dependency of metadata on toplevel .config variables
-4cdd1104c5|Tianling Shen|Mon Nov 11 23:03:29 2024 +0800|libnftnl: fixup fullcone patch
-d9458710a2|Tianling Shen|Mon Nov 11 22:49:43 2024 +0800|openwrt-keyring: update to Git HEAD (2024-11-11)
-8e8882a231|Tianling Shen|Mon Nov 11 17:51:14 2024 +0800|Merge Official Source
-cdfe413d26|Mieczyslaw Nalewaj|Mon Nov 11 09:14:28 2024 +0100|spidev_test: fix version for APK
-40b8fbaa97|Paul Spooren|Wed Nov 6 16:08:32 2024 +0100|config: Use APK as package manager by default
-c11a18be0d|Hauke Mehrtens|Thu Oct 24 00:09:22 2024 +0200|nftables: update to 1.1.1
-d9ed0d438b|Hauke Mehrtens|Thu Oct 24 00:06:09 2024 +0200|libnftnl: update to 1.2.8
-fccff963c0|Rosen Penev|Thu Oct 31 12:22:04 2024 -0700|lantiq: use devm for mutex_init
-44824f0b78|Rosen Penev|Fri Oct 18 19:08:02 2024 -0700|lantiq: use more devm for i2c
-adb921c34f|Hannu Nyman|Sun Nov 10 17:16:51 2024 +0200|gdb: Fix description for apk, remove backtick
-be952e98bc|Hannu Nyman|Sun Nov 10 15:57:01 2024 +0200|wolfssl: Adjust version for apk
-0ce237a20c|Hauke Mehrtens|Thu Nov 7 22:49:21 2024 +0100|base-files: Remove pkg_check when using apk
-85844cfc5c|John Audia|Fri Nov 8 14:57:44 2024 -0500|kernel: bump 6.6 to 6.6.60
-999ef8270f|Paul Spooren|Sun Nov 10 04:26:43 2024 +0100|imagebuilder: fix OPKG package inclusion
-cc98cfafd7|Rosen Penev|Thu Oct 31 12:22:04 2024 -0700|treewide: remove THIS_MODULE assignment
-8b6d5874b8|Leon M. Busch-George|Mon Feb 19 12:49:28 2024 +0100|hostapd: split long lines
-cbf7be9fb3|Marius Dinu|Sat Nov 9 19:20:47 2024 +0200|menuconfig: add help description for Stack Smashing Protection options
-79f06827ff|Christian Marangi|Wed Oct 23 01:13:15 2024 +0200|apk: Implement apk list --full patch
-b18ed663a5|Christian Marangi|Sun Nov 10 02:09:43 2024 +0100|apk: Bump to version 2024-11-08
-a7bc6bf7db|Rosen Penev|Wed Nov 6 13:23:35 2024 -0800|ramips: mt7621: add missing regulator-boot-on
-12a7307869|Paul Spooren|Fri Nov 8 10:37:16 2024 +0100|imagebuilder: init APK dirs every time
-15b7994c01|Paul Spooren|Wed Nov 6 16:34:32 2024 +0100|imagebuilder: cleanup package inclusion
-451e2ce006|Paul Spooren|Wed Nov 6 16:32:03 2024 +0100|imagebuilder: fix package inclusion and APK index
-ad1c1b7047|Paul Spooren|Fri Nov 1 12:33:49 2024 +0100|imagebuilder: fix APK for packages dir and cache
-15de218a56|Daniel Golle|Sat Nov 9 13:06:02 2024 +0000|Revert "build: set PATH for post-install scripts"
+9b92dc63c2|Tianling Shen|Wed Nov 20 15:07:34 2024 +0800|Merge Official Source
+22664498eb|Rosen Penev|Thu Oct 17 16:14:07 2024 -0700|mpc85xx: p2020: add missing symbols
+bec8edb6d6|Rosen Penev|Thu Oct 17 16:09:17 2024 -0700|mpc85xx: p1020: add missing symbols
+e9dd6da916|Rosen Penev|Wed Oct 16 15:42:56 2024 -0700|mpc85xx: p1010: add missing symbols
+890d47b60a|Rosen Penev|Wed Oct 16 15:17:14 2024 -0700|mpc85xx: run make kernel_oldconfig
+6756929b75|Robert Marko|Tue Nov 19 13:48:06 2024 +0100|apk: update to git e3464d096708b270138653ef93db59134bb24813 (2024-11-13)
+1c308bad54|Robert Marko|Tue Nov 19 14:36:17 2024 +0100|imagebuilder: fix APK architecture setting
+0d0a5eb4b5|Robert Marko|Tue Nov 19 13:12:28 2024 +0100|include/package-pack: translate PKGARCH for APK
+8ec35a2a15|Rodrigo Balerdi|Thu Nov 14 17:37:32 2024 -0300|ipq806x: tr4400v2: fix dtc warnings by deleting stock partitions
+dea839773c|Robert Marko|Mon Nov 18 19:55:57 2024 +0100|include/package-pack: add default 'provider_priority' for APK packages
+4611eb82bb|Tianling Shen|Tue Nov 19 16:58:34 2024 +0800|mac80211: mark upstreamed rtl patches
+b0312c1081|He Ping|Tue Nov 19 10:41:42 2024 +0800|odhcp6c: update to Git HEAD (2024-09-25)
+e6d483cd52|David Bauer|Sun Nov 17 13:23:09 2024 +0100|net: phy: broadcom: update dependency condition
+90de3b277b|Robert Marko|Mon Nov 18 17:15:54 2024 +0100|omnia-eeprom: depend only on subtarget
+7e287b563a|Daniel Golle|Sat Nov 16 15:29:24 2024 +0000|mtd-utils: add ubihealthd to nand-utils
+a5d23e3aee|Christian Marangi|Mon Nov 18 15:01:07 2024 +0100|airoha: an7581: sync patch with upstream version and tag them
+53eab6198b|Felix Fietkau|Mon Nov 18 11:21:02 2024 +0100|mac80211: backport some upstream fixes
+bdcb4e7cf8|Tianling Shen|Mon Nov 18 11:57:38 2024 +0800|Merge Official Source
+efc0c4666b|Petr Štetiar|Sun Nov 17 19:19:36 2024 +0000|imagebuilder: fix DEFAULT_PACKAGES handling
+90f0be8521|Petr Štetiar|Sun Nov 17 05:15:13 2024 +0000|linux: fix missing default packages in profiles.json
+40be892a02|Petr Štetiar|Sun Nov 17 05:13:27 2024 +0000|imagebuilder: move handling of DEFAULT_PACKAGES into shareable place
+ac640718aa|Petr Štetiar|Sun Nov 17 04:12:23 2024 +0000|target,base-files: unify handling of procd-ujail
+57daea682e|Robert Marko|Sun Nov 17 19:22:25 2024 +0100|generic: add CONFIG_FB_INTEL
+43455f1075|Christian Marangi|Sun Nov 17 19:09:31 2024 +0100|include/package-pack: escape package description for APK mkpkg
+4511fa4b30|Sergey Ponomarev|Tue May 28 02:50:09 2024 +0300|dropbear: use config_get_bool enable
+98f26346cb|Shiji Yang|Sun Nov 17 19:30:35 2024 +0800|ath79: lzma-loader: fix syntax error
+cd92cbddf8|Rosen Penev|Wed Oct 2 15:25:35 2024 -0700|kernel: filter out compiler opts from config
+da8abd4a1e|Rosen Penev|Sat Nov 16 11:01:15 2024 -0800|kernel: remove GCC11_NO_ARRAY_BOUNDS
+84665993d6|Mieczyslaw Nalewaj|Sat Nov 16 17:26:52 2024 +0100|kernel: move CONFIG_INTEL_MEI settings to target generic
+42fa354f2d|Tianling Shen|Sun Nov 17 19:36:20 2024 +0800|Merge Official Source
+371e7bef40|Hauke Mehrtens|Sat Nov 16 18:38:42 2024 +0100|omnia-eeprom: Mark it nonshared
+febe1db43d|Hauke Mehrtens|Sat Nov 16 18:36:45 2024 +0100|debugcc: Mark it nonshared
+226f74badd|Mieczyslaw Nalewaj|Sun Nov 17 08:40:44 2024 +0100|kernel: disable drm-i915 module for x86/geode
+491121288e|Rodrigo Balerdi|Fri Nov 8 17:40:29 2024 -0300|ipq807x: delete unused legacy eMMC sysupgrade code
+17f84bba44|Rodrigo Balerdi|Fri Nov 8 17:45:12 2024 -0300|ipq807x: order devices alphabetically
+fe481c9c47|Rodrigo Balerdi|Fri Nov 8 17:40:03 2024 -0300|ipq807x: prpl haze & qnap 301w: use the standard eMMC sysupgrade code
+5583d23189|Rodrigo Balerdi|Tue Sep 24 17:43:49 2024 -0300|ipq807x: nbg7815: use the standard eMMC sysupgrade code
+bdfae5a166|Petr Štetiar|Sun Nov 17 06:50:05 2024 +0000|image: apk: remove explicit distfeeds handling
+5347be4854|Tianling Shen|Sun Nov 17 15:18:18 2024 +0800|rockchip: backport upstream usb3 support for nanopc t6
+ae0de89864|Tianling Shen|Sun Nov 17 15:10:14 2024 +0800|x86: add missing Kconfig
+afffcd09e5|Ryan Keane|Thu Nov 7 22:36:23 2024 -0800|elfutils: Backport some patches to fix errors
+63caa2b168|Ryan Keane|Wed Nov 13 11:46:38 2024 -0800|elfutils: Add mirrors.kernel.org as mirrror
+f5132df69d|Ryan Keane|Thu Nov 7 21:50:58 2024 -0800|elfutils: Update to 0.192
+65964c42f8|Markus Stockhausen|Fri Nov 15 01:32:47 2024 -0500|realtek: align kernel config with upstream
+a6e98a810d|Jonas Gorski|Wed Nov 13 14:27:16 2024 +0100|apk: add a customfeeds.list configuration file
+e031dab93e|Jonas Gorski|Wed Nov 13 14:25:26 2024 +0100|base-files: move apk distfeeds into directory
+8f6972df36|Rosen Penev|Wed Nov 13 12:33:12 2024 -0800|apk: remove HOST_LDFLAGS hack
+0000ba6ab8|Jeronimo Pellegrini|Sat Sep 21 15:46:36 2024 -0300|libreadlne: create symlinks for .so
+31111680f6|John Audia|Mon Sep 2 19:53:47 2024 -0400|x86: switch config to a tickless kernel
+3dbe730080|Shiji Yang|Sun Oct 13 21:15:59 2024 +0800|ppp: remove more unnecessary kernel checks
+b88d51898d|Hauke Mehrtens|Thu Nov 14 21:46:36 2024 +0100|base-files: Mount debugfs and pstore with nosuid,nodev,noexec
+3b710375dd|Hauke Mehrtens|Thu Nov 14 21:47:47 2024 +0100|base-files: Create /run and /run/lock folder
+71c14cbee5|Hauke Mehrtens|Thu Nov 14 22:57:02 2024 +0100|build: apk: Remove /run/apk/db.lock
+2c7c8d1619|Tianling Shen|Sat Nov 16 17:20:27 2024 +0800|ipq806x: fix typo error for xiaomi r3d device packages
+cd053d0ae7|Tianling Shen|Sat Nov 16 16:12:40 2024 +0800|Merge Official Source
+487ca61f91|John Audia|Thu Nov 14 15:16:32 2024 -0500|kernel: bump 6.6 to 6.6.61
+77cfe8fd15|Joe Zheng|Sun Aug 25 00:53:01 2024 +0000|x86: make i915 as a kmod with required firmware
+ca00bafd7e|Joe Zheng|Fri Sep 20 05:57:34 2024 +0000|linux-firmware: rename packages for i915 firmware
+749a43325b|Marek Behún|Fri Nov 15 10:01:35 2024 +0100|utils: Add the omnia-eeprom utility
+8c018dcb56|Christian Marangi|Fri Nov 15 12:27:44 2024 +0100|package: use /dev/null for apk --repositories-file
+a6c248e8ad|Petr Štetiar|Thu Nov 14 09:07:20 2024 +0000|apk: fix long package description handling
+1e8505ac4e|Daniel Golle|Wed Nov 13 21:58:38 2024 +0000|procd: update to git HEAD
+6720c4ccba|Felix Fietkau|Thu Nov 14 13:03:23 2024 +0100|mt76: update to Git HEAD (2024-10-28)
 </details>

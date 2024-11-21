@@ -2,14 +2,23 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-569e495972|Tianling Shen|Tue Nov 12 22:41:16 2024 +0800|treewide: make pkg release apk compatible
-e365513b44|Tianling Shen|Tue Nov 12 22:37:40 2024 +0800|Merge Official Source
-94172889b2|Tianling Shen|Tue Nov 12 22:33:22 2024 +0800|treewide: make version apk compatible
-3d0d9f4c17|Tianling Shen|Tue Nov 12 22:28:34 2024 +0800|luci-theme-bootstrap-mod: drop package
-d6506880ed|Aleksander Jan Bajkowski|Thu Oct 31 22:27:54 2024 +0100|luci-mod-status: channel_analysis: detect 40 MHz (20+20 bonded) APs
-c16643f7a7|Hosted Weblate|Sun Nov 10 09:41:16 2024 +0100|Translated using Weblate (Finnish)
-174e861e3d|Hannu Nyman|Sun Nov 10 10:16:51 2024 +0200|luci-app-dockerman: Use apk compatible versioning
-384790944d|Hannu Nyman|Sat Nov 9 21:10:12 2024 +0200|luci.mk: Add apk compatibility to PKG_RELEASE handling
-96fa870979|Hannu Nyman|Sat Nov 9 19:10:05 2024 +0200|Merge pull request #7367 from abajk/channel-160mhz
-aa79c3f30d|Aleksander Jan Bajkowski|Wed Oct 30 00:12:52 2024 +0100|luci-mod-status: channel_analysis: detect 160 MHz capable AP
+a0bb4d81c2|Tianling Shen|Wed Nov 20 15:09:26 2024 +0800|Merge Official Source
+b9496f2023|Paul Donald|Tue Nov 19 02:30:42 2024 +0100|luci-app-p910nd: update to package-manager
+a403707b57|Anari Jalakas|Mon Nov 11 21:06:08 2024 +0200|luci-lua-runtime: fix build error with LTO
+44fbd008fb|Anari Jalakas|Mon Nov 11 21:05:06 2024 +0200|luci-lib-nixio: fix build error with LTO
+5de203082f|Anari Jalakas|Mon Nov 11 21:03:50 2024 +0200|luci-lib-jsonc: fix build error with LTO
+82bde8c42d|Anari Jalakas|Mon Nov 11 21:00:46 2024 +0200|luci-lib-ip: fix build error with LTO
+42e2e404cf|Paul Donald|Sun Nov 17 23:08:28 2024 +0100|luci-proto-vxlan: fix format in i18n strings
+ea8b7aa5ee|Christian Marangi|Sat Nov 16 18:16:20 2024 +0100|luci-app-package-manager: support new APK repositories.d configs
+322c973a36|Tianling Shen|Sun Nov 17 16:31:14 2024 +0800|Merge Official Source
+cfa774ee72|Hannu Nyman|Sun Nov 17 10:24:03 2024 +0200|luci-mod-network: Fix for a9e1685 to enable translation
+22518fa15f|Daniel Nilsson|Fri Nov 15 22:38:41 2024 +0100|ci: account for APK as default on main branch
+69d379af9a|Daniel Nilsson|Fri Nov 15 20:20:55 2024 +0100|ci: upgrade openwrt/gh-action-sdk workflow to v7
+09e8d5108e|Hannu Nyman|Sat Nov 16 12:17:34 2024 +0200|treewide: Sync i18n translations
+ed8665d04b|Tianling Shen|Sat Nov 16 16:46:42 2024 +0800|luci-app-openclash: make version alpine compatible
+dfe0ff8b65|Tianling Shen|Sat Nov 16 16:46:00 2024 +0800|luci-app-rclone: make version alpine compatible
+1a4b6adf72|Hosted Weblate|Fri Nov 15 17:04:53 2024 +0100|Translated using Weblate (Filipino)
+9fe1e347f5|Paul Donald|Thu Nov 14 21:01:08 2024 +0100|luci-base: i18n refresh
+53e66da926|Paul Donald|Fri Nov 8 16:39:19 2024 +0100|luci-mod-network: dhcp; implement ignore_hosts_dir dnsmasq setting
+a9e1685f64|Paul Donald|Thu Nov 14 20:42:41 2024 +0100|luci-mod-network: improve route setting descriptions
 </details>

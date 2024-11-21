@@ -2,7 +2,8 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-b47e4de|lwb1978|Wed Nov 13 21:07:00 2024 +0800|chinadns-ng: add mips64el architecture
-e71b09b|github-actions[bot]|Tue Nov 12 13:01:05 2024 +0800|hysteria: update to 2.6.0 (#316)
-dffa6e6|github-actions[bot]|Mon Nov 11 16:37:36 2024 +0800|xray-core: update to 24.11.11 (#315)
+a74e2a6|github-actions[bot]|Thu Nov 21 08:24:18 2024 +0800|v2ray-geoip: update to 202411140052 (#318)
+7656557|github-actions[bot]|Thu Nov 21 08:24:00 2024 +0800|v2ray-geosite: update to 20241112092643 (#317)
+1659197|lwb1978|Wed Nov 20 15:49:58 2024 +0800|chinadns-ng: optimize makefile
+7e67ea5|lwb1978|Mon Nov 18 00:04:41 2024 +0800|chinadns-ng: update to 2024.11.17
 </details>

@@ -2,10 +2,12 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-d021fc8|coolsnowwolf|Fri Nov 15 23:58:23 2024 +0800|Revert "luci-app-ssr-plus: Add update time choose."
-badc244|coolsnowwolf|Fri Nov 15 23:58:01 2024 +0800|Revert "luci-app-ssr-plus: fix auto-update setting"
-4c764e8|coolsnowwolf|Fri Nov 15 23:56:48 2024 +0800|hysteria: update to 2.6.0
-620f316|coolsnowwolf|Tue Nov 12 23:27:51 2024 +0800|luci-app-ssr-plus: fix auto-update setting
-b05f239|coolsnowwolf|Tue Nov 12 22:34:38 2024 +0800|Merge pull request #1587 from zxlhhyccc/patch-2
-5e2d859|zxl hhyccc|Sun Nov 10 00:34:13 2024 +0800|luci-app-ssr-plus: update.lua: fix typo erro.
+1e64633|coolsnowwolf|Tue Nov 19 13:16:17 2024 +0800|Merge pull request #1603 from zxlhhyccc/ssrp
+4ebc296|zxlhhyccc|Mon Nov 18 22:21:58 2024 +0800|luci-app-ssr-plus: update.lua: Fix path configuration failure caused by whitespace characters in special cases.
+c80d85f|coolsnowwolf|Sun Nov 17 22:48:38 2024 +0800|Merge pull request #1601 from zxlhhyccc/ssrp
+e2cee3f|coolsnowwolf|Sun Nov 17 22:47:25 2024 +0800|Merge pull request #1593 from zxlhhyccc/ss
+7ae3fb8|zxlhhyccc|Sun Nov 17 00:45:38 2024 +0800|CI: Free disk  remaining space.
+c82145f|zxlhhyccc|Sat Nov 16 22:55:35 2024 +0800|luci-app-ssr-plus: Optimize code and resolve compilation errors
+53df511|zxlhhyccc|Sat Nov 16 22:51:02 2024 +0800|lua-neturl: make pkg release apk compatible.
+7749908|zxlhhyccc|Sat Nov 16 09:28:54 2024 +0800|shadowsocks-libev: Add new package.
 </details>
