@@ -2,16 +2,25 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-53e36e3293|Paul Donald|Thu Nov 21 00:49:57 2024 +0100|luci-base: ui: extend addNotification to handle a user-provided timeout
-b9496f2023|Paul Donald|Tue Nov 19 02:30:42 2024 +0100|luci-app-p910nd: update to package-manager
-a403707b57|Anari Jalakas|Mon Nov 11 21:06:08 2024 +0200|luci-lua-runtime: fix build error with LTO
-44fbd008fb|Anari Jalakas|Mon Nov 11 21:05:06 2024 +0200|luci-lib-nixio: fix build error with LTO
-5de203082f|Anari Jalakas|Mon Nov 11 21:03:50 2024 +0200|luci-lib-jsonc: fix build error with LTO
-82bde8c42d|Anari Jalakas|Mon Nov 11 21:00:46 2024 +0200|luci-lib-ip: fix build error with LTO
-42e2e404cf|Paul Donald|Sun Nov 17 23:08:28 2024 +0100|luci-proto-vxlan: fix format in i18n strings
-ea8b7aa5ee|Christian Marangi|Sat Nov 16 18:16:20 2024 +0100|luci-app-package-manager: support new APK repositories.d configs
-cfa774ee72|Hannu Nyman|Sun Nov 17 10:24:03 2024 +0200|luci-mod-network: Fix for a9e1685 to enable translation
-22518fa15f|Daniel Nilsson|Fri Nov 15 22:38:41 2024 +0100|ci: account for APK as default on main branch
-69d379af9a|Daniel Nilsson|Fri Nov 15 20:20:55 2024 +0100|ci: upgrade openwrt/gh-action-sdk workflow to v7
-09e8d5108e|Hannu Nyman|Sat Nov 16 12:17:34 2024 +0200|treewide: Sync i18n translations
+fefb9acf57|Paul Donald|Mon Nov 25 21:32:39 2024 +0100|luci-base: form: fix sort order bug triggered by integer types
+7b2d7ba2a5|Paul Donald|Mon Nov 25 21:26:35 2024 +0100|luci-base: uci: fixed reorder bug where missed deletes caused off-by-one
+9a6dc74ab8|Paul Donald|Sun Nov 24 02:11:03 2024 +0100|luci-mod-network: routes: implement cloneable for all tabs
+03c028cb7f|Paul Donald|Sun Nov 24 00:31:08 2024 +0100|luci-app-firewall: implement cloneable for all tabs (except zones)
+22cccf7b04|Paul Donald|Sun Nov 24 01:50:40 2024 +0100|luci-base: add clone action for tables
+2ce85291bd|Paul Donald|Sun Nov 24 04:18:27 2024 +0100|Merge branch 'master' into openwrt-24.10
+2670fc48dc|Dirk Brenken|Sat Nov 23 22:57:39 2024 +0100|luci-app-adblock: sync with adblock-4.2.3-1
+cb767dc51b|Dirk Brenken|Sat Nov 23 22:57:39 2024 +0100|luci-app-adblock: sync with adblock-4.2.3-1
+ac1043cdc6|Stan Grishin|Sat Nov 23 10:05:22 2024 -0800|Merge pull request #7408 from stangri/master-luci-app-adblock-fast
+9e70c9aed8|Robert Marko|Thu Nov 21 22:17:04 2024 +0100|collections: select package manager for SSL collections
+03f37cff4c|Christian Korber|Fri Nov 15 09:18:17 2024 +0100|luci-app-keepalived: add notification tab
+a4a5cf6af7|Paul Donald|Sat Nov 23 00:24:10 2024 +0100|luci-app-libreswan: small refactor
+2bf802d844|Paul Donald|Fri Nov 22 23:47:19 2024 +0100|luci-app-libreswan: prevent proposals and tunnels overwriting each other
+ae8bbb814f|Mustafa Can Elmacı|Sun Nov 17 15:52:45 2024 +0300|treewide: HTML Cleanup
+aa955d6465|Paul Donald|Fri Nov 22 19:50:43 2024 +0100|luci-proto-openconnect: convert helper to ucode
+0060e43174|Paul Donald|Fri Nov 22 20:10:50 2024 +0100|luci-proto-openfortivpn: convert helper to ucode
+891e2d803e|Paul Donald|Thu Nov 21 18:55:02 2024 +0100|luci-app-ddns: excise luci-lua-runtime depends
+3f907abad4|Weblate (bot)|Thu Nov 21 20:12:41 2024 +0100|Translations update from Hosted Weblate (#7402)
+b4a07a23c1|Paul Donald|Thu Nov 21 17:57:00 2024 +0100|luci-app-p910nd: excise luci-compat
+22fcc720ec|Paul Donald|Thu Nov 21 18:34:45 2024 +0100|luci-app-ddns: Convert to JS
+206e5fbbcc|Stan Grishin|Mon Nov 18 21:13:56 2024 +0000|luci-app-adblock-fast: sync with principal
 </details>

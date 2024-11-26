@@ -2,8 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-a74e2a6|github-actions[bot]|Thu Nov 21 08:24:18 2024 +0800|v2ray-geoip: update to 202411140052 (#318)
-7656557|github-actions[bot]|Thu Nov 21 08:24:00 2024 +0800|v2ray-geosite: update to 20241112092643 (#317)
-1659197|lwb1978|Wed Nov 20 15:49:58 2024 +0800|chinadns-ng: optimize makefile
-7e67ea5|lwb1978|Mon Nov 18 00:04:41 2024 +0800|chinadns-ng: update to 2024.11.17
+5610d6f|lwb1978|Sat Nov 23 08:37:47 2024 +0800|naiveproxy: update to 131.0.6778.86-r1
+b1fe873|zhusir|Sat Nov 23 01:15:17 2024 +0800|gn: Update to git HEAD Co-authored-by: zxlhhyccc
+30c7126|lwb1978|Fri Nov 22 21:34:09 2024 +0800|naiveproxy: update to 131.0.6778.86-1
+cc1a239|github-actions[bot]|Fri Nov 22 20:30:03 2024 +0800|sing-box: update to 1.10.2 (#321)
+8a5bae1|github-actions[bot]|Thu Nov 21 15:29:12 2024 +0800|xray-core: update to 24.11.21 (#320)
 </details>

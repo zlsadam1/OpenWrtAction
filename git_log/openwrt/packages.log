@@ -2,42 +2,30 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-9c9f4dd08|Rosen Penev|Wed Nov 20 15:21:43 2024 -0800|iperf3: fix crashing with musl
-440a6e7fd|Eric Fahlgren|Wed Nov 20 10:22:37 2024 -0800|owut: update to 2024.11.20
-6945c7bb6|Tianling Shen|Wed Nov 20 21:18:50 2024 +0800|yq: Update to 4.44.5
-bf07d331b|Ryan Keane|Tue Nov 19 07:50:30 2024 -0800|alist: Bump to 3.39.2
-10fcc5d39|Jon Henrik Bjørnstad|Tue Nov 19 15:36:34 2024 +0100|qbee-agent: bump version to 2024.45
-c342279eb|Ryan Keane|Mon Nov 18 05:56:10 2024 -0800|rclone: Bump to 1.68.2
-102ce164e|Ray Wang|Tue Nov 19 22:12:37 2024 +0800|hev-socks5-tunnel: update to 2.7.5
-a813c3a26|Ray Wang|Tue Nov 19 22:08:59 2024 +0800|hev-socks5-tproxy: update to 2.5.8
-30db86cc9|Ray Wang|Tue Nov 19 22:04:59 2024 +0800|hev-socks5-server: update to 2.6.9
-88d1876f3|Martin Pecka|Mon Jan 8 01:24:07 2024 +0100|strongswan: Add support for EAP-MSCHAPv2 authentication
-6b824ee7d|Martin Pecka|Sun Jan 7 23:23:57 2024 +0100|strongswan: Fix pools to be only generated once
-4b9453b9a|Martin Pecka|Sun Jan 7 23:00:07 2024 +0100|strongswan: Add support for send_cert option
-a2cae1fac|Hannu Nyman|Mon Nov 18 20:08:50 2024 +0200|kafs-client: Make version apk compatible
-9fc92eab2|Ryan Keane|Sun Nov 17 06:10:30 2024 -0800|v2ray-core: Bump to 5.22.0
-8ec794998|Glenn Strauss|Sun Nov 17 23:56:46 2024 -0500|micropython-lib: update to 1.24.0
-4c751e454|Glenn Strauss|Thu Jul 25 02:44:12 2024 -0400|micropython-lib: update to 1.23.0 and fix compile on external mbedtls3
-76d5db585|Ted Hess|Sun Nov 17 15:53:33 2024 -0500|sox: Remove wavpack (explicitly) from build      Remove myself as maintainer
-03f9a53ca|Hannu Nyman|Sun Nov 17 19:01:23 2024 +0200|netdiscover: Make version apk compatible
-abef31cac|Hannu Nyman|Sun Nov 17 18:32:17 2024 +0200|lua-curl-v3: Make version apk compatible
-46e1b60f5|Daniel Golle|Sat Nov 16 17:36:04 2024 +0000|mptcpd: update to version 0.13
-11b3b811b|Daniel Golle|Sat Nov 16 17:33:18 2024 +0000|ell: update to version 0.70
-b665256d6|Hannu Nyman|Sun Nov 17 12:49:31 2024 +0200|svox: Make version apk compatible
-252efdc34|Hannu Nyman|Sun Nov 17 13:04:14 2024 +0200|owfs: Make version apk compatible
-c8a46db23|Hannu Nyman|Sat Nov 16 21:09:20 2024 +0200|lua-openssl: Make version apk compatible
-69f5605e5|Hannu Nyman|Sat Nov 16 21:16:20 2024 +0200|pagekitec: Make version apk compatible
-f95f1ba47|Hannu Nyman|Sat Nov 16 13:56:22 2024 +0200|luv: Make version apk compatible
-454e232e5|Hannu Nyman|Sat Nov 16 13:35:54 2024 +0200|rtklib: Make version apk compatible
-2a139f844|Rosen Penev|Thu Nov 14 14:41:19 2024 -0800|gphoto2: fix compilation with GCC14
-35a6aab7b|Peter van Dijk|Tue Nov 5 13:25:21 2024 +0000|pdns-recursor: update to 5.1.3
-4f00d8f0e|Dirk Brenken|Sat Nov 16 12:45:12 2024 +0100|banIP: update to 1.0.0-10
-8a0f28c78|Rosen Penev|Tue Oct 29 21:56:53 2024 -0700|atop: fix compilation with full NLS
-eb829eebc|Christian Marangi|Tue Nov 12 14:04:13 2024 +0100|openvpn-easy-rsa: Bump to 3.2.1 release
-9dc0ee812|Tianling Shen|Tue Nov 12 12:47:15 2024 +0800|perl: perlmod: make version apk compatible
-ba445acd7|Hirokazu MORIKAWA|Thu Nov 14 08:49:10 2024 +0900|git: use symbolic link
-98b10bda7|Tianling Shen|Sat Nov 16 17:28:34 2024 +0800|dnsproxy: Update to 0.73.3
-b9dc86034|Tianling Shen|Wed Nov 13 17:05:45 2024 +0800|golang: Update to 1.23.3
-8124f1891|Rosen Penev|Thu Nov 14 13:19:39 2024 -0800|vala: update to 0.56.17
-8b6d61294|Ted Hess|Fri Nov 15 17:51:57 2024 -0500|ntfs-3g: APK version compliance.          Remove libfuse/int hint from name.          Remove myself as maintainer
+99e70c829|Daniel Golle|Mon Nov 25 01:00:33 2024 +0100|gst1-plugins-bad: fix building GL libraries
+4535470a1|Daniel Golle|Mon Nov 25 00:59:08 2024 +0100|libinput: update to 1.26.2 and add support for libwacom
+a7be2662b|Daniel Golle|Mon Nov 25 00:58:54 2024 +0100|libwacom: add package
+c72af1e21|Itay Shoshani|Sun Nov 10 00:30:40 2024 +0200|openthread-br: bump source version to 2024-11-20 and add missing dependencies
+0b0415685|Michael Heimpold|Sat Nov 23 12:18:50 2024 +0100|php8: update to 8.3.14
+8609a5bbe|Dirk Brenken|Sun Nov 24 15:44:20 2024 +0100|banIP: release 1.0.1-1
+641ec2b64|Sergey Ponomarev|Sat Mar 2 21:30:41 2024 +0200|syslog-ng: alternative for logread
+8afc26faf|Dirk Brenken|Sat Nov 23 22:15:00 2024 +0100|adblock: release 4.2.3-1
+87edf8cb1|Stan Grishin|Mon Nov 18 21:10:48 2024 +0000|adblock-fast: bugfixes
+6ed915b06|Hannu Nyman|Sat Nov 23 10:05:29 2024 +0200|qcsuper: Make version apk compatible
+af7183fc3|Hirokazu MORIKAWA|Sat Nov 23 14:51:28 2024 +0900|node: upgrade to 22.11.0 LTS
+7ce6b6866|Hannu Nyman|Sat Nov 23 09:55:04 2024 +0200|netifyd: Make version apk compatible
+42026ab23|Hannu Nyman|Fri Nov 22 21:40:25 2024 +0200|oci-runtime-tools: Make version apk compatible
+adb05b464|Daniel Golle|Fri Nov 22 17:56:57 2024 +0000|gst1-libav: remove obsolete configuration options
+863be39f2|Hannu Nyman|Fri Nov 22 22:02:42 2024 +0200|debootstrap: Make version apk compatible
+a0f153e9a|Ryan Keane|Sun Nov 17 04:54:26 2024 -0800|network: Add SUBMENU variable for some packages
+e3bbd7078|Rosen Penev|Thu Nov 14 14:44:37 2024 -0800|nbd: fix compilation with GCC14
+97f0eb94a|Hannu Nyman|Fri Nov 22 21:54:29 2024 +0200|hfsprogs: Make version apk compatible
+3e0d1c213|John Audia|Fri Nov 22 10:59:59 2024 -0500|ncdu: update to 1.21
+9fff76af3|TeleostNaCl Dai|Fri Nov 22 15:53:05 2024 +0800|speedtest-go: update to 1.7.9
+e63935b86|Jianhui Zhao|Fri Nov 22 16:04:22 2024 +0800|rtty: update to 8.1.3
+c565bbadf|Finn Landweber|Wed Nov 20 09:55:12 2024 +0100|borgbackup: update to 1.4.0
+db51a6426|Rosen Penev|Mon Nov 11 16:30:48 2024 -0800|tayga: fix compilation with GCC14
+824b2c09a|Rosen Penev|Thu Nov 14 14:23:50 2024 -0800|httping: fix compilation with full NLS
+c6989438c|Finn Landweber|Wed Nov 20 14:39:59 2024 +0100|python-setuptools-scm: update to 8.1.0
+a525be276|Gagan Deep|Fri Nov 22 00:10:07 2024 +0530|openwisp-monitoring: update to 0.2.1
 </details>

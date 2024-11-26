@@ -2,67 +2,64 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-9b92dc63c2|Tianling Shen|Wed Nov 20 15:07:34 2024 +0800|Merge Official Source
-22664498eb|Rosen Penev|Thu Oct 17 16:14:07 2024 -0700|mpc85xx: p2020: add missing symbols
-bec8edb6d6|Rosen Penev|Thu Oct 17 16:09:17 2024 -0700|mpc85xx: p1020: add missing symbols
-e9dd6da916|Rosen Penev|Wed Oct 16 15:42:56 2024 -0700|mpc85xx: p1010: add missing symbols
-890d47b60a|Rosen Penev|Wed Oct 16 15:17:14 2024 -0700|mpc85xx: run make kernel_oldconfig
-6756929b75|Robert Marko|Tue Nov 19 13:48:06 2024 +0100|apk: update to git e3464d096708b270138653ef93db59134bb24813 (2024-11-13)
-1c308bad54|Robert Marko|Tue Nov 19 14:36:17 2024 +0100|imagebuilder: fix APK architecture setting
-0d0a5eb4b5|Robert Marko|Tue Nov 19 13:12:28 2024 +0100|include/package-pack: translate PKGARCH for APK
-8ec35a2a15|Rodrigo Balerdi|Thu Nov 14 17:37:32 2024 -0300|ipq806x: tr4400v2: fix dtc warnings by deleting stock partitions
-dea839773c|Robert Marko|Mon Nov 18 19:55:57 2024 +0100|include/package-pack: add default 'provider_priority' for APK packages
-4611eb82bb|Tianling Shen|Tue Nov 19 16:58:34 2024 +0800|mac80211: mark upstreamed rtl patches
-b0312c1081|He Ping|Tue Nov 19 10:41:42 2024 +0800|odhcp6c: update to Git HEAD (2024-09-25)
-e6d483cd52|David Bauer|Sun Nov 17 13:23:09 2024 +0100|net: phy: broadcom: update dependency condition
-90de3b277b|Robert Marko|Mon Nov 18 17:15:54 2024 +0100|omnia-eeprom: depend only on subtarget
-7e287b563a|Daniel Golle|Sat Nov 16 15:29:24 2024 +0000|mtd-utils: add ubihealthd to nand-utils
-a5d23e3aee|Christian Marangi|Mon Nov 18 15:01:07 2024 +0100|airoha: an7581: sync patch with upstream version and tag them
-53eab6198b|Felix Fietkau|Mon Nov 18 11:21:02 2024 +0100|mac80211: backport some upstream fixes
-bdcb4e7cf8|Tianling Shen|Mon Nov 18 11:57:38 2024 +0800|Merge Official Source
-efc0c4666b|Petr Štetiar|Sun Nov 17 19:19:36 2024 +0000|imagebuilder: fix DEFAULT_PACKAGES handling
-90f0be8521|Petr Štetiar|Sun Nov 17 05:15:13 2024 +0000|linux: fix missing default packages in profiles.json
-40be892a02|Petr Štetiar|Sun Nov 17 05:13:27 2024 +0000|imagebuilder: move handling of DEFAULT_PACKAGES into shareable place
-ac640718aa|Petr Štetiar|Sun Nov 17 04:12:23 2024 +0000|target,base-files: unify handling of procd-ujail
-57daea682e|Robert Marko|Sun Nov 17 19:22:25 2024 +0100|generic: add CONFIG_FB_INTEL
-43455f1075|Christian Marangi|Sun Nov 17 19:09:31 2024 +0100|include/package-pack: escape package description for APK mkpkg
-4511fa4b30|Sergey Ponomarev|Tue May 28 02:50:09 2024 +0300|dropbear: use config_get_bool enable
-98f26346cb|Shiji Yang|Sun Nov 17 19:30:35 2024 +0800|ath79: lzma-loader: fix syntax error
-cd92cbddf8|Rosen Penev|Wed Oct 2 15:25:35 2024 -0700|kernel: filter out compiler opts from config
-da8abd4a1e|Rosen Penev|Sat Nov 16 11:01:15 2024 -0800|kernel: remove GCC11_NO_ARRAY_BOUNDS
-84665993d6|Mieczyslaw Nalewaj|Sat Nov 16 17:26:52 2024 +0100|kernel: move CONFIG_INTEL_MEI settings to target generic
-42fa354f2d|Tianling Shen|Sun Nov 17 19:36:20 2024 +0800|Merge Official Source
-371e7bef40|Hauke Mehrtens|Sat Nov 16 18:38:42 2024 +0100|omnia-eeprom: Mark it nonshared
-febe1db43d|Hauke Mehrtens|Sat Nov 16 18:36:45 2024 +0100|debugcc: Mark it nonshared
-226f74badd|Mieczyslaw Nalewaj|Sun Nov 17 08:40:44 2024 +0100|kernel: disable drm-i915 module for x86/geode
-491121288e|Rodrigo Balerdi|Fri Nov 8 17:40:29 2024 -0300|ipq807x: delete unused legacy eMMC sysupgrade code
-17f84bba44|Rodrigo Balerdi|Fri Nov 8 17:45:12 2024 -0300|ipq807x: order devices alphabetically
-fe481c9c47|Rodrigo Balerdi|Fri Nov 8 17:40:03 2024 -0300|ipq807x: prpl haze & qnap 301w: use the standard eMMC sysupgrade code
-5583d23189|Rodrigo Balerdi|Tue Sep 24 17:43:49 2024 -0300|ipq807x: nbg7815: use the standard eMMC sysupgrade code
-bdfae5a166|Petr Štetiar|Sun Nov 17 06:50:05 2024 +0000|image: apk: remove explicit distfeeds handling
-5347be4854|Tianling Shen|Sun Nov 17 15:18:18 2024 +0800|rockchip: backport upstream usb3 support for nanopc t6
-ae0de89864|Tianling Shen|Sun Nov 17 15:10:14 2024 +0800|x86: add missing Kconfig
-afffcd09e5|Ryan Keane|Thu Nov 7 22:36:23 2024 -0800|elfutils: Backport some patches to fix errors
-63caa2b168|Ryan Keane|Wed Nov 13 11:46:38 2024 -0800|elfutils: Add mirrors.kernel.org as mirrror
-f5132df69d|Ryan Keane|Thu Nov 7 21:50:58 2024 -0800|elfutils: Update to 0.192
-65964c42f8|Markus Stockhausen|Fri Nov 15 01:32:47 2024 -0500|realtek: align kernel config with upstream
-a6e98a810d|Jonas Gorski|Wed Nov 13 14:27:16 2024 +0100|apk: add a customfeeds.list configuration file
-e031dab93e|Jonas Gorski|Wed Nov 13 14:25:26 2024 +0100|base-files: move apk distfeeds into directory
-8f6972df36|Rosen Penev|Wed Nov 13 12:33:12 2024 -0800|apk: remove HOST_LDFLAGS hack
-0000ba6ab8|Jeronimo Pellegrini|Sat Sep 21 15:46:36 2024 -0300|libreadlne: create symlinks for .so
-31111680f6|John Audia|Mon Sep 2 19:53:47 2024 -0400|x86: switch config to a tickless kernel
-3dbe730080|Shiji Yang|Sun Oct 13 21:15:59 2024 +0800|ppp: remove more unnecessary kernel checks
-b88d51898d|Hauke Mehrtens|Thu Nov 14 21:46:36 2024 +0100|base-files: Mount debugfs and pstore with nosuid,nodev,noexec
-3b710375dd|Hauke Mehrtens|Thu Nov 14 21:47:47 2024 +0100|base-files: Create /run and /run/lock folder
-71c14cbee5|Hauke Mehrtens|Thu Nov 14 22:57:02 2024 +0100|build: apk: Remove /run/apk/db.lock
-2c7c8d1619|Tianling Shen|Sat Nov 16 17:20:27 2024 +0800|ipq806x: fix typo error for xiaomi r3d device packages
-cd053d0ae7|Tianling Shen|Sat Nov 16 16:12:40 2024 +0800|Merge Official Source
-487ca61f91|John Audia|Thu Nov 14 15:16:32 2024 -0500|kernel: bump 6.6 to 6.6.61
-77cfe8fd15|Joe Zheng|Sun Aug 25 00:53:01 2024 +0000|x86: make i915 as a kmod with required firmware
-ca00bafd7e|Joe Zheng|Fri Sep 20 05:57:34 2024 +0000|linux-firmware: rename packages for i915 firmware
-749a43325b|Marek Behún|Fri Nov 15 10:01:35 2024 +0100|utils: Add the omnia-eeprom utility
-8c018dcb56|Christian Marangi|Fri Nov 15 12:27:44 2024 +0100|package: use /dev/null for apk --repositories-file
-a6c248e8ad|Petr Štetiar|Thu Nov 14 09:07:20 2024 +0000|apk: fix long package description handling
-1e8505ac4e|Daniel Golle|Wed Nov 13 21:58:38 2024 +0000|procd: update to git HEAD
-6720c4ccba|Felix Fietkau|Thu Nov 14 13:03:23 2024 +0100|mt76: update to Git HEAD (2024-10-28)
+64e0222000|Tianling Shen|Mon Nov 25 17:33:14 2024 +0800|Merge Official Source
+1f53b7fb75|Robert Marko|Sun Nov 24 23:50:22 2024 +0100|qualcommax: ipq60xx: remove source-only flag
+eed39d45c2|John Audia|Sun Oct 29 04:32:21 2023 -0400|kernel: enable pressure interface
+d413163832|Mikhail Zhilkin|Sat Oct 26 09:37:14 2024 +0000|mediatek: Routerich AX3000: add OpenWrt U-Boot layout
+c0581520b1|Mikhail Zhilkin|Sat Oct 26 09:34:43 2024 +0000|uboot-mediatek: add Routerich AX3000 support
+ec839c786c|Mauri Sandberg|Mon Oct 28 22:13:04 2024 +0200|ramips: dna_valokuitu-plus-ex400: clean-up image creation
+0c57510ced|Shiji Yang|Sun Nov 3 12:30:21 2024 +0800|ramips: mt76x8: disable unused Ralink systick driver
+b7dd70a0d7|Hauke Mehrtens|Sun Nov 24 14:57:19 2024 +0100|kernel: usb: kmod-usb-audio: Fix dependency
+ea2c860225|Hauke Mehrtens|Sun Nov 24 14:53:47 2024 +0100|stm32: Remove unnecessary kernel options
+eb7aa07a0e|Hauke Mehrtens|Sun Nov 24 14:52:22 2024 +0100|CI: labeler: Add stm32 target
+a9d3c5b4c9|Hauke Mehrtens|Sat Nov 23 22:32:03 2024 +0100|dropbear: bump to 2024.86
+ed52345445|Hauke Mehrtens|Sun Nov 24 14:39:57 2024 +0100|x86: Deactivate kernel options with extra overhead
+c2cb2b26c7|Tianling Shen|Sun Nov 24 23:35:44 2024 +0800|Merge Official Source
+a4bd42b790|Robert Marko|Sat Nov 23 14:46:29 2024 +0100|config: dont select procd-seccomp via USE_SECCOMP
+a48ec449cc|Robert Marko|Sat Nov 23 14:29:49 2024 +0100|config: rename SECCOMP to USE_SECCOMP
+19db70f6b4|Tianling Shen|Sun Nov 24 14:18:21 2024 +0800|Merge Official Source
+faf4b3e0f7|David Ignjic|Wed Nov 13 11:20:27 2024 +0100|mediatek: filogic: add support for Cudy WR3000S v1
+b8b658bc0d|David Bauer|Sat Nov 23 20:00:57 2024 +0100|mediatek: fix Cudy AP3000 Outdoor label-mac
+2898d1d126|George Oldfort|Mon Nov 11 11:18:19 2024 +0100|mediatek: add support for Acer Predator W6d and Acer Vero W6m
+d42075dcef|George Oldfort|Mon Nov 11 10:40:45 2024 +0100|mediatek: improve device tree for Acer Predator Connect W6
+e7aaba2587|George Oldfort|Mon Nov 11 10:14:55 2024 +0100|mediatek: make use of Acer Predator Connect W6's u-boot environment
+ce3b36b3d5|George Oldfort|Mon Nov 11 09:25:56 2024 +0100|mediatek: split Acer/W6 dts into W6 common dtsi and device specific dts
+c89ed7acc8|Joerg Bayer|Sat Apr 13 16:05:24 2024 +0200|linux-firmware: Add support for Intel AX411
+5572e0196a|Tim Noack|Mon Oct 21 12:21:59 2024 +0000|ath79: add support for TP-Link CPE710-v2
+832cc8ce04|Tim Noack|Mon Oct 21 12:21:41 2024 +0000|ath79: refactor dts of TP-Link CPE710-v1
+3a9752ea02|Vaclav Svoboda|Mon Nov 11 22:34:00 2024 +0100|ramips: mt76x8: Add support for Zbtlink ZBT-WE2426-B
+6280b4abfb|Rosen Penev|Fri Oct 18 19:19:50 2024 -0700|mvebu: devm for mutex_init
+55644397cd|Rosen Penev|Tue Oct 22 17:07:44 2024 -0700|mxs: run kernel_oldconfig
+5eb25dddb1|Antonio Pastor|Sat Nov 16 15:09:49 2024 -0500|kernel: modules: appletalk: add for Netatalk v4
+851e7f77e4|Thomas Richard|Thu Sep 26 16:55:22 2024 +0200|stm32: add new stm32 target
+e109831e07|Thomas Richard|Tue Nov 5 11:13:34 2024 +0100|kernel: package v4l2-async and v4l2-fwnode drivers
+1095925246|Thomas Richard|Tue Nov 5 11:23:36 2024 +0100|kernel: add kmod-media-controller dependency for kmod-usb-audio
+bb3418f21f|Thomas Richard|Tue Nov 5 11:10:44 2024 +0100|kernel: package media controller driver
+b0adf5e0fd|Thomas Richard|Tue Nov 5 10:39:47 2024 +0100|kernel: package industrialio-buffer-cb driver
+7bcc68ede3|Thomas Richard|Tue Nov 5 10:38:49 2024 +0100|kernel: package crypto_engine driver
+6b9df468f0|Thomas Richard|Fri Oct 25 15:23:26 2024 +0200|kernel: unset CONFIG_DEVFREQ_THERMAL in kmod-thermal package
+e606366a2e|Thomas Richard|Fri Oct 25 15:21:57 2024 +0200|kernel: package snd-soc-dmic driver
+ff96bd84ce|Thomas Richard|Fri Oct 25 15:20:38 2024 +0200|kernel: package industrialio-hw-consumer driver
+be937952fd|Thomas Richard|Thu Oct 10 17:21:16 2024 +0200|murata-nvram: add new package
+960f5f94d7|Thomas Richard|Thu Oct 10 17:19:38 2024 +0200|murata-firmware: add new package
+456e0aad97|Thomas Richard|Tue Sep 24 18:06:28 2024 +0200|mac80211: enable CONFIG_BRCMFMAC_SDIO for stm32
+08dcb73c8d|Thomas Richard|Thu Sep 26 16:29:41 2024 +0200|arm-trusted-firmware-stm32: add ATF for stm32 boards
+ac79ad0757|Thomas Richard|Thu Sep 26 16:24:26 2024 +0200|uboot-stm32: add U-Boot for stm32 boards
+fae25d4001|Thomas Richard|Thu Sep 26 16:19:35 2024 +0200|optee-os-stm32: add OP-TEE for stm32 boards
+dedb90e8f8|Thomas Richard|Thu Sep 26 16:10:26 2024 +0200|build: add generic build template for optee-os packages
+d8a9669093|Romanov Danila|Mon Oct 21 21:34:34 2024 +0300|mediatek: change Routerich AX3000 ubi size All new routers are shipped with ubi size 112MB since early September. Bootloader update required (ask vendor , see wiki)
+75af6a0d73|Til Kaiser|Fri Nov 15 16:49:14 2024 +0100|x86: add all ports to the Gowin 1U default network config
+7bb99bca3d|Shiji Yang|Fri Nov 22 18:12:12 2024 +0800|ramips: sync upstream Ralink clock patches
+eb395585ae|John Audia|Fri Nov 22 10:53:37 2024 -0500|kernel: bump 6.6 to 6.6.63
+611bfa4d72|John Audia|Sun Nov 17 14:33:47 2024 -0500|kernel: bump 6.6 to 6.6.62
+adf958c919|Hauke Mehrtens|Sat Nov 23 00:34:30 2024 +0100|wifi-scripts: Fix parsing of Capabilities
+b8917e7d1c|Tianling Shen|Fri Nov 22 11:22:49 2024 +0800|Merge Official Source
+52b6c92479|Robert Marko|Thu Nov 21 22:04:41 2024 +0100|Revert "mediatek: fix pwn fan settings for sinovoip bpi-r3"
+3467ea905b|Mikhail Kshevetskiy|Fri Nov 15 03:17:07 2024 +0300|mediatek: fix pwn fan settings for sinovoip bpi-r3
+2784f78c6c|Eric Fahlgren|Thu Nov 21 05:50:21 2024 -0800|build: fix filtering of non-upgradable packages
+fc2ba10108|Robert Marko|Thu Nov 21 14:34:03 2024 +0100|include/package-pack: add support for postrm with APK
+5b6f8353fe|Robert Marko|Wed Nov 20 13:51:53 2024 +0100|include/package-pack: actually call default_postinist/prerm when using APK
+572fa41dfb|MkQtS|Thu Nov 21 15:28:20 2024 +0800|target.mk: rename luci-app-opkg to luci-app-package-manager
+52519a59a8|Robert Marko|Tue Nov 19 23:56:19 2024 +0100|imagebuilder: fix OPKG package_whatdepends support
+03eeeffbd6|Robert Marko|Tue Nov 19 23:38:02 2024 +0100|imagebuilder: fix APK package_depends support
 </details>
