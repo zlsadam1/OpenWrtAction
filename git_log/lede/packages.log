@@ -2,6 +2,8 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-2263fd5d|coolsnowwolf|Sat Nov 23 00:41:04 2024 +0800|mdio-tools: add package
-d8223907|coolsnowwolf|Fri Nov 22 16:13:51 2024 +0800|xtables-addons: fix kernel 6.12 support
+dd09eddf|coolsnowwolf|Sat Nov 30 14:55:24 2024 +0800|xray-core: update to 24.11.30
+8fee5c51|coolsnowwolf|Sat Nov 30 01:39:00 2024 +0800|socat: update to 1.8.0.0
+97ab90bf|coolsnowwolf|Thu Nov 28 16:28:56 2024 +0800|rblibtorrent: update to v1.2.19
+95fa4ae6|teleostnacl|Thu Nov 28 10:30:42 2024 +0800|speedtest-go: update to 1.7.9 (#869)
 </details>
