@@ -2,9 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-75445ac|github-actions[bot]|Sat Nov 30 17:21:07 2024 +0800|xray-core: update to 24.11.30 (#325)
-a550cf7|xiaorouji|Fri Nov 29 19:34:00 2024 +0800|v2ray-geodata: Update Makefile
-05af628|lwb1978|Thu Nov 28 20:42:40 2024 +0800|v2ray-geoview: no-mips16
-26daf6e|A-BO|Thu Nov 28 11:59:53 2024 +0800|add v2ray-geoview v0.0.6 (#324)
-f51f0e1|github-actions[bot]|Wed Nov 27 23:36:14 2024 +0800|sing-box: update to 1.10.3 (#323)
+f247211|lwb1978|Thu Dec 5 20:27:25 2024 +0800|geoview update to 0.0.8
+2ba4d64|lwb1978|Wed Dec 4 16:27:55 2024 +0800|geoview update 0.0.7
 </details>

@@ -2,15 +2,33 @@
 
 SHA|Author|Date|Message
 -|-|-|-
+8cf7400a8|coolsnowwolf|Thu Dec 5 19:40:43 2024 +0800|uqmi: Ignore wrong maybe-uninitialized and dangling-pointer error
+ef272b46c|coolsnowwolf|Thu Dec 5 19:32:39 2024 +0800|noddos: fix gcc 13 building
+d06838b44|coolsnowwolf|Wed Nov 27 23:15:02 2024 +0800|libreadlne: create symlinks for .so
+0ab7c18f4|coolsnowwolf|Wed Dec 4 13:55:27 2024 +0800|ksmbd: update to Git HEAD (2024-12-02)
+228c3c440|coolsnowwolf|Wed Dec 4 13:01:29 2024 +0800|Revert "ksmbd: move to in tree kernel buidin module"
+2ce0dfdc4|coolsnowwolf|Tue Dec 3 22:27:16 2024 +0800|elfutils: fix build with gcc 8
+0c725fe51|coolsnowwolf|Tue Dec 3 20:42:54 2024 +0800|ubus: update to Git HEAD (2024-10-20)
+e59c30afb|coolsnowwolf|Tue Dec 3 20:05:32 2024 +0800|libubox: update to Git HEAD (2024-03-29)
+3409218cf|coolsnowwolf|Tue Dec 3 18:08:22 2024 +0800|README.md: update host apt install package
+0e2c0a340|coolsnowwolf|Tue Dec 3 14:27:03 2024 +0800|meson: allow using staging python
+e67c75518|coolsnowwolf|Tue Dec 3 14:26:15 2024 +0800|autosamba: allow select samba server type
+841d08282|coolsnowwolf|Tue Dec 3 13:55:08 2024 +0800|target.mk: improve ipv6 support package
+3022abc26|coolsnowwolf|Tue Dec 3 13:28:24 2024 +0800|procd: use standard POSIX header for basename()
+4ebc73897|coolsnowwolf|Tue Dec 3 13:14:16 2024 +0800|elfutils: Update to 0.192
+6c2883702|coolsnowwolf|Tue Dec 3 12:58:46 2024 +0800|toolchain/musl: Update to 1.2.5
+326599e3d|coolsnowwolf|Tue Dec 3 12:31:48 2024 +0800|toolchain: gcc: switch default to 13
+003a08490|Michael Pratt|Thu Jun 20 00:55:58 2024 -0400|build: add default host build recipes for gnulib
+70c103fda|Christian Marangi|Wed May 22 11:38:49 2024 +0200|host-build: always define Host/Prepare/Default
+fbc286546|coolsnowwolf|Mon Dec 2 19:28:12 2024 +0800|Release: v24.10.0-rc1: adjust config defaults
+7f19e32c4|coolsnowwolf|Mon Dec 2 19:22:30 2024 +0800|Version update to R24.12.12
+72bab93bc|Georgi Valkov|Sat Mar 30 22:10:27 2024 +0200|toolchain/gcc: fix build errors on macOS with Xcode 15.3
+ff5046fa7|coolsnowwolf|Mon Dec 2 18:53:09 2024 +0800|tools: update versions and sync with upstream v24.10
+17731641e|Michael Pratt|Wed Mar 22 18:29:24 2023 -0400|tools: add gnulib source
+28e46bb61|Internet1235|Sun Dec 1 22:23:53 2024 +0800|openssl: make compatible with v1.1 pkg (#13143)
 e63b43e03|coolsnowwolf|Sun Dec 1 02:42:26 2024 +0800|toolchain: gcc 11: backport inline subword atomic support for riscv
 665a261af|Felix Fietkau|Tue May 7 12:18:08 2024 +0200|tools: add more linux include files to fix x86 build on macos
 a7dc2d2fe|Felix Fietkau|Wed Jan 11 18:39:02 2023 +0100|tools/include: add more endian macros
 dcd5ca038|Georgi Valkov|Sat Mar 30 22:10:27 2024 +0200|toolchain/gcc: fix build errors on macOS with Xcode 15.3
 8c3743afc|coolsnowwolf|Sat Nov 30 21:16:27 2024 +0800|prereq-build: limit python distutils check to <v3.12
-007d406ef|coolsnowwolf|Fri Nov 29 18:31:31 2024 +0800|rockchip: refine fan speed for mmbox anas3035
-160990303|coolsnowwolf|Fri Nov 29 17:20:57 2024 +0800|mt76: add kernel 6.12 support
-efce6b639|Daniel Golle|Fri Jun 28 03:39:36 2024 +0100|generic: 6.6: update block nvmem patchset
-446d07189|Álvaro Fernández Rojas|Wed Oct 2 19:01:57 2024 +0200|generic: backport upstream r8169 patches
-c6de673aa|Marty Jones|Mon Nov 11 16:52:43 2024 -0500|linux-firmware: update to 20241110
-61b26c92f|aiamadeus|Fri Nov 22 20:02:03 2024 +0800|uboot-rockchip: disable optee client
 </details>

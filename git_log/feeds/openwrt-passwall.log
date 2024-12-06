@@ -2,10 +2,11 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-a61a1fc|lwb1978|Sun Dec 1 10:01:07 2024 +0800|luci: bump version 24.12.1-r1
-7fb833f|lwb1978|Sun Dec 1 09:54:37 2024 +0800|luci: dnsmasq shunt optimize
-c421540|lwb1978|Sun Dec 1 09:19:57 2024 +0800|luci: update default rules
-0d03e83|A-BO|Sat Nov 30 19:47:45 2024 +0800|luci: adapted with xray version 24.11.30 (#3542)
-0001dd7|A-BO|Thu Nov 28 21:02:21 2024 +0800|luci: add geoip/geosite database parsing (test)
-7d615df|lwb1978|Tue Nov 26 18:22:32 2024 +0800|luci: Xray XHTTP extra
+1d01f16|lwb1978|Fri Dec 6 10:54:51 2024 +0800|luci: optimize homepage status code
+4614c48|lwb1978|Thu Dec 5 20:38:50 2024 +0800|luci: adapt to the latest version of geoview
+443ab2c|xiaorouji|Thu Dec 5 13:44:29 2024 +0800|luci: optimize firewall rule code
+e49143d|lwb1978|Wed Dec 4 01:49:21 2024 +0800|luci: optimize subscribe url access method
+61c3fd1|lwb1978|Wed Dec 4 01:22:28 2024 +0800|luci: add subscribe url access method
+0185f47|lwb1978|Mon Dec 2 22:49:27 2024 +0800|luci: add sniff override function prompt
+0d03e8e|lwb1978|Mon Dec 2 22:05:36 2024 +0800|luci: adjust the priority of ipset/nftset for shunt nodes
 </details>
