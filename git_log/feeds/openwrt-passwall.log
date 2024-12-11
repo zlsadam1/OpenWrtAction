@@ -2,11 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-1d01f16|lwb1978|Fri Dec 6 10:54:51 2024 +0800|luci: optimize homepage status code
-4614c48|lwb1978|Thu Dec 5 20:38:50 2024 +0800|luci: adapt to the latest version of geoview
-443ab2c|xiaorouji|Thu Dec 5 13:44:29 2024 +0800|luci: optimize firewall rule code
-e49143d|lwb1978|Wed Dec 4 01:49:21 2024 +0800|luci: optimize subscribe url access method
-61c3fd1|lwb1978|Wed Dec 4 01:22:28 2024 +0800|luci: add subscribe url access method
-0185f47|lwb1978|Mon Dec 2 22:49:27 2024 +0800|luci: add sniff override function prompt
-0d03e8e|lwb1978|Mon Dec 2 22:05:36 2024 +0800|luci: adjust the priority of ipset/nftset for shunt nodes
+b9974c3|zhusir|Tue Dec 10 17:04:14 2024 +0800|luci: improve performance Limit the number of lines displayed by gfwlist, chnlist, and chnroutelist to improve performance fixed #3550
+4ac543d|lwb1978|Mon Dec 9 22:17:48 2024 +0800|luci: optimize status code
+e519dee|lwb1978|Sun Dec 8 13:20:11 2024 +0800|luci: bump to 24.12.08
+aa42199|A-BO|Sat Dec 7 14:51:16 2024 +0800|luci: rule list support geoip/geosite rules
+cd0ff46|lwb1978|Sat Dec 7 14:47:52 2024 +0800|luci: optimized acquire `dnsmasq` configuration file path code
 </details>
