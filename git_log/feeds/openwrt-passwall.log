@@ -2,9 +2,19 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-b9974c3|zhusir|Tue Dec 10 17:04:14 2024 +0800|luci: improve performance Limit the number of lines displayed by gfwlist, chnlist, and chnroutelist to improve performance fixed #3550
-4ac543d|lwb1978|Mon Dec 9 22:17:48 2024 +0800|luci: optimize status code
-e519dee|lwb1978|Sun Dec 8 13:20:11 2024 +0800|luci: bump to 24.12.08
-aa42199|A-BO|Sat Dec 7 14:51:16 2024 +0800|luci: rule list support geoip/geosite rules
-cd0ff46|lwb1978|Sat Dec 7 14:47:52 2024 +0800|luci: optimized acquire `dnsmasq` configuration file path code
+8e59741|xiaorouji|Mon Dec 16 01:46:49 2024 +0800|luci: add DNS Redirect option
+2f6a620|xiaorouji|Mon Dec 16 00:35:08 2024 +0800|luci: add missing code
+c045807|lwb1978|Sun Dec 15 23:10:30 2024 +0800|luci: Fix import error when VLESS subscribe link encryption is empty
+ab5a69a|xiaorouji|Sun Dec 15 13:33:43 2024 +0800|luci: optimize and improve
+6982919|xiaorouji|Sun Dec 15 02:40:33 2024 +0800|luci: improve
+50d80b0|xiaorouji|Sat Dec 14 20:59:50 2024 +0800|luci: optimize and fix DNS leak
+5a96c9a|A-BO|Sat Dec 14 14:47:41 2024 +0800|luci: some page detail optimize
+9f53ba6|xiaorouji|Fri Dec 13 19:51:56 2024 +0800|action: update
+d7ba6d5|xiaorouji|Fri Dec 13 10:19:31 2024 +0800|luci: fix Xray TCP DNS port
+a258272|A-BO|Fri Dec 13 01:47:27 2024 +0800|luci: dynamically read rule list (#3562)
+4353cef|xiaorouji|Thu Dec 12 03:27:18 2024 +0800|luci: optimize and improve
+aaafdc3|xiaorouji|Thu Dec 12 20:20:17 2024 +0800|luci: optimize and fix code
+c8683d4|lwb1978|Thu Dec 12 09:15:23 2024 +0800|luci: Xray ws Forbid "host" in headers, read serverName instead
+b6a87b6|lwb1978|Wed Dec 11 21:25:15 2024 +0800|Fix incomplete import Trojan URL
+755a45d|A-BO|Wed Dec 11 18:27:39 2024 +0800|luci: fix xray SniffingObject generate (#3559)
 </details>

@@ -2,30 +2,58 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-0d21cc8a92|Isaac de Wolff|Sun Dec 8 13:52:40 2024 +0100|lantiq: grow kernel partition Zyxel P-2812HNU-F1
-4234d5ec45|Jack Sun|Mon Dec 9 16:43:49 2024 +0800|tools/cmake: update to 3.31.2 Release notes: https://cmake.org/cmake/help/latest/release/3.31.html
-ff5f77ecdd|Robert Marko|Sat Dec 7 17:32:21 2024 +0100|iproute2: update to 6.12.0
-f8b93e2d12|Hauke Mehrtens|Sun Dec 8 16:18:52 2024 +0100|mediatek: filogic: Migrate wifi configuration device paths
-a498a84393|Ondřej Niesner|Sat Dec 7 17:55:29 2024 +0100|mediatek: filogic: prevent faulty mac address assignment
-59dd9cddf9|Felix Fietkau|Mon Dec 9 19:19:46 2024 +0100|hostapd: fix processing mbssid config option
-3d8d81883f|Eric Long|Mon Nov 25 21:26:47 2024 +0800|bpftool: turn off libbfd feature in host build
-477c8a5101|Rosen Penev|Sun Jun 16 12:48:40 2024 -0700|ath79: gl-e750: use nvmem for mac addresses
-d087a79b7b|Maxim Anisimov|Wed Nov 13 17:17:17 2024 +0300|mediatek/filogic: add Keenetic KN-3811 support
-e23b37b2d9|Hannu Nyman|Thu Dec 5 22:28:45 2024 +0200|busybox: Save shell history into /tmp
-0826b224b5|Pavel Shirov|Sat Dec 7 15:29:28 2024 +0300|kernel: packages: fix building package/devel/perf with -O3
-cf1909a024|Felix Fietkau|Sun Dec 8 15:10:51 2024 +0100|wifi-scripts: fix channels array property parsing in ucode script
-ed34e337a9|Felix Fietkau|Sun Dec 8 13:55:33 2024 +0100|wifi-scripts: fix ucode support for referencing wifi devices by phy name
-0286dfe394|Felix Fietkau|Sun Dec 8 13:36:41 2024 +0100|wifi-scripts: fix regression with ucode update
-22d2aa65e8|Mieczyslaw Nalewaj|Sun Dec 1 19:17:13 2024 +0100|kernel: fallback-sprom: create separate header files
-1b6f7ec679|Robert Marko|Sat Dec 7 22:08:18 2024 +0100|qualcommax: ipq807x: add Netgear DEVICE_VARS
-9c55866fad|Vladyslav Andreichykov|Thu Mar 7 11:47:04 2024 +0200|qualcommax: ipq60xx: add Linksys MR7350 support
-2e4a0ebdde|Robert Marko|Sun Nov 17 20:41:11 2024 +0100|qualcommax: enable userspace regulator for ipq60xx as well
-3fbc740008|Robert Marko|Sun Nov 17 20:40:48 2024 +0100|qualcommax: refresh config
-af6f1a90bb|Robert Marko|Fri Dec 6 18:21:20 2024 +0100|ucode: update to Git HEAD (2024-12-06)
-1269a836ed|Bohdan Chubuk|Fri Dec 6 00:17:56 2024 +0200|generic: mtd: spinand: add support for FORESEE F35SQA001G
-5348e2e81a|Bohdan Chubuk|Mon Nov 11 01:57:31 2024 +0200|generic: mtd: spinand: add support for FORESEE F35SQA002G
-025dbeb70c|Chukun Pan|Fri Jun 21 23:18:21 2024 +0800|qualcommax: ipq60xx: add Qihoo 360V6 support
-7e18e27e2f|Chukun Pan|Wed Jul 10 23:18:15 2024 +0800|qualcommax: image: cleanup whitespace
-14ff787f2c|Chukun Pan|Thu Nov 28 22:26:10 2024 +0800|ipq-wifi: update to version 2024-11-28
-9ab03a1e3e|Rosen Penev|Mon Nov 25 15:09:28 2024 -0800|ipq40xx: remove default MAC assignments
+f71ce1c34e|Daniel Golle|Sun Dec 15 23:58:27 2024 +0000|mediatek: add pending patches fixing video output on MT7623N
+e63326e26a|Andrew MacIntyre|Fri Nov 29 17:06:02 2024 +1100|lantiq/xrx200: move 8M flash devices to a small flash subtarget
+a3c484c3b9|John Audia|Sun Dec 15 09:30:52 2024 -0500|kernel: generic: tg3: Fix DMA allocations on 57766 devices
+96eb12e961|Shiji Yang|Thu Dec 12 22:40:08 2024 +0800|ath79: fix ath9k calibration data size for AR9132
+5a24850de1|Shiji Yang|Sat Dec 14 12:11:24 2024 +0800|ramips: fix 2.4G wmac eeprom offset for TL-WR902AC v4
+3c7134fa32|Andre Heider|Sat Dec 14 11:27:09 2024 +0100|base-files: fix shell scope error for the default LED brightness
+15e173bf7e|John Audia|Thu Dec 12 08:19:59 2024 -0500|kernel: bump 6.6 to 6.6.65
+5158e28769|John Audia|Tue Dec 10 00:19:18 2024 +0100|kernel: bump 6.6 to 6.6.64
+1306237fab|Rosen Penev|Tue Dec 3 13:40:28 2024 -0800|qualcommax: use PHY regulator for USB GPIO
+502916468e|Chuncheng Chen|Thu Oct 20 11:43:11 2022 +0800|ramips: add support for ASUS 4G-AX56
+9e78db0229|Die Peter Pan|Sat Nov 23 05:23:57 2024 -0500|ramips: mt7620: add support for THA-103AC (Version v1.0R)
+c90842b0d1|Rosen Penev|Mon Nov 25 14:33:06 2024 -0800|ath79: pqi-air-pen: adjust mac addresses
+6b32a5d768|Yaoguang Bai|Tue Nov 26 17:18:28 2024 +0800|mediatek: filogic: add support for NRadio C8-668GL
+481bf5805a|Rosen Penev|Fri Nov 29 14:24:38 2024 -0800|ath79: usb: remove reset names
+787cb9d87e|Rosen Penev|Thu Nov 28 20:44:51 2024 -0800|ath79: change phy-names to only usb
+dcef169319|Rosen Penev|Thu Nov 28 20:21:20 2024 -0800|ath79: usb: remove usb- from reset-names
+76fabd909e|David Bauer|Sat Dec 7 14:47:29 2024 +0100|wifi-scripts: don't fail on unset PSK
+fb17914f65|Georgi Valkov|Thu Dec 12 11:05:15 2024 +0200|mac80211: refresh patch for ath12k
+508bf7ca0f|Rosen Penev|Tue Dec 3 13:29:37 2024 -0800|lantiq: use regulator for USB GPIO
+225b84d583|Felix Fietkau|Fri Dec 13 11:04:04 2024 +0100|hostapd: fix building mini variants
+b6c7d8a0d6|Felix Fietkau|Fri Dec 13 10:56:50 2024 +0100|wifi-scripts: fix mesh/sta setup with ucode scripts
+a2f0cd35ac|Andreas Gnau|Tue Feb 28 16:54:57 2023 +0530|dropbear: Name pid file by uci section name
+3bd2cee9bf|Rosen Penev|Tue Dec 3 13:37:21 2024 -0800|ipq40xx: use PHY to control USB GPIO
+4a08383339|Jiale Liu|Mon Apr 15 00:27:49 2024 +0800|base-files: fix luci TZ default show zonename
+7306ae401c|Sybil127|Thu May 23 18:49:54 2024 +0200|hostapd: add support for rxkh_file
+97c8a94ec5|Sybil127|Thu May 23 17:43:07 2024 +0200|wifi-scripts: introduce rxkh_file uci option
+00860e485b|Felix Fietkau|Mon Dec 9 20:09:15 2024 +0100|wifi-scripts: add macaddr_base wifi-device option
+1be18c6daa|David Bauer|Thu Dec 12 16:36:50 2024 +0100|wifi-scripts: fix failing mesh setup with missing wpa_supplicant
+1375a7bae0|John Crispin|Thu Dec 12 15:43:35 2024 +0100|Revert "kernel: modules: fix led-group-multi-color patch"
+1cea889c96|John Crispin|Thu Dec 12 13:52:43 2024 +0100|kernel: modules: fix led-group-multi-color patch
+5fd86d66c1|Jonathan Brophy|Tue Sep 10 21:43:23 2024 +1200|kernel: modules: add support for led-group-multicolor
+06c2d5524c|Rodrigo Balerdi|Tue Apr 30 08:25:57 2024 -0300|base-files: fix cleanup after settings restore
+d67963943b|Rouven Czerwinski|Wed Jul 17 21:28:11 2024 +0200|ipq40xx: disable SPI DMA for Fritzbox 4040
+ebf1866d09|Mark Mentovai|Fri Jul 26 23:28:36 2024 -0400|.gitattributes: ignore some whitespace "violations" in .patch files
+3859e8eeb8|Markus Gothe|Tue Feb 7 22:00:33 2023 +0100|rules.mk: Update ccache's compiler check.
+1f11912138|Markus Gothe|Wed Jan 12 17:13:43 2022 +0100|ccache: Speed up building.
+36f309af05|Chuck R|Sun Sep 8 14:28:06 2024 -0500|dnsmasq: pass environment variables to hotplug
+794291bbdf|David Bentham|Tue Oct 22 10:46:05 2024 +0100|mediatek: add Comfast CF-E395AX support by adding an alternative model name
+821ebce8c1|Leon M. Busch-George|Sat Oct 19 12:03:08 2024 +0200|mbim: sort config variables a little and fix minor bugs
+650410fca4|Leon M. Busch-George|Sat Oct 19 11:52:51 2024 +0200|ncm: sort config variables a little and fix minor bugs
+bf768867dc|Leon M. Busch-George|Sat Oct 19 11:43:23 2024 +0200|qmi: sort config variables a little and fix minor bugs
+cbdfd03e42|Paweł Owoc|Fri Dec 6 17:11:59 2024 +0100|base-files: add option to set LED brightness
+3710323a46|Liangbin Lian|Sun Dec 1 12:45:34 2024 +0800|package/firewall: fix config typo
+65a1c666f2|Rany Hany|Mon Dec 2 11:30:07 2024 +0000|hostapd: add SAE support for wifi-station and optimize PSK file creation
+8108967e27|Chukun Pan|Sun Dec 8 23:26:01 2024 +0800|qualcommax: use ath11k_patch_mac for MR7350
+d6be0a2039|Chukun Pan|Sat Dec 7 23:16:15 2024 +0800|qualcommax: ipq60xx: fixes base-files typo
+d162fd5ed4|John Crispin|Wed Dec 11 15:41:21 2024 +0100|umdns: update to latest HEAD
+2bcc49aef9|John Crispin|Wed Dec 11 12:32:37 2024 +0100|procd: update to latest HEAD
+60f9ec2b22|John Crispin|Wed Dec 11 14:42:47 2024 +0100|wifi-scripts: ucode: change default behaviour of the vlan_no_bridge option
+3dd1c476d9|John Crispin|Wed Dec 11 12:27:38 2024 +0100|wifi-scripts: ucode: remove debug code
+7e854bd943|John Crispin|Wed Dec 11 12:06:55 2024 +0100|wifi-scripts: ucode: append global options on STA interfaces
+3ab1a69339|John Crispin|Wed Dec 11 12:02:18 2024 +0100|wifi-scripts: ucode: fix parsing of legacy hwmode option
+4c60fba3d8|John Crispin|Wed Dec 11 11:55:21 2024 +0100|wifi-scripts: ucode: only set mbssid on ax and be radios
+5bc82dede0|John Crispin|Wed Dec 11 11:54:34 2024 +0100|wifi-scripts: ucode: typo fix
 </details>

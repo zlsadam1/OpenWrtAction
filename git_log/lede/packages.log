@@ -2,13 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-7af03ce8|Internet1235|Wed Dec 11 10:30:21 2024 +0800|alist: update to 3.39.2 (#875)
-e24ff4d5|Miko-5|Tue Dec 10 19:39:11 2024 +0800|screen: remove outdate patch (#877)
-9c970545|Miko-5|Tue Dec 10 10:10:05 2024 +0800|screen: update to 4.9.1 (#874)
-ab98ad35|Internet1235|Tue Dec 10 10:00:06 2024 +0800|ddns-go: update to 6.7.7 (#872)
-a8ec879c|aiamadeus|Sat Nov 30 23:06:39 2024 +0800|vlmcsd: fixes build with gcc 13
-833fc954|coolsnowwolf|Sat Dec 7 16:35:54 2024 +0800|node: add v22.x openssl dependence
-b35738ef|coolsnowwolf|Sat Dec 7 16:05:13 2024 +0800|node: bump to v22.x
-5cc31928|coolsnowwolf|Sat Dec 7 15:31:29 2024 +0800|xfrpc: bump to 3.05.661
-69a0490c|coolsnowwolf|Fri Dec 6 19:30:41 2024 +0800|ksmbd-tools: bump version
+f0f22746|Internet1235|Sun Dec 15 16:10:03 2024 +0800|alist: update to 3.41.0 (#883)
+b0637ebf|coolsnowwolf|Thu Dec 12 18:32:11 2024 +0800|bind: update to v9.20.4
+9ddc28b6|coolsnowwolf|Thu Dec 12 18:16:17 2024 +0800|Merge pull request #881 from Internet1235/ariang
+d6a65870|Internet1235|Thu Dec 12 16:38:15 2024 +0800|ariang: update to v1.3.8
+06c4e87f|Miko-5|Wed Dec 11 12:00:17 2024 +0800|bind: bump to 9.20.0 (#873)
 </details>

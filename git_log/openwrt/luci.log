@@ -2,12 +2,19 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-679d3b8e85|Dmitry R|Fri Dec 6 07:10:27 2024 -0500|luci-app-filemanager: fixed negative time zone parsing
-46f84389ed|Paul Donald|Sat Dec 7 05:25:05 2024 +0100|Merge branch 'master' into openwrt-24.10
-c14ac759be|Stan Grishin|Fri Dec 6 18:12:24 2024 -0800|Merge pull request #7460 from stangri/master-luci-app-adblock-fast
-49ae99ed7e|Stan Grishin|Fri Dec 6 18:12:20 2024 -0800|Merge pull request #7459 from stangri/24.10-luci-app-adblock-fast
-35e89dd554|Paul Donald|Sat Dec 7 02:31:54 2024 +0100|luci-app-ddns: fix fileUpload
-778602b64a|Hosted Weblate|Fri Dec 6 09:54:46 2024 +0100|Translated using Weblate (Russian)
-84dbabe0ab|Stan Grishin|Fri Dec 6 03:21:01 2024 +0000|luci-app-adblock-fast: catch up to snapshots version
-66c0c58bbc|Stan Grishin|Fri Dec 6 03:20:55 2024 +0000|luci-app-adblock-fast: catch up to snapshots version
+e23f6069d6|Paul Donald|Sun Dec 15 21:08:56 2024 +0100|luci-mod-network: remove old netifd version check which needs opkg
+367b67faa7|Paul Donald|Sun Dec 15 20:34:15 2024 +0100|luci-compat: opkg_package -> package_name
+0459c378b7|Paul Donald|Sun Dec 15 20:29:36 2024 +0100|themes: update package-manager style to match page name
+a0f66ab65f|Paul Donald|Sun Dec 15 20:22:27 2024 +0100|luci-app-p910nd: update package-manager handling
+8d13ea410d|Paul Donald|Sun Dec 15 20:11:23 2024 +0100|luci-base, luci-proto-*: rename getOpkgPackage -> getPackageName
+500ce17e7a|Paul Donald|Sun Dec 15 20:13:50 2024 +0100|luci-app-nut: update package-manager link
+4bc20a2bfb|Paul Donald|Sun Dec 15 19:59:52 2024 +0100|luci-mod-network: update package-manager link
+391e115c55|Eric Fahlgren|Sun Nov 17 08:33:56 2024 -0800|luci-app-attendedsysupgrade: make image selection consistent across all EFI targets
+d992d6f105|Arayuki Mago|Fri Dec 13 04:14:45 2024 +0900|luci-proto-ipv6: add missing extendprefix option for DHCPv6 client
+7baceb068d|Stan Grishin|Sat Dec 14 09:48:07 2024 -0800|Merge pull request #7471 from stangri/master-luci-app-advanced-reboot
+09e542292a|Stan Grishin|Fri Dec 13 19:49:38 2024 +0000|luci-app-advanced-reboot: Linksys MX5300 support
+a6e3ea42ac|Paul Donald|Fri Nov 29 01:32:16 2024 +0100|luci-mod-network: add ipproto property to routes
+af2175aa7a|Joseph Mory|Thu Dec 12 14:52:02 2024 +0000|luci-app-hd-idle: Check disk opt value
+e15c190508|Paul Donald|Thu Dec 12 15:56:40 2024 +0100|luci-base: jsdoc grammar fix
+31955d6c7d|Hosted Weblate|Wed Dec 11 15:58:11 2024 +0100|Translated using Weblate (Hebrew)
 </details>

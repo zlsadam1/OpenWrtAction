@@ -2,16 +2,14 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-41e0c30d8|Luis Mita|Tue May 7 11:48:37 2024 -0400|mediatek: add Cudy TR3000 v1 support
-da0bc37b1|Beginner|Tue Dec 10 10:10:12 2024 +0800|kernel: bump 6.6 to 6.6.64 (#13195)
-e87df11ac|mars-m9|Mon Dec 9 23:10:07 2024 +0800|intel-microcode: update to 20241112 (#13193)
-eb1279987|coolsnowwolf|Mon Dec 9 23:05:16 2024 +0800|uboot-rk35xx: fixes build with gcc13
-e66ffaf37|Beginner|Sun Dec 8 16:01:09 2024 +0800|kernel: bump 6.1 to 6.1.119 (#13185)
-fd9b9cc78|Beginner|Sat Dec 7 15:13:57 2024 +0800|kernel: refresh `6.6` patches (#13179)
-d83ce75e3|Beginner|Sat Dec 7 10:56:20 2024 +0800|kernel: refresh `6.12` patches (#13178)
-cb4244db5|coolsnowwolf|Fri Dec 6 18:13:53 2024 +0800|ksmbd: add SMB v1 support
-9e010ff34|coolsnowwolf|Fri Dec 6 16:45:13 2024 +0800|kernel: bump 6.12 to 6.12.3
-2778ccf7a|coolsnowwolf|Sat Dec 7 23:35:19 2024 +0800|Revert "tools: update versions"
-06366c30e|coolsnowwolf|Sun Sep 15 23:19:40 2024 +0800|uqmi: update to latest HEAD
-8cf7400a8|coolsnowwolf|Thu Dec 5 19:40:43 2024 +0800|uqmi: Ignore wrong maybe-uninitialized and dangling-pointer error
+0a3cb8e16|coolsnowwolf|Mon Dec 16 11:20:52 2024 +0800|ramips: add setmac and getmac scripts
+4fb48d3e6|Beginner|Mon Dec 16 10:00:16 2024 +0800|kernel: bump 6.12 to 6.12.5 (#13216)
+f449329de|aiamadeus|Fri Dec 6 23:18:39 2024 +0800|trusted-firmware-a.mk: fix release download URL
+062dc2007|aiamadeus|Sun Dec 15 18:02:28 2024 +0800|arm-trusted-firmware-rockchip: update to v2.12
+d6318bba0|Bohdan Chubuk|Fri Dec 6 00:17:56 2024 +0200|generic: mtd: spinand: add support for F35SQA001G
+79545017e|Bohdan Chubuk|Mon Nov 11 01:57:31 2024 +0200|generic: mtd: spinand: add support for F35SQA002G
+764b5a63d|aiamadeus|Thu Dec 12 23:16:03 2024 +0800|mediatek: add u-boot mod version for Cudy TR3000
+23a4c1fb9|Jianyu Zhuang|Tue Dec 10 15:38:20 2024 +0800|mediatek: filogic: add support for Tenbay WR3000K
+21eb7bf2a|Oleg S|Sat Mar 2 11:18:13 2024 +0300|mediatek: expand kernel size to 6MiB for Xiaomi AX6S
+d242992f6|coolsnowwolf|Wed Dec 11 19:28:11 2024 +0800|base-files: allow override model name from uboot env
 </details>
