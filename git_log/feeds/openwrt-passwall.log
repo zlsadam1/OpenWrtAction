@@ -1,0 +1,9 @@
+<details> <summary> <b>openwrt-passwall new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+3fd9b41|A-BO|Wed Jan 1 12:09:41 2025 +0800|luci: add chinadns-ng log related functions
+7c2a684|xiaorouji|Wed Jan 1 02:46:37 2025 +0800|luci: bump to 2025.1.1 New Year!
+deaf534|xiaorouji|Tue Dec 31 17:34:06 2024 +0800|luci: optimize code
+811d702|xiaorouji|Tue Dec 31 17:00:15 2024 +0800|luci: fix Xray FakeDNS
+</details>
