@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-891635090c|Georgios Kontaxis|Mon Dec 30 20:32:30 2024 -0500|luci-app-ddns: Update global cacert path doc to reflect it is a file not a dir
+f5c18061ed|Daniel Nilsson|Wed Jan 1 10:40:19 2025 +0100|luci-base: allow sort value to be reassigned
 </details>
