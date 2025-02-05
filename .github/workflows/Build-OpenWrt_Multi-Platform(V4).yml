@@ -27,8 +27,8 @@ on:
         description: 'Whether single-threaded compilation'
         required: false
         default: 'false'
-  # schedule:
-  #   - cron: 0 */8 * * *
+  schedule:
+    - cron: 0 5 */3 * *
 
 env:
   MAKE_DEFCONFIG_SH: compile_script/step01_make_defconfig.sh
