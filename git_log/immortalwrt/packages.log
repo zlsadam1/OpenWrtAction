@@ -1,7 +1,0 @@
-<details> <summary> <b>packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-469d48b52|Tianling Shen|Wed Feb 5 16:25:54 2025 +0800|pcap-dnsproxy: drop package
-da7a75639|Tianling Shen|Wed Feb 5 16:25:27 2025 +0800|antileech: fix mirror hash
-</details>
