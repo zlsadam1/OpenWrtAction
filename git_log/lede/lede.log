@@ -1,7 +1,0 @@
-<details> <summary> <b>lede new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-108da88ba|coolsnowwolf|Tue Feb 11 23:15:40 2025 +0800|kernel: netfilter: fix ipt-ipopt depends
-36fac63d8|coolsnowwolf|Wed Feb 12 16:26:00 2025 +0800|qualcommax: 6.6: add ipq60xx pwm support
-</details>

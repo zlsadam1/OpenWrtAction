@@ -1,9 +1,0 @@
-<details> <summary> <b>packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-571d9e96a|Stan Grishin|Wed Feb 12 03:57:26 2025 +0000|pbr: update to 1.1.8-10
-4337232f5|Stan Grishin|Mon Feb 10 21:18:24 2025 +0000|https-dns-proxy: bugfix: start on boot
-434c353e6|Florian Eckert|Tue Feb 4 12:36:51 2025 +0100|modemmanager: do not disable modem on reconnect
-f9dbeea92|Koen Vandeputte|Fri Nov 15 09:23:31 2024 +0100|libs/srt: bump to 1.5.4
-</details>
