@@ -1,0 +1,7 @@
+<details> <summary> <b>lede new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+bf665a29b|coolsnowwolf|Thu Feb 13 18:17:57 2025 +0800|qualcommax: ipq50xx: add CMCC RAX3000Q support
+9dc66796d|coolsnowwolf|Thu Feb 13 16:48:41 2025 +0800|qualcommax: ipq50xx : temporarily disable tcsr_q6_block
+</details>
