@@ -1,7 +1,0 @@
-<details> <summary> <b>lede new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-0631178b1|coolsnowwolf|Sun Feb 16 11:33:57 2025 +0800|ipq-wifi: rename jdcloud ax6600 to re-cs-02
-58b8d3234|coolsnowwolf|Sun Feb 2 23:02:21 2025 +0800|qualcommax: ipq807x: add support for Zbtlink Z800AX
-</details>
