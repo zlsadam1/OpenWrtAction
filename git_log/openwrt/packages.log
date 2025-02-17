@@ -1,0 +1,8 @@
+<details> <summary> <b>packages new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+c3a33e10a|Ryan Keane|Sun Dec 22 06:12:04 2024 -0800|adguardhome: Update init files
+62c758123|Ryan Keane|Sun Dec 22 06:08:43 2024 -0800|adguardhome: Bump to 0.107.56
+d4cf04643|Bartosz Cieślik|Mon Feb 10 19:11:15 2025 +0100|acme-common: Resolve problem with webroot symlink
+</details>

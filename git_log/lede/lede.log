@@ -1,0 +1,8 @@
+<details> <summary> <b>lede new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+6c30ff683|tabudz|Mon Feb 17 10:57:45 2025 +0800|mt7615d: fix possible infinite loop in BN_mod_sqrt() (#13346)
+b00deea1b|coolsnowwolf|Sun Feb 16 16:28:26 2025 +0800|mac80211: ath: add qcom-qmi-helpers as package
+81419528c|Felix Fietkau|Tue Sep 24 14:35:31 2024 +0200|kernel: backport MHI patch required by an upcoming mac80211 update
+</details>
