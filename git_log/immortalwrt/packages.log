@@ -1,0 +1,11 @@
+<details> <summary> <b>packages new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+d3def0e0f|Integral|Wed Feb 19 21:24:53 2025 +0800|toml11: update to 4.4.0
+f34571e8e|Integral|Wed Feb 19 21:13:54 2025 +0800|wxbase: update to 3.2.6
+2001aad2d|Integral|Wed Feb 19 21:18:50 2025 +0800|udp2raw: update to 20230206.0
+e971b8e1b|Integral|Wed Feb 19 11:05:11 2025 +0800|joker: update to 20231110
+3c40faf6e|Integral|Wed Feb 19 11:01:20 2025 +0800|gost: update to 2.12.0
+68a2f8d15|Integral|Wed Feb 19 10:41:45 2025 +0800|filebrowser: update to 2.32.0
+</details>
