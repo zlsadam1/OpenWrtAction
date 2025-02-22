@@ -1,6 +1,0 @@
-<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-6936deac67|Kuan-Yi Li|Fri Feb 21 05:26:15 2025 +0800|imagebuilder: fix addition of local packages
-</details>
