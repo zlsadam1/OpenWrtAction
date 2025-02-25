@@ -1,7 +1,0 @@
-<details> <summary> <b>lede new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-b32c0de79|coolsnowwolf|Mon Feb 24 17:42:56 2025 +0800|linux: add module package crypto-lib-aescfb for 6.12
-dedff78f0|coolsnowwolf|Mon Feb 24 17:41:11 2025 +0800|uboot-rk35xx: fix MangoPi M28C support
-</details>
