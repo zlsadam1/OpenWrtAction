@@ -2,6 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-6816099|zhusir|Mon Mar 3 01:02:09 2025 +0800|action: update code (#3755)
-b90999d|zhusir|Sun Mar 2 22:09:44 2025 +0800|action: update sdk to 24.10 (#3754)
+e6ae6ac|A-BO|Tue Mar 4 02:02:57 2025 +0800|luci: sing-box route migration to rule_set (#3759)
 </details>
