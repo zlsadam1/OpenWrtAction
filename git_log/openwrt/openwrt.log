@@ -1,6 +1,0 @@
-<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-47fed9b61b|Christian Marangi|Tue Mar 4 01:03:10 2025 +0100|apk: backport patch fixing broken apk update with wget fetch
-</details>

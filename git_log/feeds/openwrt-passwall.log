@@ -1,6 +1,0 @@
-<details> <summary> <b>openwrt-passwall new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-e6ae6ac|A-BO|Tue Mar 4 02:02:57 2025 +0800|luci: sing-box route migration to rule_set (#3759)
-</details>
