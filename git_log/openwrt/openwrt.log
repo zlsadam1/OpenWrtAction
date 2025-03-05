@@ -1,0 +1,9 @@
+<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+90dee1ab30|Christian Marangi|Tue Feb 18 20:35:00 2025 +0100|airoha: drop MTD Airoha parser patch
+7805100e15|Christian Marangi|Tue Feb 18 20:29:26 2025 +0100|airoha: an7581: cleanup kernel config
+9ec32cfb27|Cedric CHEDALEUX|Mon Feb 17 10:44:36 2025 +0100|scripts/feeds: shallow clone submodules
+32d0a57dc1|Cedric CHEDALEUX|Mon Feb 17 10:41:32 2025 +0100|scripts/feeds: shallow clone for specific commit update
+</details>
