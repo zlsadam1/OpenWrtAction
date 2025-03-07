@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-c65c2ad5b|Ahmed Naseef|Tue Jan 28 11:28:31 2025 +0400|kernel: usbnet: Restore usb%d naming
+eed7f33c9|coolsnowwolf|Fri Mar 7 12:29:18 2025 +0800|luci-app-fogvdn: add fogvdn peer-to-peer network package from OpenFogOS
 </details>

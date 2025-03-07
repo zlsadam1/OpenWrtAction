@@ -1,9 +1,0 @@
-<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-6af46a6984|Martin Schiller|Thu Mar 6 09:52:27 2025 +0100|mediatek: filogic: enable CONFIG_MITIGATE_SPECTRE_BRANCH_HISTORY
-5013efc4f9|Martin Schiller|Thu Mar 6 09:38:12 2025 +0100|mediatek: Refresh kernel configuration
-ecd609f509|Ahmed Naseef|Tue Jan 28 11:28:31 2025 +0400|kernel: usbnet: Restore usb%d naming for cdc-ethernet devices with local MAC
-d8315d5358|Qingfang Deng|Wed Mar 5 23:23:09 2025 +0800|kernel: backport Mediatek SoC EEE support
-</details>
