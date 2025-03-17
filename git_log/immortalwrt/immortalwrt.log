@@ -1,0 +1,11 @@
+<details> <summary> <b>immortalwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+1113636341|Tianling Shen|Sun Mar 16 17:26:39 2025 +0800|uboot-rockchip: limit sdram max usable ram to 4G
+6b3e77778f|Tianling Shen|Sun Mar 16 16:26:02 2025 +0800|Merge Official Source
+251f76c1c6|Álvaro Fernández Rojas|Sat Mar 15 11:43:43 2025 +0100|bcm27xx: pull 6.6 patches from RPi repo
+6403c2890c|Álvaro Fernández Rojas|Sat Mar 15 11:50:44 2025 +0100|bcm27xx-utils: update to latest version
+2804cfe553|Álvaro Fernández Rojas|Sat Mar 15 11:54:08 2025 +0100|bcm27xx-gpu-fw: update to v1.20250305
+0aaabffdea|Dominick Grift|Sat Mar 15 15:30:17 2025 +0100|selinux-policy: update to version v2.6
+</details>
