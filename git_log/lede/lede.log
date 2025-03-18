@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-83134525f|coolsnowwolf|Thu Feb 27 23:15:38 2025 +0800|rockchip: sync base with upstream
+7ac5d24a7|coolsnowwolf|Tue Mar 18 11:32:40 2025 +0800|rockchip: fix RK3399 PCIE reboot issues
+b425f8d07|Willem Lee|Tue Mar 18 11:19:41 2025 +0800|mediatek: filogic: add support for KANKA KOMI A31/E-life ETR631-T/E-life ETR635-U (#13407)
 </details>
