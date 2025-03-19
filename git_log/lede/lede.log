@@ -2,6 +2,8 @@
 
 SHA|Author|Date|Message
 -|-|-|-
+e43d4db7c|coolsnowwolf|Sun Mar 16 23:02:40 2025 +0800|rockchip: fix RK3399 PCIE reboot issues
+d4831d96b|coolsnowwolf|Sun Mar 16 23:18:07 2025 +0800|mediatek: add support for CMCC A10
 7ac5d24a7|coolsnowwolf|Tue Mar 18 11:32:40 2025 +0800|rockchip: fix RK3399 PCIE reboot issues
 b425f8d07|Willem Lee|Tue Mar 18 11:19:41 2025 +0800|mediatek: filogic: add support for KANKA KOMI A31/E-life ETR631-T/E-life ETR635-U (#13407)
 </details>
