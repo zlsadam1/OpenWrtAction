@@ -1,7 +1,0 @@
-<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-696ad7b1aa|Daniel Golle|Fri Mar 21 11:39:07 2025 +0000|mediatek: filogic: fix case statement in 01_leds
-6fa39900b6|Rui Salvaterra|Sat Mar 8 19:41:16 2025 +0000|kernel: igc: enable HW vlan tag insertion/stripping by default
-</details>
