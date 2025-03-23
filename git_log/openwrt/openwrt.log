@@ -1,0 +1,11 @@
+<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+8d1fe32c2c|Paul Donald|Mon Apr 22 00:08:48 2024 +0200|lldpd: add `custom-tlv` handling
+a015f59880|Paul Donald|Sun Apr 21 23:18:36 2024 +0200|lldpd: get_config_cid_ifaces() -> get_interface_csv()
+635be2a329|Scott Mercer|Sun Mar 16 23:57:29 2025 -0400|uboot-tools: create dumpimage package
+46e376c935|Scott Mercer|Sun Mar 16 23:50:33 2025 -0400|uboot-tools: migrate uboot-envtools to uboot-tools
+96cb1c8840|Scott Mercer|Sun Mar 16 23:40:13 2025 -0400|uboot-tools: add stub package skeleton
+6ef0a35bb1|Daniel F. Dickinson|Tue Feb 18 23:58:06 2025 -0500|ubox: fix logging to external filesystem
+</details>

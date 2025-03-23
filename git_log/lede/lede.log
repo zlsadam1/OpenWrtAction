@@ -1,0 +1,6 @@
+<details> <summary> <b>lede new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+d7d4bcc86|IDeLoveYou|Sat Mar 22 22:00:03 2025 +0800|toolchain: glibc: Fix build with autoconf 2.71
+</details>
