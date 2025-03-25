@@ -1,8 +1,0 @@
-<details> <summary> <b>packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-e23ed5733|Self Hosting Group|Mon Jan 6 00:00:00 2025 +0000|miniupnpd: update enable_natpmp option
-88e55afe5|Tianling Shen|Tue Mar 25 00:09:27 2025 +0800|miniupnpd: backport upstream fixes
-1d848b57e|Tianling Shen|Mon Mar 24 21:04:06 2025 +0800|miniupnpd: add force_forwarding option from x-wrt
-</details>
