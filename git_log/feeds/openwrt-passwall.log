@@ -1,0 +1,6 @@
+<details> <summary> <b>openwrt-passwall new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+37e02e0|bcseputetto|Thu Mar 27 08:47:15 2025 +0800|luci: fix geosite rule file name
+</details>
