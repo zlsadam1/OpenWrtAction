@@ -1,6 +1,0 @@
-<details> <summary> <b>packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-c285dde4e|Yun Wang|Thu Mar 27 09:04:08 2025 +0800|rustdesk-server: add locked to cargo for lock deps
-</details>
