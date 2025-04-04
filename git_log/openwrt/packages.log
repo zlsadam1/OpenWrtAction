@@ -1,8 +1,0 @@
-<details> <summary> <b>packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-c9220e58b|Ryan Press|Mon Mar 31 13:57:23 2025 -0700|lpac: Refresh 0001-driver-add-uqmi-backend.patch
-864d80aae|Ryan Press|Mon Mar 31 06:59:54 2025 -0700|lpac: Add support for MBIM backend
-f17c283cd|Russell Senior|Wed Apr 2 05:57:34 2025 -0700|patch: update to v2.8
-</details>
