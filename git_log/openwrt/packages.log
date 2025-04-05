@@ -1,0 +1,9 @@
+<details> <summary> <b>packages new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+a920f9ec9|George Sapkin|Wed Mar 26 04:29:13 2025 +0200|adguardhome: increase UDP send/receive buffers
+73c903116|George Sapkin|Wed Apr 2 18:40:39 2025 +0300|golang: bump to 1.24.2
+74a66189f|Ivan Pavlov|Fri Apr 4 08:51:00 2025 +0300|openvpn: update to 2.6.14
+e800fc7e8|Glenn Strauss|Fri Apr 4 03:15:13 2025 -0400|lighttpd: update to lighttpd 1.4.79 release hash
+</details>
