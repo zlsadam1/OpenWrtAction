@@ -1,8 +1,0 @@
-<details> <summary> <b>packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-eb91f914b|Joel Low|Fri Jan 31 22:31:54 2025 +0800|strongswan: DHCP on lo fixes backport
-c591f69b9|George Sapkin|Fri Apr 4 19:30:59 2025 +0300|expat: bump to 2.7.1 to fix several CVEs
-3d055f8df|Hannu Nyman|Sun Apr 6 19:57:10 2025 +0300|nano: Update to 8.4
-</details>
