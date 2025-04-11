@@ -1,0 +1,26 @@
+<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+b8eba75146|Sergii Shcherbakov|Sat Feb 1 02:24:28 2025 +0100|ramips: mt76x8: add support for MERCUSYS MB130-4G v1
+851ea69d8e|Álvaro Fernández Rojas|Thu Apr 10 14:01:33 2025 +0200|package: add kmod-r8127 ethernet driver
+db3eff1022|Yujie Zhu|Tue Apr 8 22:51:55 2025 +0800|mediatek: filogic: add Netcore N60 Pro support
+779f730914|Christian Marangi|Thu Apr 10 12:23:34 2025 +0200|qualcommbe: disable CONFIG_QCOM_IPA kernel config
+692459dd4e|Christian Marangi|Thu Jan 30 16:55:57 2025 +0100|qualcommbe: ipq95xx: Make RPM partition read-only
+9c6180e5f1|Christian Marangi|Thu Jan 30 16:54:02 2025 +0100|qualcommbe: ipq95xx: Add pending patch fixing NSSCC boot stall
+1d88859cd3|Christian Marangi|Thu Jan 30 16:47:04 2025 +0100|qualcommbe: ipq95xx: Drop redundant comment in NSSCC clock patch
+0a9dc5a6f4|Christian Marangi|Thu Jan 30 16:45:16 2025 +0100|qualcommbe: ipq95xx: Define default partition table for RFB SPI-NAND
+7fb8b48120|Christian Marangi|Thu Jan 30 16:41:51 2025 +0100|qualcommbe: ipq95xx: Refresh dts SPI-NAND patch to v14
+46fcb0056e|Christian Marangi|Thu Jan 30 16:49:03 2025 +0100|qualcommbe: ipq95xx: Refresh the NSSCC and PORT patch for new PCIe patches
+8d081f48a6|Christian Marangi|Thu Jan 30 16:39:12 2025 +0100|qualcommbe: ipq95xx: Add PCIe upstream patch and related nodes
+e272eb4dbf|Christian Marangi|Wed Jan 29 21:34:41 2025 +0100|qualcommbe: ipq95xx: Add USB3 kmods and drop NSS-DP unneeded package
+c21aaa7ec6|Christian Marangi|Wed Jan 29 21:33:07 2025 +0100|kernel: usb: add qualcommbe to the supported target of dwc3-qcom
+80244360ae|Christian Marangi|Wed Apr 9 19:41:37 2025 +0200|generic: move QCOM SPI NAND driver to generic backports
+f7c0331c50|Mieczyslaw Nalewaj|Tue Apr 8 17:37:59 2025 +0200|kernel: bump 6.6 to 6.6.86
+4618d09587|Álvaro Fernández Rojas|Thu Apr 10 10:32:56 2025 +0200|bcm27xx: pull 6.6 patches from RPi repo
+719f378bfb|Linus Walleij|Mon Jun 12 00:15:18 2023 +0200|gemini: Activate serial USB console on the DNS-313
+cb650214ba|Linus Walleij|Thu Apr 3 08:30:29 2025 +0200|package: usbgadget: Fix subpackage dependencies
+a57bce987a|Linus Walleij|Tue Apr 1 10:53:12 2025 +0200|package: usbgadget: Define conffile
+f0de73f912|Linus Walleij|Tue Apr 1 09:52:19 2025 +0200|package: usbgadget: Require kmod-fs-configfs
+3edb06546b|Linus Walleij|Wed Apr 2 23:10:39 2025 +0200|kernel: modules: Fix RTL8366RB title
+</details>
