@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-992017e|lwb1978|Sun Apr 13 13:17:35 2025 +0800|luci: app update add geoview
+3e268e1|lwb1978|Sun Apr 13 17:46:19 2025 +0800|Revert "luci: restrict sing-box shunt usage conditions"
+c8f77c6|lwb1978|Sun Apr 13 13:51:31 2025 +0800|luci: optimize
 </details>
