@@ -1,9 +1,0 @@
-<details> <summary> <b>packages new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-bed8c8ae3|Paul Donald|Fri Apr 11 15:46:21 2025 +0200|ddns-scripts: bump package release
-9f3d6fed2|Paul Donald|Fri Apr 11 16:27:14 2025 +0200|ddns-scripts: fix daemon to reload instead of kill
-081f1856a|Paul Donald|Fri Apr 11 16:18:59 2025 +0200|ddns-scripts: fix daemon start - background the script
-939939bce|Ryan Press|Wed Apr 16 11:52:24 2025 -0700|modemmanager: bump to 1.24.0
-</details>
