@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-10ad881f|coolsnowwolf|Mon Apr 21 19:39:22 2025 +0800|gowebdav: bump to v5.7.4
+54c27edb|coolsnowwolf|Tue Apr 22 13:04:24 2025 +0800|Merge pull request #927 from Internet1235/cloudflared
+af82b95d|Internet1235|Fri Feb 28 23:06:25 2025 +0800|cloudflared: Bump to 2025.4.0
 </details>
