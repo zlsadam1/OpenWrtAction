@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-4b27cbe1|coolsnowwolf|Wed Apr 23 00:09:44 2025 +0800|dockerd: make compatible with lua luci
+533d32fac|David Bauer|Sun Jan 19 19:18:56 2025 +0100|poemgr: update to latest HEAD
 </details>
