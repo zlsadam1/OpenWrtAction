@@ -1,6 +1,0 @@
-<details> <summary> <b>lede new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-6ccb3770e|Gao Xiang|Thu Jun 26 01:45:22 2025 +0800|image: add support for EROFS rootfs image
-</details>
