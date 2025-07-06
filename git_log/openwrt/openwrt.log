@@ -1,6 +1,0 @@
-<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-77b9393d2f|Felix Fietkau|Sun Jul 6 22:05:03 2025 +0200|ucode: fix an issue in exception handling improvement for ubus/uloop
-</details>
