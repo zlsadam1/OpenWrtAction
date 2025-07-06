@@ -1,0 +1,7 @@
+<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+d2b2670937|Felix Fietkau|Sun Jul 6 19:23:59 2025 +0200|ath9k: add back previous DT compatible strings for ahb
+bb279e1a69|Felix Fietkau|Sun Jul 6 18:47:14 2025 +0200|hostapd: revert a broken upstream patch that was breaking multi-band operation
+</details>
