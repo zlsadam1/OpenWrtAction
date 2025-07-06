@@ -1,0 +1,8 @@
+<details> <summary> <b>lede new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+dfe0b8011|Rosen Penev|Thu Sep 26 16:29:43 2024 -0700|cmake.mk: disable shared libs for host build
+1a75fbe43|Gao Xiang|Thu Jun 26 01:45:22 2025 +0800|image: add support for EROFS rootfs image
+6ccb3770e|Gao Xiang|Thu Jun 26 01:45:22 2025 +0800|image: add support for EROFS rootfs image
+</details>
