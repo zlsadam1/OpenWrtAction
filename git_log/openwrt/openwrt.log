@@ -1,6 +1,0 @@
-<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-e1d39bdbdb|Felix Fietkau|Sun Jul 6 11:22:33 2025 +0200|mac80211: fix rt2x00 build error on 6.12
-</details>
