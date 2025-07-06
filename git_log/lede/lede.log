@@ -1,0 +1,6 @@
+<details> <summary> <b>lede new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+70265ac2c|Robert Marko|Tue Jun 25 17:53:11 2024 +0200|tools: use libuuid provided by util-linux
+</details>

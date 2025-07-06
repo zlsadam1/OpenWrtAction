@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-5adc663af6|Felix Fietkau|Sun Jul 6 10:32:41 2025 +0200|image: only calculate EROFS_PCLUSTERSIZE when needed
+e1d39bdbdb|Felix Fietkau|Sun Jul 6 11:22:33 2025 +0200|mac80211: fix rt2x00 build error on 6.12
 </details>
