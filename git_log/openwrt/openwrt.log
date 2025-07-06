@@ -1,0 +1,6 @@
+<details> <summary> <b>openwrt new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+5adc663af6|Felix Fietkau|Sun Jul 6 10:32:41 2025 +0200|image: only calculate EROFS_PCLUSTERSIZE when needed
+</details>
