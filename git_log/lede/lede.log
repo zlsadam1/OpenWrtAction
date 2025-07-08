@@ -1,0 +1,7 @@
+<details> <summary> <b>lede new commit log :new: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+0730f0357|Mantas Pucka|Wed Jun 25 10:49:47 2025 +0300|qualcommbe: v6.12: drop upstreamed patch
+b8e5d38d3|Felix Fietkau|Sat Jul 5 13:50:17 2025 +0200|mediatek: fix switch mdio id on mt7622-rfb1
+</details>
