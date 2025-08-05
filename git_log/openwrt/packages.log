@@ -2,9 +2,10 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-260f4196d|Philip Prindeville|Sun Aug 3 12:45:58 2025 -0600|clixon: Update to 7.5.0
-fce757977|Philip Prindeville|Sun Aug 3 12:44:23 2025 -0600|cligen: Update to 7.5.0
-8ae00f92b|Etienne Champetier|Sat Aug 2 21:50:07 2025 -0400|mwan3: handle missing interface gracefully
-cf6ef1ac5|Rosen Penev|Sat May 3 18:19:50 2025 -0700|mariadb: update to 11.4.7
-4c73e7f8b|Ray Wang|Sun Aug 3 11:00:31 2025 +0800|hev-socks5-tunnel: update to 2.13.0
+ac1076ef9|Dirk Brenken|Mon Aug 4 20:53:01 2025 +0200|banIP: update 1.5.6-7
+08e4df89b|Jan Hák|Mon Aug 4 15:28:11 2025 +0200|knot: update to version 3.4.8
+d4d34ef8f|Florian Eckert|Mon Aug 4 08:54:49 2025 +0200|mwan3: remove Aaron Goodman as PKG_MAINTAINER
+47f8b88f4|Vladimír Čunát|Thu Jul 31 08:55:46 2025 +0200|knot-resolver: update DNSSEC root trust anchors
+4f22b4dce|Vladimír Čunát|Thu Jul 31 08:53:26 2025 +0200|knot-resolver: update to version 5.7.6
+c8ad05854|Tianling Shen|Fri Jul 18 22:06:41 2025 +0800|golang: disable build for powerpc64
 </details>

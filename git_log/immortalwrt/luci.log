@@ -1,0 +1,15 @@
+<details> <summary> <b>luci new commit log :rocket: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+22b8e85569|Tianling Shen|Mon Aug 4 14:52:57 2025 +0800|Merge Official Source
+8d367398d6|Hosted Weblate|Sat Aug 2 09:13:02 2025 +0200|Translated using Weblate (Portuguese)
+4fcd05f8c0|Paul Donald|Fri Aug 1 23:12:48 2025 +0200|github: update TOH links
+a1649fa335|Stan Grishin|Fri Aug 1 13:32:12 2025 -0500|Merge pull request #7880 from stangri/master-luci-app-adblock-fast
+e405ab0bf9|Stan Grishin|Fri Aug 1 13:31:46 2025 -0500|Merge pull request #7879 from stangri/master-luci-app-pbr
+3ec92523dc|Paul Donald|Fri Aug 1 15:33:40 2025 +0200|luci-base: jsdoc RangeSlider
+c26b8f28fe|Stan Grishin|Fri Aug 1 01:42:12 2025 +0000|luci-app-adblock-fast: sync with principal package
+6b4d69723c|Stan Grishin|Fri Aug 1 01:40:51 2025 +0000|luci-app-pbr: sync with principal package
+b7c08475e7|Paul Donald|Thu Jul 31 00:31:38 2025 +0200|luci-base: jsdoc Slider -> RangeSlider and fixes for RangeSlider
+4d5ac5b3e9|Paul Donald|Wed Jul 30 14:49:54 2025 +0200|themes: remove -moz selectors
+</details>

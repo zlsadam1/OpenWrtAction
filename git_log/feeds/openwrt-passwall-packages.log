@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-c680014|github-actions[bot]|Mon Aug 4 01:01:16 2025 +0800|xray-core: update to 25.8.3 (#481)
+80646ef|Bard|Mon Aug 4 20:42:15 2025 +0800|sing-box: remove deprecated with_ech build flag (#483)
+6dd3dbf|github-actions[bot]|Mon Aug 4 19:07:13 2025 +0800|sing-box: update to 1.12.0 (#482)
 </details>

@@ -2,14 +2,11 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-7d570a489b|Felix Fietkau|Sun Aug 3 21:52:06 2025 +0200|wifi-scripts: fix handling hotplug-added wireless vifs
-8444891064|Felix Fietkau|Sun Aug 3 21:45:11 2025 +0200|wifi-scripts: fix setup of vifs on multi-radio devices
-cbc23f1eb0|Felix Fietkau|Sun Aug 3 18:37:21 2025 +0200|wifi-scripts: ucode: remove leftover debug comment
-f26d134436|Felix Fietkau|Sun Aug 3 18:36:22 2025 +0200|wifi-scripts: ucode: enforce MFP for SAE connections
-b1ce49292c|Hauke Mehrtens|Sun Aug 3 15:44:57 2025 +0200|ipq40xx: Refresh kernel patches
-966bd308eb|Joe Holden|Wed Jul 30 12:18:28 2025 +0000|uboot-envtools: gs1900-48: set fw_env/sys.config
-c95a08b1c5|Joe Holden|Tue Jul 29 19:19:22 2025 +0000|realtek: Zyxel GS1900-48 dts fixes
-a2c361c520|Felix Fietkau|Sun Aug 3 06:50:23 2025 +0200|hostapd: add missing MLO check on ucode bss stop
-da370c7b96|Felix Fietkau|Sun Aug 3 06:20:41 2025 +0200|netifd: update to Git HEAD (2025-08-03)
-991dd403d3|Felix Fietkau|Tue Jul 15 12:56:57 2025 +0200|kernel: improve pppoe performance
+6738761f7e|Stefan Kalscheuer|Mon Aug 4 18:04:11 2025 +0200|mvebu: switch to kernel 6.12
+5584e2f6a7|Markus Stockhausen|Fri Aug 1 16:02:54 2025 -0400|realtek: rtl930x: enable SMP
+adb1fce19b|Felix Fietkau|Mon Aug 4 12:39:23 2025 +0200|wifi-scripts: set rsn_overriding for client mode interfaces
+640c3984e3|Felix Fietkau|Mon Aug 4 12:08:27 2025 +0200|wifi-scripts: add support for passing wifi-device settings via procd
+de447b93e0|Felix Fietkau|Mon Aug 4 11:46:05 2025 +0200|wifi-scripts: fix handling changes to the wifi device disabled flag
+f3dd291b62|Felix Fietkau|Mon Aug 4 11:31:05 2025 +0200|wifi-scripts: make wifi/utils.uc available in the legacy scripts variant
+afa4662ed0|Markus Stockhausen|Sat Aug 2 10:22:39 2025 -0400|realtek: RTL839x: reorganize mdio functions and SerDes register layout
 </details>
