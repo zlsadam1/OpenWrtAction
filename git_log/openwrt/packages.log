@@ -2,10 +2,14 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-ac1076ef9|Dirk Brenken|Mon Aug 4 20:53:01 2025 +0200|banIP: update 1.5.6-7
-08e4df89b|Jan Hák|Mon Aug 4 15:28:11 2025 +0200|knot: update to version 3.4.8
-d4d34ef8f|Florian Eckert|Mon Aug 4 08:54:49 2025 +0200|mwan3: remove Aaron Goodman as PKG_MAINTAINER
-47f8b88f4|Vladimír Čunát|Thu Jul 31 08:55:46 2025 +0200|knot-resolver: update DNSSEC root trust anchors
-4f22b4dce|Vladimír Čunát|Thu Jul 31 08:53:26 2025 +0200|knot-resolver: update to version 5.7.6
-c8ad05854|Tianling Shen|Fri Jul 18 22:06:41 2025 +0800|golang: disable build for powerpc64
+0934d8624|Wesley Gimenes|Tue Aug 5 14:14:55 2025 -0300|CONTRIBUTING.md: accept only real names in the SoB
+e9861d554|S. Brusch|Tue Aug 5 16:23:24 2025 +0000|crowdsec-firewall-bouncer: update to 0.0.34
+b8fa68109|Stan Grishin|Tue Aug 5 03:05:53 2025 +0000|adblock-fast: bugfixes: status & TLD check with unbound
+810341cf3|George Sapkin|Thu May 8 16:42:42 2025 +0300|sqlite3: bump to 3.50.4
+5b8e0fd46|George Sapkin|Sat May 10 22:23:39 2025 +0300|sqlite3: require matching lib version in shell
+d066a4d04|George Sapkin|Thu May 8 23:24:50 2025 +0300|sqlite3: fix CI test
+682b773a2|Bruce Chen|Tue Aug 5 10:45:29 2025 +0800|aliyun-cli: update to 3.0.292
+1f4064269|Tianling Shen|Tue Aug 5 14:50:04 2025 +0800|openlist: Update to 4.1.0
+aed04bda1|Tianling Shen|Tue Aug 5 14:49:41 2025 +0800|xray-core: Update to 25.8.3
+65a9d7d45|Qian Suyao|Thu Jul 10 23:05:58 2025 +0800|ddns-scripts: fix getting IP address via web in get_current_ip()
 </details>

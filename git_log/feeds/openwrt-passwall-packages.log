@@ -2,6 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-80646ef|Bard|Mon Aug 4 20:42:15 2025 +0800|sing-box: remove deprecated with_ech build flag (#483)
-6dd3dbf|github-actions[bot]|Mon Aug 4 19:07:13 2025 +0800|sing-box: update to 1.12.0 (#482)
+1013e7c|A-BO|Tue Aug 5 22:50:16 2025 +0800|sing-box: update from immortalwrt
+7684dd2|georgekart|Tue Aug 5 07:57:00 2025 +0400|sing-box: Remove with_reality_server flag (#484)
 </details>
