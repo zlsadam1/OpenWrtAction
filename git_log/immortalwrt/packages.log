@@ -2,10 +2,25 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-2cc426458|Tianling Shen|Tue Aug 5 22:30:23 2025 +0800|sysuh3c: rewrite daemon file
-2d3a3d1f1|ImmortalWrt AutoUpdate Bot|Tue Aug 5 13:42:36 2025 +0000|gost: Update to 3.2.2
-07dfe40ed|Tianling Shen|Tue Aug 5 20:36:02 2025 +0800|gost: Update to 3.2.1
-d55aae204|Tianling Shen|Tue Aug 5 16:53:24 2025 +0800|cpulimit-ng: drop legacy package
-8f33efa7f|Tianling Shen|Tue Aug 5 15:57:44 2025 +0800|sing-box: Update to 1.12.0
-ad98b8246|Tianling Shen|Tue Aug 5 14:44:24 2025 +0800|vlmcsd: fix mirror hash
+4bb45894a|Tianling Shen|Wed Aug 6 21:30:49 2025 +0800|lua-periphery: update mirror hash
+b15aa99fb|Tianling Shen|Wed Aug 6 21:27:15 2025 +0800|mwol: drop legacy package
+c20907356|Tianling Shen|Wed Aug 6 21:21:28 2025 +0800|dns-forwarder: drop legacy package
+13464adc2|Tianling Shen|Wed Aug 6 21:18:26 2025 +0800|njit8021xclient: update mirror hash
+07b725ac1|Tianling Shen|Wed Aug 6 21:16:06 2025 +0800|scutclient: switch to codeload
+18d61d031|Tianling Shen|Wed Aug 6 21:12:49 2025 +0800|mentohust: fix mirror hash
+e79f47a55|Tianling Shen|Wed Aug 6 20:58:38 2025 +0800|antileech: bump to latest git HEAD
+2069e2fc3|Tianling Shen|Wed Aug 6 20:49:16 2025 +0800|rapidjson: bump to latest git HEAD
+1b38c59a1|Tianling Shen|Wed Aug 6 20:46:55 2025 +0800|oscam: bump to latest git HEAD
+a81f3e04b|Tianling Shen|Wed Aug 6 20:40:32 2025 +0800|quickjspp: refresh patches
+b908a9e80|Tianling Shen|Wed Aug 6 20:39:23 2025 +0800|redsocks2: Update to 0.71
+23f06a217|Tianling Shen|Wed Aug 6 20:29:42 2025 +0800|tcpping: drop legacy package
+ffd6656c5|Tianling Shen|Wed Aug 6 20:27:18 2025 +0800|go-nats: update mirror hash
+4d036ca92|Tianling Shen|Wed Aug 6 20:22:51 2025 +0800|tcping-simple: drop legacy package
+5f6258330|Tianling Shen|Wed Aug 6 20:14:28 2025 +0800|tinyfecvpn: Update to 20230206.0
+23703e83b|Tianling Shen|Wed Aug 6 19:53:14 2025 +0800|libcron: update mirror hash
+b40b1254b|Tianling Shen|Wed Aug 6 19:51:50 2025 +0800|quickjspp: update mirror hash
+a88dd6bd1|Tianling Shen|Wed Aug 6 19:46:41 2025 +0800|ngrokc: update mirror hash
+8765e4e43|Tianling Shen|Wed Aug 6 19:40:37 2025 +0800|sub-web: bump to latest git HEAD
+fe5e700cf|Tianling Shen|Wed Aug 6 19:23:48 2025 +0800|fan2go: allow create /etc/sensors3.conf in buildroot
+023ba72d3|mitsukileung|Wed Aug 6 14:07:43 2025 +0800|alac: fix mirror hash
 </details>

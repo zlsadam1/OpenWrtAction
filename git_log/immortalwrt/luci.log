@@ -2,12 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-ba6e065ef9|Tianling Shen|Tue Aug 5 22:31:12 2025 +0800|luci-app-sysuh3c: rewrite into JS
-6eaf8f3ee1|Tianling Shen|Tue Aug 5 21:39:34 2025 +0800|luci-app-gost: rewrite into JS
-63df2f8a1a|Tianling Shen|Tue Aug 5 21:11:23 2025 +0800|luci-app-arpbind: drop useless ucitrack update
-925940f1e3|Tianling Shen|Tue Aug 5 19:06:58 2025 +0800|luci-app-arpbind: rewrite into JS
-3fe84ab85b|Tianling Shen|Tue Aug 5 17:17:05 2025 +0800|luci-app-airwhu: drop legacy package
-ce2fc75c65|Tianling Shen|Tue Aug 5 17:10:31 2025 +0800|luci-app-haproxy-tcp: drop legacy package
-7dd2f5453e|Tianling Shen|Tue Aug 5 16:15:14 2025 +0800|luci-app-homeproxy: bump to latest git HEAD
-c6ca09d3ef|SakuraFallingMad|Sat Aug 2 20:55:33 2025 +0800|luci-app-passwall: bump to 25.8.5
+793dc2579b|Tianling Shen|Wed Aug 6 21:28:08 2025 +0800|luci-app-mwol: drop legacy package
+14ea92e1a8|Tianling Shen|Wed Aug 6 18:46:58 2025 +0800|treewide: replace var with let
 </details>
