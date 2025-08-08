@@ -2,11 +2,7 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-d791c150f|Rosen Penev|Sun Jul 27 21:12:33 2025 -0700|perl-xml-parser: fix host expat paths
-47644ba46|George Sapkin|Wed Jul 30 16:54:03 2025 +0300|syncthing: fix discovery and relay extra args
-654fa2f5f|Gregory Gullin|Mon Aug 4 18:26:32 2025 +0300|sing-box: update to 1.12.0
-99f17e352|Bruce Chen|Wed Aug 6 18:57:59 2025 +0800|aliyun-cli: update to 3.0.294
-754a9908f|George Sapkin|Wed Mar 26 02:04:22 2025 +0200|adguardhome: run as an unprivileged user
-79f78c0e7|Petr Štetiar|Wed Aug 6 09:30:40 2025 +0000|kmod: fix build failure in install step over dirty build dir
-77783f970|Tianling Shen|Tue Aug 5 17:12:05 2025 +0800|cloudreve: Update to 4.4.0
+1dc51297e|Tianling Shen|Thu Aug 7 22:29:10 2025 +0800|cloudreve: Update to 4.4.1
+3d76208b4|Thibaut VARÈNE|Thu Aug 7 10:37:21 2025 +0200|uspot: update to Git HEAD (2025-08-07)
+51e254cc2|Ian Ladd|Fri Jul 4 10:12:45 2025 -0400|ulogd: bump to version 2.0.9
 </details>

@@ -2,25 +2,27 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-4bb45894a|Tianling Shen|Wed Aug 6 21:30:49 2025 +0800|lua-periphery: update mirror hash
-b15aa99fb|Tianling Shen|Wed Aug 6 21:27:15 2025 +0800|mwol: drop legacy package
-c20907356|Tianling Shen|Wed Aug 6 21:21:28 2025 +0800|dns-forwarder: drop legacy package
-13464adc2|Tianling Shen|Wed Aug 6 21:18:26 2025 +0800|njit8021xclient: update mirror hash
-07b725ac1|Tianling Shen|Wed Aug 6 21:16:06 2025 +0800|scutclient: switch to codeload
-18d61d031|Tianling Shen|Wed Aug 6 21:12:49 2025 +0800|mentohust: fix mirror hash
-e79f47a55|Tianling Shen|Wed Aug 6 20:58:38 2025 +0800|antileech: bump to latest git HEAD
-2069e2fc3|Tianling Shen|Wed Aug 6 20:49:16 2025 +0800|rapidjson: bump to latest git HEAD
-1b38c59a1|Tianling Shen|Wed Aug 6 20:46:55 2025 +0800|oscam: bump to latest git HEAD
-a81f3e04b|Tianling Shen|Wed Aug 6 20:40:32 2025 +0800|quickjspp: refresh patches
-b908a9e80|Tianling Shen|Wed Aug 6 20:39:23 2025 +0800|redsocks2: Update to 0.71
-23f06a217|Tianling Shen|Wed Aug 6 20:29:42 2025 +0800|tcpping: drop legacy package
-ffd6656c5|Tianling Shen|Wed Aug 6 20:27:18 2025 +0800|go-nats: update mirror hash
-4d036ca92|Tianling Shen|Wed Aug 6 20:22:51 2025 +0800|tcping-simple: drop legacy package
-5f6258330|Tianling Shen|Wed Aug 6 20:14:28 2025 +0800|tinyfecvpn: Update to 20230206.0
-23703e83b|Tianling Shen|Wed Aug 6 19:53:14 2025 +0800|libcron: update mirror hash
-b40b1254b|Tianling Shen|Wed Aug 6 19:51:50 2025 +0800|quickjspp: update mirror hash
-a88dd6bd1|Tianling Shen|Wed Aug 6 19:46:41 2025 +0800|ngrokc: update mirror hash
-8765e4e43|Tianling Shen|Wed Aug 6 19:40:37 2025 +0800|sub-web: bump to latest git HEAD
-fe5e700cf|Tianling Shen|Wed Aug 6 19:23:48 2025 +0800|fan2go: allow create /etc/sensors3.conf in buildroot
-023ba72d3|mitsukileung|Wed Aug 6 14:07:43 2025 +0800|alac: fix mirror hash
+497ee62eb|Tianling Shen|Thu Aug 7 22:26:00 2025 +0800|Merge Official Source
+51e254cc2|Ian Ladd|Fri Jul 4 10:12:45 2025 -0400|ulogd: bump to version 2.0.9
+1959922b7|Tianling Shen|Thu Aug 7 01:54:35 2025 +0800|Node.js: sync with upstream source
+d791c150f|Rosen Penev|Sun Jul 27 21:12:33 2025 -0700|perl-xml-parser: fix host expat paths
+47644ba46|George Sapkin|Wed Jul 30 16:54:03 2025 +0300|syncthing: fix discovery and relay extra args
+654fa2f5f|Gregory Gullin|Mon Aug 4 18:26:32 2025 +0300|sing-box: update to 1.12.0
+99f17e352|Bruce Chen|Wed Aug 6 18:57:59 2025 +0800|aliyun-cli: update to 3.0.294
+754a9908f|George Sapkin|Wed Mar 26 02:04:22 2025 +0200|adguardhome: run as an unprivileged user
+79f78c0e7|Petr Štetiar|Wed Aug 6 09:30:40 2025 +0000|kmod: fix build failure in install step over dirty build dir
+77783f970|Tianling Shen|Tue Aug 5 17:12:05 2025 +0800|cloudreve: Update to 4.4.0
+0934d8624|Wesley Gimenes|Tue Aug 5 14:14:55 2025 -0300|CONTRIBUTING.md: accept only real names in the SoB
+e9861d554|S. Brusch|Tue Aug 5 16:23:24 2025 +0000|crowdsec-firewall-bouncer: update to 0.0.34
+b8fa68109|Stan Grishin|Tue Aug 5 03:05:53 2025 +0000|adblock-fast: bugfixes: status & TLD check with unbound
+810341cf3|George Sapkin|Thu May 8 16:42:42 2025 +0300|sqlite3: bump to 3.50.4
+5b8e0fd46|George Sapkin|Sat May 10 22:23:39 2025 +0300|sqlite3: require matching lib version in shell
+d066a4d04|George Sapkin|Thu May 8 23:24:50 2025 +0300|sqlite3: fix CI test
+682b773a2|Bruce Chen|Tue Aug 5 10:45:29 2025 +0800|aliyun-cli: update to 3.0.292
+1f4064269|Tianling Shen|Tue Aug 5 14:50:04 2025 +0800|openlist: Update to 4.1.0
+aed04bda1|Tianling Shen|Tue Aug 5 14:49:41 2025 +0800|xray-core: Update to 25.8.3
+65a9d7d45|Qian Suyao|Thu Jul 10 23:05:58 2025 +0800|ddns-scripts: fix getting IP address via web in get_current_ip()
+ac1076ef9|Dirk Brenken|Mon Aug 4 20:53:01 2025 +0200|banIP: update 1.5.6-7
+08e4df89b|Jan Hák|Mon Aug 4 15:28:11 2025 +0200|knot: update to version 3.4.8
+d4d34ef8f|Florian Eckert|Mon Aug 4 08:54:49 2025 +0200|mwan3: remove Aaron Goodman as PKG_MAINTAINER
 </details>

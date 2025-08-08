@@ -2,6 +2,7 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-793dc2579b|Tianling Shen|Wed Aug 6 21:28:08 2025 +0800|luci-app-mwol: drop legacy package
-14ea92e1a8|Tianling Shen|Wed Aug 6 18:46:58 2025 +0800|treewide: replace var with let
+a8e811dc88|Tianling Shen|Thu Aug 7 16:32:11 2025 +0800|luci-app-udp2raw: drop legacy package
+47d3d4db71|Tianling Shen|Thu Aug 7 16:31:29 2025 +0800|luci-app-speederv2: drop legacy package
+e00d9683d2|Tianling Shen|Thu Aug 7 16:31:01 2025 +0800|luci-app-kcptun: drop legacy package
 </details>
