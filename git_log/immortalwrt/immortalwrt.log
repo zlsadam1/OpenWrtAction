@@ -2,29 +2,22 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-7dad9c3d7e|Tianling Shen|Thu Aug 7 22:15:46 2025 +0800|Merge Official Source
-6473e3ed5e|Harshal Gohel|Tue Apr 8 10:46:15 2025 +0000|realtek: rtl931x: Fix link status get not fetching correct status
-445af8c038|Harshal Gohel|Thu Mar 6 07:47:18 2025 +0000|realtek: rtl930x: Fetch link status for all ports in switch IRQ
-9ccfca3303|Harshal Gohel|Mon Jul 14 10:37:28 2025 +0200|realtek: dsa: enhance pcs_get_state() for RTL93xx
-2645c4afbb|Harshal Gohel|Thu Jul 3 13:28:22 2025 +0000|realtek: rtl93xx: Do not use media register to get link status
-71c85bd88a|Felix Fietkau|Thu Aug 7 15:44:56 2025 +0200|procd: update to Git HEAD (2025-08-07)
-4880e8e338|Steve Wavler|Sun Aug 3 15:59:16 2025 -0400|x86: add board mapping for Sophos XG 210r3
-2c3b1f41d9|Steve Wavler|Sun Aug 3 09:02:55 2025 -0400|kernel: Add kmod-sfc-siena for Solarflare SFN5000/6000 series NICs
-17822d5d18|Markus Stockhausen|Sun Aug 3 11:05:36 2025 -0400|realtek: use consistent definition in DTS for SFP(+) ports
-a0e3998b48|Aleksander Jan Bajkowski|Mon Aug 4 15:35:47 2025 +0200|lantiq: replace patches with upstream version
-03542312f7|Rosen Penev|Mon Dec 16 16:55:55 2024 -0800|lantiq: use nvmem for bthomehub v5a
-fcc48204d2|Rosen Penev|Sun Feb 9 16:52:51 2025 -0800|ltq-ptm: add NVMEM MAC support
-77132c2fc1|Ondrej Kolar|Fri Aug 1 15:12:39 2025 +0200|kernel/modules: add MCP342x I2C ADCs kernel module support
-2c501d9db9|Markus Stockhausen|Mon Aug 4 15:34:23 2025 -0400|realtek: rtl930x: convert Hasivo S1100W to lzma only.
-2a9f0db76f|Jan Hoffmann|Sat Aug 2 20:31:39 2025 +0200|realtek: extend SoC information
-368dab7c7a|Jan Hoffmann|Tue Aug 5 02:41:32 2025 +0200|realtek: move and clean up CHIP_INFO register definitions
-d469690b83|Jan Hoffmann|Sat Aug 2 20:28:50 2025 +0200|realtek: simplify SoC detection
-6014be3f0f|Felix Fietkau|Wed Aug 6 12:29:03 2025 +0200|netifd: update to Git HEAD (2025-08-06)
-f10732fb56|Felix Fietkau|Wed Aug 6 11:09:57 2025 +0200|mac80211: estimate expected throughput if not provided by driver/rc
-1e84b91634|Felix Fietkau|Mon Aug 4 19:19:29 2025 +0200|mac80211: backport upstream fixes
-bd861f05cc|Jonas Jelonek|Mon Aug 4 09:17:55 2025 +0000|realtek: use lzma recipe for TP-Link TL-ST1008F v2.0
-e0ba4cf086|Markus Stockhausen|Mon Aug 4 09:52:54 2025 -0400|realtek: rtl930x: move serdes functions over to mdio bus
-6719bf5672|Nick Hainke|Tue Aug 5 18:21:55 2025 +0200|ead: replace legacy RETSIGTYPE with void in signal handler
-9d10907718|Aleksander Jan Bajkowski|Tue Aug 5 18:59:29 2025 +0200|lantiq: remove 6.6 support
-1ab585faf0|Aleksander Jan Bajkowski|Tue Aug 5 18:58:54 2025 +0200|lantiq: switch to kernel 6.12
+b1d8f36f6b|Tianling Shen|Fri Aug 8 16:22:25 2025 +0800|Merge Official Source
+56b083221f|Nick Hainke|Sun Aug 3 10:43:56 2025 +0200|strace: update to 6.15
+8a9b9e928e|Jan Taczanowski|Thu Jul 24 23:19:34 2025 +0200|mpc85xx: HPE MSM460 add HPE MSM430 alias
+cbc2cdbb80|Rani Hod|Sat Apr 19 19:44:02 2025 +0300|ramips: mt76x8: add support for Wodesys WD-R1208U
+4c4cecab2f|Harshal Gohel|Mon Jul 7 15:58:19 2025 +0000|realtek: rtl93xx: Add GPIO access register definitions
+92489f50c7|Sven Eckelmann|Wed Jan 29 19:23:33 2025 +0100|realtek: rtl931x: Fix size of TRK_MBR_CTRL group block
+62938204db|Harshal Gohel|Mon Jul 7 17:18:17 2025 +0000|realtek: rtl931x: Add smi_poll_ctrl
+56499702a3|Harshal Gohel|Mon Jul 14 11:11:47 2025 +0200|realtek: rtl931x: Sync family parameters with RTL930x
+e45d783bce|Harshal Gohel|Tue Jun 17 12:46:42 2025 +0000|realtek: rtl931x: Fix VLAN tagging and untagging
+536a25ebf8|Jiasheng Zhu|Thu Jul 24 21:09:30 2025 +0800|mediatek: add support for OpenFi 6C
+c65ae24cf1|Shiji Yang|Wed Jul 16 22:30:26 2025 +0800|uboot-envtools: ramips: add env config for SIM SIMAX1800U
+1199a7aad6|Shiji Yang|Wed Jul 16 22:30:26 2025 +0800|ramips: add support for SIM SIMAX1800U
+9ce23ac840|Felix Golatofski|Mon Aug 4 16:59:39 2025 +0200|ath79: fix LED GPIOs for COMFAST CF-EW71 v2
+feec7cf34d|Issam Hamdi|Thu Feb 20 16:06:00 2025 +0100|realtek: dsa: rtl83xx: flush scheduled work on removal
+0fa192a3a2|Andres Heinloo|Wed Aug 6 16:44:29 2025 +0200|kernel: Add kmod-w1-slave-ds2438
+68e5f46899|Konstantin Demin|Thu Jul 31 16:24:09 2025 +0300|dropbear: relax path permission checks for authorized keys
+27baa3c731|Konstantin Demin|Thu Jul 31 14:21:01 2025 +0300|dropbear: fix FTBFS when CONFIG_DROPBEAR_SVR_PUBKEY_OPTIONS is not enabled
+07b20b6d35|Konstantin Demin|Thu Jul 31 15:09:49 2025 +0300|dropbear: fix typos in path configuration
 </details>

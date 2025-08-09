@@ -2,7 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-1dc51297e|Tianling Shen|Thu Aug 7 22:29:10 2025 +0800|cloudreve: Update to 4.4.1
-3d76208b4|Thibaut VARÈNE|Thu Aug 7 10:37:21 2025 +0200|uspot: update to Git HEAD (2025-08-07)
-51e254cc2|Ian Ladd|Fri Jul 4 10:12:45 2025 -0400|ulogd: bump to version 2.0.9
+e09ffebce|Richard Muzik|Fri Jul 18 13:30:08 2025 +0200|python-twisted: Update to 25.5.0
 </details>
