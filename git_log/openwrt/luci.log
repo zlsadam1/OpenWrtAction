@@ -1,0 +1,9 @@
+<details> <summary> <b>luci new commit log :rocket: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+dbc8fed14a|Stan Grishin|Sat Aug 9 10:23:11 2025 -0700|Merge pull request #7893 from stangri/master-luci-app-https-dns-proxy
+8f9c6abde4|Stan Grishin|Sat Aug 9 10:23:03 2025 -0700|Merge pull request #7891 from stangri/master-luci-app-adblock-fast
+45e3d1ac19|Stan Grishin|Fri Aug 8 20:38:28 2025 +0000|luci-app-https-dns-proxy: update to 2025.05.11-4
+68a315f5ad|Stan Grishin|Fri Aug 8 08:57:49 2025 +0000|luci-app-adblock-fast: update to 1.1.4-6
+</details>
