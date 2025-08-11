@@ -1,0 +1,27 @@
+<details> <summary> <b>immortalwrt new commit log :rocket: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+bc9e90acc7|Tianling Shen|Sun Aug 10 19:27:00 2025 +0800|Merge Official Source
+551a6cef58|Til Kaiser|Tue Aug 5 15:56:16 2025 +0200|x86: add Minisforum MS-A2 Mini PC
+223c1de963|John Audia|Fri Aug 8 19:43:20 2025 -0400|openssl: update to 3.5.2
+07a04d8485|Markus Stockhausen|Wed Aug 6 06:42:00 2025 -0400|realtek: RTL930x: reorganize mdio functions and SerDes register layout
+7cf7f7c6b9|Markus Stockhausen|Thu Aug 7 02:11:51 2025 -0400|realtek: add NAND targets for RTL93xx
+7bc227b82d|Robert Marko|Fri Aug 8 14:31:18 2025 +0200|gcc: 15.x: update to 15.2
+aa0b5eb429|Felix Fietkau|Sun Aug 10 10:17:12 2025 +0200|wifi-scripts: ucode: fix unencrypted sta connection
+886c4f054e|Felix Fietkau|Sat Aug 9 16:47:45 2025 +0200|mac80211: fix division by zero in expected throughput estimation
+7df4f7d709|Felix Fietkau|Sat Aug 9 15:56:11 2025 +0200|rpcd: update to Git HEAD (2025-08-09)
+f650f2975c|Felix Fietkau|Sat Aug 9 09:24:42 2025 +0200|netifd: add missing dependencies
+3aee42001f|Felix Fietkau|Fri Aug 8 18:18:49 2025 +0200|wifi-scripts: add modular wps button handler scripts
+8eea855846|Markus Stockhausen|Wed Aug 6 01:54:29 2025 -0400|realtek: switch Zyxel GS1900 initramfs recipe to rt-loader
+ebee946227|Coia Prant|Sun Jan 26 03:40:58 2025 +0800|ramips: add support for Hongdian H7920 v40
+2fea2ede63|Andrii Kuiukoff|Sat Jul 26 16:34:22 2025 +0300|mediatek: add support for CreatLentem CLT-R30B1
+96be6d4f8a|Thomas Richard|Fri Jun 27 16:08:42 2025 +0200|kernel: usb: fix dependencies for kmod-cdns3 and kmod-cdns
+0546f8b74d|Thomas Richard|Fri Jun 27 10:28:08 2025 +0200|kernel: usb: kmod-usb-dwc3: add gadget and dual-role modes support
+0f782fc2e9|Thomas Richard|Fri Jun 27 15:59:22 2025 +0200|kernel: usb: fix dependencies for kmod-usb-roles package
+65aea930a5|Thomas Richard|Fri Jun 27 15:58:45 2025 +0200|kernel: usb: gadget drivers do not depend on usb host support
+defce7cefd|Thomas Richard|Tue Aug 5 09:32:48 2025 +0200|kernel: usb: add kmod-usb-common package
+5f06b8ebbc|Markus Stockhausen|Tue Aug 5 14:02:26 2025 -0400|realtek: dsa: rename tagged_ports to member_ports
+f6603de71d|Harshal Gohel|Tue Jul 15 20:05:41 2025 +0200|realtek: rtl93xx: Add learning and flooding enable/disable
+1a235a7f0b|Markus Stockhausen|Thu Jul 24 10:04:42 2025 -0400|mediatek: filogic: Add support for Wavlink WL-WN551X3
+</details>

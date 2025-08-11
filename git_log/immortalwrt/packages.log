@@ -1,0 +1,12 @@
+<details> <summary> <b>packages new commit log :rocket: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+25987cb69|Tianling Shen|Sun Aug 10 19:29:56 2025 +0800|Merge Official Source
+331c6bc7c|Michael Heimpold|Mon Jul 21 23:37:56 2025 +0200|php8: link PCRE2 JIT usage to actual library configuration
+0a0f2e884|John Audia|Wed Aug 6 04:44:53 2025 -0400|gperftools:  bump to version 2.17
+a162c5ddd|Richard Muzik|Mon Jul 21 09:47:37 2025 +0200|git: update to 2.50.1
+e09ffebce|Richard Muzik|Fri Jul 18 13:30:08 2025 +0200|python-twisted: Update to 25.5.0
+1dc51297e|Tianling Shen|Thu Aug 7 22:29:10 2025 +0800|cloudreve: Update to 4.4.1
+3d76208b4|Thibaut VARÈNE|Thu Aug 7 10:37:21 2025 +0200|uspot: update to Git HEAD (2025-08-07)
+</details>
