@@ -1,0 +1,9 @@
+<details> <summary> <b>luci new commit log :rocket: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+c376aa8d16|ZiMing Mo|Thu Aug 7 21:51:40 2025 +0800|luci-theme-argon: template: rewrite into ucode
+8d3ca290d9|Tianling Shen|Sun Aug 10 20:07:36 2025 +0800|luci-theme-argon: online_wallpaper: convert to ubus
+2d102d6520|msylgj|Mon Aug 11 18:42:59 2025 +0800|luci-app-argon-config: sync setting flag for online_wallpaper
+cdd4838d49|Tianling Shen|Mon Aug 11 18:29:15 2025 +0800|luci-theme-argon: add missing conffiles
+</details>
