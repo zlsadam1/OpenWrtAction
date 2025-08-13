@@ -2,21 +2,13 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-184bce22d6|Tianling Shen|Mon Aug 11 21:21:23 2025 +0800|Merge Official Source
-0724412c58|Markus Stockhausen|Tue Aug 5 11:46:40 2025 -0400|realtek: RTL838x harden ethernet driver against fuzzying
-6152381880|John Audia|Tue Jul 8 15:55:35 2025 -0400|linux-firmware: update to 20250808
-2876106eb4|Robert Marko|Mon Aug 11 12:16:18 2025 +0200|tools: bash: fix PKG_HASH
-382caacd2b|Tianling Shen|Mon Aug 11 16:56:57 2025 +0800|Merge Official Source
-e59635668d|Coia Prant|Fri Aug 8 14:39:03 2025 +0000|mediatek: remove loglevel in bootargs
-3e09991c07|Jan Hoffmann|Sat Aug 9 20:50:18 2025 +0200|realtek: switch Netgear NGE devices to rt-loader
-854d88be8a|Rui Salvaterra|Mon Jul 28 13:52:51 2025 +0100|toolchain: binutils: default to 2.44 and drop 2.40
-40203c5094|Rui Salvaterra|Sun Jul 27 12:13:48 2025 +0100|toolchain: binutils: add version 2.45
-9d852a05bd|ZiMing Mo|Sun Sep 29 21:41:31 2024 +0800|ppp: fix: get IPv6-PD fail while pppoe re-connect
-f21475839f|Markus Stockhausen|Sat Jul 19 16:14:28 2025 -0400|realtek: fix stall after restart of otto timer
-522294eeef|Harshal Gohel|Tue Jul 15 20:21:20 2025 +0200|realtek: rtl931x: Fix l2 fdb entry handling
-441b37e2db|Andrey Safonov|Wed Aug 6 23:47:28 2025 +0300|siflower: sf21: fix usb_vbus for Bananapi BPI-RV2
-73a0366e53|Andrey Safonov|Thu Aug 7 00:19:06 2025 +0300|siflower: sf21: fix M.2 power on Bananapi BPI-RV2
-08cc7e881e|Felix Fietkau|Sun Aug 10 18:48:46 2025 +0200|bridger: update to Git HEAD (2025-08-10)
-a4b8d80050|Harshal Gohel|Mon Jul 14 11:36:26 2025 +0200|realtek: rtl931x: Add missing rma_bpdu_fld_pmask
-743f2cd731|Harshal Gohel|Mon Jul 14 10:59:06 2025 +0200|realtek: rtl931x: Don't use RTL8xx port flooding initialization
+66e36c0762|Tianling Shen|Tue Aug 12 16:02:52 2025 +0800|Revert "sunxi: increase default boot partition to 32 MiB"
+2cd2a015e8|Tianling Shen|Tue Aug 12 16:02:35 2025 +0800|Merge Official Source
+3ded6d2716|Zoltan HERPAI|Mon Aug 4 09:00:25 2025 +0200|sunxi: enable ramdisk feature
+8abb6dbf0f|Zoltan HERPAI|Sun Aug 3 15:57:15 2025 +0200|sunxi: change target to use FIT kernel images
+d119f1b046|Michael Pratt|Fri Aug 8 01:27:08 2025 -0400|gettext-full: remove usage of autoreconf
+b6f67ca739|Michael Pratt|Tue Aug 5 18:52:13 2025 -0400|gettext-full: force compiling target in C23 standard
+4c0d64cb96|Michael Pratt|Fri Aug 8 01:23:34 2025 -0400|tools: libtool: always install all auxillary files
+a808086826|Michael Pratt|Fri Aug 8 00:58:56 2025 -0400|tools: gnulib: always use std-gnu23 module
+57bd20b390|Marko Mäkelä|Mon Aug 11 16:23:03 2025 +0300|qualcommax: ipq6018 rework nss_port5 clock to multiple conf
 </details>
