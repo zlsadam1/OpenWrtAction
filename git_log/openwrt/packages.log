@@ -2,7 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-e810f0afa|Stan Grishin|Sun Aug 10 01:41:34 2025 +0000|pbr: update to 1.1.8-34
-1e391d052|Alexandru Ardelean|Thu Aug 7 12:05:16 2025 +0300|sudo: bump to version 1.9.17p2
-39d0a49c0|Rosen Penev|Mon Aug 4 15:46:21 2025 -0700|tcpreplay: compile as gnu11
+0ec95bd1f|Tianling Shen|Mon Aug 11 20:23:18 2025 +0800|lttng-tools: fix build with libxml 2.14
+ba6ce219c|Alexandru Ardelean|Tue Mar 11 15:18:03 2025 +0200|openblas: bump to version 0.3.30
 </details>
