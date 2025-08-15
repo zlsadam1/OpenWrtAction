@@ -2,11 +2,12 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-4010984db9|Felix Fietkau|Wed Aug 13 17:08:27 2025 +0200|mt76: update to Git HEAD (2025-08-13)
-d0c64a162a|Jonas Jelonek|Sun Jul 27 13:39:26 2025 +0000|realtek: drop downstream rtl93xx i2c driver
-dc54af8639|Jonas Jelonek|Tue Jun 24 19:02:33 2025 +0000|realtek: adapt devices to backported i2c driver
-44655c97bb|Jonas Jelonek|Tue Jun 24 16:22:00 2025 +0000|realtek: backport upstream RTL9300 I2C driver
-e005cdea10|Felix Fietkau|Mon Aug 4 21:45:54 2025 +0200|mac80211: update to version 6.16
-d223d29feb|Felix Fietkau|Wed Aug 13 10:54:03 2025 +0200|wifi-scripts: ucode: get the phy capabilities for the correct band
-cc0ff28f23|Rosen Penev|Tue Aug 12 11:22:27 2025 -0700|mpc85xx: tl-wdr4900: add back 5ghz LED
+830cd4f64b|Ondrej Kolar|Tue Aug 12 09:09:34 2025 +0200|kernel/modules: add BQ32000 I2C RTC kernel module support
+2282377841|Tobias Waldvogel|Thu Aug 14 19:33:02 2025 +0200|wifi-scripts: Avoid syslog message variable data does not exist
+3ce8442576|Felix Fietkau|Thu Aug 14 19:12:32 2025 +0200|netifd: update to Git HEAD (2025-08-14)
+2f6c52009b|Felix Fietkau|Thu Aug 14 19:08:23 2025 +0200|uci: update to Git HEAD (2025-08-14)
+b1b15ae036|Felix Fietkau|Thu Aug 14 18:43:48 2025 +0200|mt76: update to Git HEAD (2025-08-14)
+6ae4115746|Felix Fietkau|Thu Aug 14 18:24:08 2025 +0200|wifi-scripts: ucode: fix setting supported/basic rates in config
+98435a37a7|Tobias Waldvogel|Thu Aug 14 10:09:58 2025 +0200|wifi-scripts: iface should be optional in wifi-vlan definition
+a15d07f74b|Markus Stockhausen|Wed Aug 13 14:16:19 2025 -0400|realtek: cleanup documentation
 </details>

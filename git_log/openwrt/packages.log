@@ -2,6 +2,20 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-0ec95bd1f|Tianling Shen|Mon Aug 11 20:23:18 2025 +0800|lttng-tools: fix build with libxml 2.14
-ba6ce219c|Alexandru Ardelean|Tue Mar 11 15:18:03 2025 +0200|openblas: bump to version 0.3.30
+05d604a9f|Christian Korber|Thu Aug 14 19:39:34 2025 +0200|packages/net-snmp: fix typo
+23646be59|Wei-Ting Yang|Thu Aug 14 16:23:53 2025 +0800|python-urllib3: update to 2.0.7
+3686cbe41|Josef Schlehofer|Thu Aug 14 13:59:52 2025 +0200|python3: update to version 3.11.13
+1afc4f543|Til Kaiser|Thu Aug 14 10:25:53 2025 +0200|mstflint: update to 4.33.0
+418131400|Liu Yu|Mon Aug 11 03:57:43 2025 +0900|kea: fix kea.init error handling
+ba33ab937|Liu Yu|Fri Aug 8 00:10:48 2025 +0900|kea: update to 2.6.4
+651d18f62|Tianling Shen|Thu Aug 14 21:07:33 2025 +0800|cloudflared: Update to 2025.8.0
+12738a8ee|Alexandru Ardelean|Wed Aug 13 17:43:38 2025 +0300|django: allow test.sh only for python3-django package
+52620adee|Alexandru Ardelean|Wed Aug 13 09:15:26 2025 +0300|python-requests: bump to version 2.32.4
+2c2c7a9de|Alexandru Ardelean|Wed Aug 13 09:08:43 2025 +0300|numpy: bump to version 2.3.2
+eecc9a97d|Alexandru Ardelean|Wed Aug 13 09:06:16 2025 +0300|django-restframework: bump to version 3.16.1
+0f0c757a6|Alexandru Ardelean|Thu Aug 7 11:53:01 2025 +0300|squashfs-tools: bump to version 4.7
+2749f0a3a|Bjørn Mork|Tue Aug 5 17:34:42 2025 +0200|dbus: fix ujail configuration
+8b84b03b9|Rosen Penev|Fri Aug 1 11:36:41 2025 -0700|gkrellmd: update to 2.4.0
+7648e2556|Rosen Penev|Fri Aug 1 16:14:24 2025 -0700|perl-file-rsyncp: update to 0.76
+79c293e91|Fabian Lipken|Mon Aug 11 11:27:46 2025 +0200|python-pycares: bump to 4.10.0
 </details>

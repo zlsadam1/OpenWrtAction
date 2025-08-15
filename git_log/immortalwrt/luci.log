@@ -1,0 +1,15 @@
+<details> <summary> <b>luci new commit log :rocket: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+cd5a9b4c54|Tianling Shen|Thu Aug 14 19:50:06 2025 +0800|Merge Official Source
+e484f9c7b6|Hosted Weblate|Wed Aug 13 12:27:36 2025 +0200|Translated using Weblate (Irish)
+d67736554a|Ferenc Géczi|Tue Aug 12 00:00:00 2025 +0000|luci-mod-dsl: fix typo on DSL spectrum page
+af2ca3d33f|Hannu Nyman|Sun Aug 10 23:37:38 2025 +0300|treewide: sync translations
+4afb8048d1|Hosted Weblate|Sun Aug 10 22:26:11 2025 +0200|Translated using Weblate (Russian)
+dbc8fed14a|Stan Grishin|Sat Aug 9 10:23:11 2025 -0700|Merge pull request #7893 from stangri/master-luci-app-https-dns-proxy
+8f9c6abde4|Stan Grishin|Sat Aug 9 10:23:03 2025 -0700|Merge pull request #7891 from stangri/master-luci-app-adblock-fast
+45e3d1ac19|Stan Grishin|Fri Aug 8 20:38:28 2025 +0000|luci-app-https-dns-proxy: update to 2025.05.11-4
+68a315f5ad|Stan Grishin|Fri Aug 8 08:57:49 2025 +0000|luci-app-adblock-fast: update to 1.1.4-6
+7e74171feb|Hosted Weblate|Tue Aug 5 17:26:01 2025 +0200|Translated using Weblate (Russian)
+</details>
