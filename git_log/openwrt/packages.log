@@ -2,8 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-ae8a2d515|Philip Prindeville|Fri Aug 8 21:48:06 2025 -0600|isc-dhcpd: quote filenames for safety
-824a344a4|Philip Prindeville|Sun Aug 3 19:40:44 2025 -0600|isc-dhcp: fix spacing on forced parameters
-a97218b6c|Philip Prindeville|Sat Jun 7 14:38:26 2025 -0600|isc-dhcp: distinguish between hexstrings and strings
-3d2a8e3f8|Philip Prindeville|Mon Aug 11 17:59:00 2025 -0600|isc-dhcp: clean up 'if' formatting
+8c2f7dc86|Rosen Penev|Thu Aug 14 13:27:53 2025 -0700|coova-chilli: fix compilation with GCC15
+aa34a4482|W. Michael Petullo|Fri Aug 15 16:46:30 2025 -0500|krb5: update to 1.22
+c79bed5fd|Eric Fahlgren|Fri Aug 15 18:31:27 2025 -0700|owut: update to 2025.08.15
+6d9d0d2bf|Wei-Ting Yang|Fri Aug 15 10:58:25 2025 +0800|python-certifi: update to 2025.8.3
+dc6724fca|Wei-Ting Yang|Fri Aug 15 11:11:42 2025 +0800|python-certifi: assign PKG_CPE_ID
 </details>
