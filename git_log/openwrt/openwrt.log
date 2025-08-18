@@ -1,0 +1,29 @@
+<details> <summary> <b>openwrt new commit log :rocket: </b>  </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+d72157f4e3|Thomas Richard|Thu Aug 14 17:03:04 2025 +0200|uboot-stm32: bump to 2025.07
+96e5e12d40|Thomas Richard|Thu Aug 14 17:00:32 2025 +0200|optee-os-stm32: bump to 4.7.0
+8a22855636|Pawel Dembicki|Sun Jun 8 13:51:07 2025 +0200|layerscape: add 6.12 testing kernel
+5bbb991f96|Pawel Dembicki|Sun Jun 8 13:49:31 2025 +0200|layerscape: 6.12: refresh kernel config
+5ca632e016|Pawel Dembicki|Sun Jun 8 12:52:10 2025 +0200|layerscape: kernel: 6.12: refresh patches
+f2a0b275c2|Pawel Dembicki|Sun Jun 8 10:40:24 2025 +0200|kernel/layerscape: Restore kernel files for v6.6
+c3a94894c9|Pawel Dembicki|Sun Jun 8 10:40:24 2025 +0200|kernel/layerscape: Create kernel files for v6.12 (from v6.6)
+d4ce853945|Pawel Dembicki|Sat Jun 21 07:41:46 2025 +0200|tfa-layerscape: Bump to lf-6.12.20-2.0.0
+c773c3f4d3|Pawel Dembicki|Sun Jun 8 16:36:31 2025 +0200|uboot-layerscape: bump to lf-6.12.20-2.0.0
+3930d2c44c|Pawel Dembicki|Sun Jun 8 16:29:27 2025 +0200|ppfe-firmware: Bump to lf-6.12.20-2.0.0
+430ad5dca4|Pawel Dembicki|Sun Jun 8 16:26:51 2025 +0200|ls-rcw: Bump to lf-6.12.20-2.0.0
+1beaad1c31|Pawel Dembicki|Sun Jun 8 16:18:15 2025 +0200|ls-ddr-phy: bump to lf-6.12.20-2.0.0
+3b73b15e2d|Pawel Dembicki|Sun Jun 8 16:14:40 2025 +0200|fman-ucode: Bump to lf-6.12.20-2.0.0
+1180dd6bf7|Rosen Penev|Wed Aug 13 16:34:05 2025 -0700|mt7621: zyxel nwa-ax: set mac address in dts
+ca6d648382|gongzi miao|Sat Aug 9 04:56:01 2025 +0800|ipset: update to 7.24
+992ca859e3|Markus Stockhausen|Thu Aug 14 07:21:39 2025 -0400|realtek: add RTL8231 driver configuration to kernel build
+9dbc04785c|Markus Stockhausen|Thu Aug 14 07:18:22 2025 -0400|realtek: add rtl8231-aux to rtl931x.dtsi
+2cb7044f79|Markus Stockhausen|Thu Aug 14 07:13:49 2025 -0400|realtek: rtl8231-aux: add RTL931x support
+5dbf55bebb|Markus Stockhausen|Fri Aug 15 12:16:39 2025 -0400|realtek: register ethernet device after NAPI context init
+9037f815ee|Markus Stockhausen|Thu Aug 14 01:40:06 2025 -0400|realtek: create central DTS macro include
+3491a4da6b|Goetz Goerisch|Thu Aug 14 13:45:07 2025 +0200|ipq40xx: remove 6.6 support
+750f2abd88|Goetz Goerisch|Thu Aug 14 13:36:41 2025 +0200|ipq40xx: switch to kernel 6.12
+899deae535|Felix Fietkau|Sun Aug 17 11:11:42 2025 +0200|udebug: update to Git HEAD (2025-08-17)
+4e9fbc75c7|Tianling Shen|Mon Aug 11 15:22:28 2025 +0800|tools/7z: update to 25.01
+</details>
