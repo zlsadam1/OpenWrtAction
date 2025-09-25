@@ -1,8 +1,5 @@
-<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+<details> <summary> <b>packages new commit log :x: </b> </summary>
 
-SHA|Author|Date|Message
--|-|-|-
-700b15230|John Audia|Tue Sep 2 06:58:47 2025 -0400|gperftools: update to 2.17.2
-db82803f6|John Audia|Wed Aug 6 04:44:53 2025 -0400|gperftools:  bump to version 2.17
-793ae0e87|Aleksey Vasilenko|Sat Aug 23 01:29:58 2025 +0300|bottom: update to 0.11.1
+<b> It is detected that packages has an illegal SHA value. It is possible that packages has git rebase behavior. The relevant git update log cannot be counted. Please wait for the next compilation time.</b>
+
 </details>
