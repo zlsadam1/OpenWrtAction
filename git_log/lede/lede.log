@@ -2,5 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
+800933e0b|Aleksander Jan Bajkowski|Mon Sep 22 19:53:29 2025 +0200|treewide: dts: fix typo "disabled"
 77eae4059|coolsnowwolf|Wed Sep 24 16:38:07 2025 +0800|generic: mtd: spinand: gigadevice: Add support for GD5F1GM9 chips for kernel 5.10
 </details>

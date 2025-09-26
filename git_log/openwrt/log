@@ -1,4 +1,4 @@
-openwrt:bb14c607a371adf6b79a6f17191429765956f113
+openwrt:406b980d97b5223e7d1158818d599ae007313280
 packages:
 luci:
 routing:
