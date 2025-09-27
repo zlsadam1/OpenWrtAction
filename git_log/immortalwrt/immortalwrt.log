@@ -1,0 +1,8 @@
+<details> <summary> <b>immortalwrt new commit log :rocket: </b> </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+8918fdf516|Tianling Shen|Fri Sep 26 21:42:14 2025 +0800|mediatek: reduce ddr3 frequency for cmmc rax3000me
+611bd69956|Tianling Shen|Fri Sep 26 21:48:29 2025 +0800|arm-trusted-firmware-mediatek: switch to use 1866MHz for mt7981-ram-ddr3
+cbd0f540cd|Tianling Shen|Fri Sep 26 21:40:59 2025 +0800|arm-trusted-firmware-mediatek: add 1866mhz ddr3 build for mt7981 emmc/spim-nand
+</details>
