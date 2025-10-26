@@ -2,11 +2,9 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-d8568263a|Tianling Shen|Tue Oct 21 13:52:54 2025 +0800|cloudreve: Update to 4.9.2
-1bc126120|Tianling Shen|Tue Sep 16 21:54:11 2025 +0800|cloudreve: Update to 4.8.0
-be6c2e14b|Tianling Shen|Fri Aug 22 17:22:33 2025 +0800|cloudreve: Update to 4.6.0
-98ff7a126|Tianling Shen|Thu Aug 7 22:29:10 2025 +0800|cloudreve: Update to 4.4.1
-021395495|Tianling Shen|Tue Aug 5 17:12:05 2025 +0800|cloudreve: Update to 4.4.0
-393d45de3|Tianling Shen|Tue Oct 21 13:49:06 2025 +0800|dos2unix: Update to 7.5.3
-d42abaeb2|Tianling Shen|Tue Oct 21 13:41:40 2025 +0800|openlist: Update to 4.1.5
+8dda4c85f|Eric Fahlgren|Fri Oct 24 14:54:24 2025 -0700|owut: update to 2025.10.24
+271029f67|Fabian Lipken|Mon Aug 11 09:47:18 2025 +0200|fx: update to 39.0.1
+81d40c53b|Fabian Lipken|Mon May 26 07:36:43 2025 +0200|fx: update to 36.0.3
+db7801ec3|Fabian Lipken|Fri May 16 18:10:39 2025 +0200|fx: update to 36.0.2
+fd188f0ae|Fabian Lipken|Tue May 13 10:22:02 2025 +0200|fx: update to 36.0.1
 </details>
