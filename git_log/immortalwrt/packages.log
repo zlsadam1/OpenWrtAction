@@ -2,18 +2,13 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-1f50c3f9a|George Sapkin|Sat Nov 8 15:59:34 2025 +0200|check-autorelease-deprecation: drop workflow
-6e96733db|Ray Wang|Wed Nov 5 21:06:26 2025 +0800|hev-socks5-server: update to 2.11.0
-eac899695|Ray Wang|Wed Nov 5 21:08:33 2025 +0800|hev-socks5-tproxy: update to 2.10.0
-84f89d13d|Ray Wang|Wed Nov 5 21:10:15 2025 +0800|hev-socks5-tunnel: update to 2.14.0
-a2b8a064c|George Sapkin|Thu Nov 6 01:13:18 2025 +0200|sqlite3: bump to 3.51.0
-414afefa1|Dirk Brenken|Fri Nov 7 17:29:02 2025 +0100|travelmate: update 2.2.1-5
-f1248cf64|Tianling Shen|Mon Sep 22 17:17:09 2025 +0800|btop: Update to 1.4.5
+79cee3305|Tianling Shen|Fri Nov 7 21:32:33 2025 +0800|Merge Official Source
 fab57696d|Dirk Brenken|Thu Nov 6 23:43:17 2025 +0100|travelmate: update 2.2.1-4
 bb17d880b|Peter van Dijk|Mon Aug 18 12:30:55 2025 +0200|pdns-recursor: security update to 5.1.8
 56ebb23ce|Anton P.|Sat Nov 1 23:15:27 2025 +0300|sing-box: update to 1.12.12
 89871b5db|Gagan Deep|Tue Nov 4 12:36:24 2025 +0000|openwisp-config: upgrade to 1.2.0
 ae100b215|Gagan Deep|Tue Nov 4 15:42:26 2025 +0000|openwisp-monitoring: upgrade to 0.3.0
+908f528ed|Tianling Shen|Wed Nov 5 22:06:07 2025 +0800|zerotier: fw4: fix generate forward rules
 f8c3a1fd9|Michael Heimpold|Sat Oct 25 13:45:22 2025 +0200|php8: update to 8.3.27
 1b990e991|Josef Schlehofer|Tue Oct 21 23:46:28 2025 +0200|python-setuptools: update to version 80.9.0
 45bfa5f87|Josef Schlehofer|Wed Oct 22 00:24:03 2025 +0200|python-wheel: update to 0.45.1
@@ -31,4 +26,11 @@ ecb4600c6|Josef Schlehofer|Wed Oct 29 07:48:02 2025 +0100|umurmur: move config f
 74c7b5523|Josef Schlehofer|Thu Oct 2 09:54:42 2025 +0200|ivykis: add new package
 9110dd9e2|Josef Schlehofer|Wed Oct 22 02:05:19 2025 +0200|python-build: update to version 1.3.0
 abf944ce4|Josef Schlehofer|Wed Oct 22 02:02:40 2025 +0200|python-flit-core: update to version 3.12.0
+83e0be6d3|ImmortalWrt AutoUpdate Bot|Tue Oct 28 03:49:19 2025 +0800|sing-box: Update to 1.12.12
+f7fbc5f98|Tianling Shen|Tue Oct 28 03:53:08 2025 +0800|Merge Official Source
+8dda4c85f|Eric Fahlgren|Fri Oct 24 14:54:24 2025 -0700|owut: update to 2025.10.24
+271029f67|Fabian Lipken|Mon Aug 11 09:47:18 2025 +0200|fx: update to 39.0.1
+81d40c53b|Fabian Lipken|Mon May 26 07:36:43 2025 +0200|fx: update to 36.0.3
+db7801ec3|Fabian Lipken|Fri May 16 18:10:39 2025 +0200|fx: update to 36.0.2
+fd188f0ae|Fabian Lipken|Tue May 13 10:22:02 2025 +0200|fx: update to 36.0.1
 </details>

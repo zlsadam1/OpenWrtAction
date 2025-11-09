@@ -1,0 +1,12 @@
+<details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+aa03dfeb96|Hang Zhou|Fri Oct 24 07:21:21 2025 +1100|bmips: fix leds on f@st3864op
+a38b0c94dd|Andreas Gnau|Fri Oct 3 10:59:42 2025 +0200|tools/ccache: same behaviour for local and CI builds
+99e62c21c6|Robert Marko|Wed Apr 23 14:18:48 2025 +0200|mold: dont allow on MacOS
+984a219781|Zxl hhyccc|Fri Oct 24 23:56:59 2025 +0800|kernel: bump 6.6 to 6.6.114
+8d90e178b1|Zxl hhyccc|Mon Oct 20 22:57:35 2025 +0800|kernel: bump 6.6 to 6.6.113
+5902917588|Zxl hhyccc|Sat Oct 18 01:55:10 2025 +0800|kernel: bump 6.6 to 6.6.112
+630354031a|Zxl hhyccc|Sat Oct 18 00:24:09 2025 +0800|kernel: bump 6.6 to 6.6.111
+</details>
