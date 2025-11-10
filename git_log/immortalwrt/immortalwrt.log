@@ -2,36 +2,8 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-2134f087eb|Tianling Shen|Sat Nov 8 20:55:04 2025 +0800|rockchip: drop wpad-openssl for xiguapi v3
-fc0a3d9051|Tianling Shen|Fri Nov 7 22:31:59 2025 +0800|Merge Official Source
-6f9e182236|kcro227|Wed Nov 5 16:17:37 2025 +0000|rockchip: mod NLnet XiGuaPi V3 DEVICE_PACKAGES
-aa03dfeb96|Hang Zhou|Fri Oct 24 07:21:21 2025 +1100|bmips: fix leds on f@st3864op
-a38b0c94dd|Andreas Gnau|Fri Oct 3 10:59:42 2025 +0200|tools/ccache: same behaviour for local and CI builds
-df010ea69f|Tianling Shen|Tue Nov 4 16:11:58 2025 +0800|kernel: remove QE bit on unsupported chips for FudanMicro flash
-99e62c21c6|Robert Marko|Wed Apr 23 14:18:48 2025 +0200|mold: dont allow on MacOS
-8f02d6d999|Tianling Shen|Sun Nov 2 22:40:27 2025 +0800|rockchip: move eMMC HS200 flag to device tree
-12a23b5bf0|Tianling Shen|Sun Nov 2 17:14:44 2025 +0800|fullconenat-nft: fix build with kernel 6.6.113
-b44e94aee4|Tianling Shen|Fri Oct 31 22:08:20 2025 +0800|Merge Official Source
-85479b71a0|Tianling Shen|Mon Oct 27 16:20:35 2025 +0800|rockchip: add PHY LED configuration for ninetripod x3568-v4
-81a9d40ed3|Tianling Shen|Sun Oct 26 20:07:35 2025 +0800|sunxi: switch to use upstream phy led binding for yt85xx
-39810a4b38|Tianling Shen|Sun Oct 26 19:49:13 2025 +0800|rockchip: switch to use upstream phy led binding for yt85xx
-3b35599397|Tianling Shen|Sun Oct 26 18:52:25 2025 +0800|kernel: backport PHY LEDs support for motorcomm PHY
-652f430238|Tianling Shen|Tue Oct 21 16:19:30 2025 +0800|rockchip: switch to use upstream dts for ariaboard photonicat
-8748e38bd7|Tianling Shen|Wed Oct 29 18:50:18 2025 +0800|rockchip: add wifi reload workaround for ninetripod x3568-v4
-984a219781|Zxl hhyccc|Fri Oct 24 23:56:59 2025 +0800|kernel: bump 6.6 to 6.6.114
-8d90e178b1|Zxl hhyccc|Mon Oct 20 22:57:35 2025 +0800|kernel: bump 6.6 to 6.6.113
-5902917588|Zxl hhyccc|Sat Oct 18 01:55:10 2025 +0800|kernel: bump 6.6 to 6.6.112
-630354031a|Zxl hhyccc|Sat Oct 18 00:24:09 2025 +0800|kernel: bump 6.6 to 6.6.111
-205e4f07bf|Tianling Shen|Tue Oct 28 16:39:20 2025 +0800|ImmortalWrt v24.10.4: revert to branch defaults
-6eaea72a2c|Tianling Shen|Tue Oct 28 16:39:19 2025 +0800|ImmortalWrt v24.10.4: adjust config defaults
-e717d133ed|Tianling Shen|Mon Oct 27 22:09:50 2025 +0800|ramips: switch to kmod-mmc-mtk for jdcloud re-sp-01b
-160f32284b|Tianling Shen|Sun Oct 26 22:32:37 2025 +0800|armbian-firmware: add nvram link for ninetripod x3568-v4
-e906244b34|Tianling Shen|Mon Aug 11 15:22:28 2025 +0800|tools/7z: update to 25.01
-aa4a9279fb|Shiji Yang|Thu Jul 10 20:02:24 2025 +0800|tools/7z: update to 25.00
-47cf38cde3|Shiji Yang|Wed Jun 4 20:23:03 2025 +0800|tools/7z: update to 24.09
-1a01e01b6e|Shiji Yang|Sat May 24 16:32:26 2025 +0800|ramips: dts: increase maximum MMC clock frequency
-3163a046dc|Shiji Yang|Fri Jun 13 21:36:16 2025 +0800|ramips: mtk-sd: stability improvements for MIPS mt762x SoCs
-08404b3510|Shiji Yang|Fri Jun 13 21:05:31 2025 +0800|ramips: mtk-sd: backport Host Software Queue support
-6c5e81e53a|Shiji Yang|Sat May 24 16:31:07 2025 +0800|ramips: mtk-mmc: fix data timeout value
-a70f766f20|Shiji Yang|Tue May 20 07:50:56 2025 +0800|ramips: dts: adjust the power regulators of MMC controller
+bbe14eba18|Tianling Shen|Wed Oct 29 20:10:09 2025 +0800|kernel: drop motorcomm phy LED hack
+d6da24db8a|Tianling Shen|Sun Nov 9 21:23:56 2025 +0800|Merge Official Source
+9837ae4002|Goetz Goerisch|Wed Nov 5 12:17:27 2025 +0100|kernel: bump 6.6 to 6.6.116
+597598baa9|Goetz Goerisch|Thu Oct 30 12:42:23 2025 +0100|kernel: bump 6.6 to 6.6.115
 </details>

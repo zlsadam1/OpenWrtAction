@@ -2,35 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-79cee3305|Tianling Shen|Fri Nov 7 21:32:33 2025 +0800|Merge Official Source
-fab57696d|Dirk Brenken|Thu Nov 6 23:43:17 2025 +0100|travelmate: update 2.2.1-4
-bb17d880b|Peter van Dijk|Mon Aug 18 12:30:55 2025 +0200|pdns-recursor: security update to 5.1.8
-56ebb23ce|Anton P.|Sat Nov 1 23:15:27 2025 +0300|sing-box: update to 1.12.12
-89871b5db|Gagan Deep|Tue Nov 4 12:36:24 2025 +0000|openwisp-config: upgrade to 1.2.0
-ae100b215|Gagan Deep|Tue Nov 4 15:42:26 2025 +0000|openwisp-monitoring: upgrade to 0.3.0
-908f528ed|Tianling Shen|Wed Nov 5 22:06:07 2025 +0800|zerotier: fw4: fix generate forward rules
-f8c3a1fd9|Michael Heimpold|Sat Oct 25 13:45:22 2025 +0200|php8: update to 8.3.27
-1b990e991|Josef Schlehofer|Tue Oct 21 23:46:28 2025 +0200|python-setuptools: update to version 80.9.0
-45bfa5f87|Josef Schlehofer|Wed Oct 22 00:24:03 2025 +0200|python-wheel: update to 0.45.1
-5c58c629c|Josef Schlehofer|Fri Oct 31 13:01:26 2025 +0100|strongswan: add build dependency for python and explicitly use python3
-1c13afebe|Josef Schlehofer|Wed Oct 22 01:50:30 2025 +0200|python-calver: update to version 2025.10.20
-c8941adc2|Josef Schlehofer|Wed Oct 22 00:05:35 2025 +0200|python-cython: update to version 3.1.5
-4da621cb2|Josef Schlehofer|Wed Oct 22 02:49:54 2025 +0200|bigclown-gateway: backport pending patch to fix JSON dumps
-f2f149b56|Josef Schlehofer|Wed Oct 22 02:48:47 2025 +0200|bigclown-gateway: update to version 1.17.0
-7113624af|Josef Schlehofer|Wed Oct 22 00:40:38 2025 +0200|python-markupsafe: update to version 3.0.3
-7877590b8|Josef Schlehofer|Tue Oct 21 23:42:45 2025 +0200|python-uci: drop patches due to newer setuptools
-5ea20ec4f|Josef Schlehofer|Tue Oct 21 23:30:19 2025 +0200|python3: update to version 3.11.4
-5b9624dc6|Josef Schlehofer|Thu Oct 30 10:04:23 2025 +0100|umurmur: Use example config and add own init script
-ecb4600c6|Josef Schlehofer|Wed Oct 29 07:48:02 2025 +0100|umurmur: move config file to its default location
-607aa2a4b|Josef Schlehofer|Tue Oct 28 11:42:28 2025 +0100|syslog-ng: add dependency for ivykis
-74c7b5523|Josef Schlehofer|Thu Oct 2 09:54:42 2025 +0200|ivykis: add new package
-9110dd9e2|Josef Schlehofer|Wed Oct 22 02:05:19 2025 +0200|python-build: update to version 1.3.0
-abf944ce4|Josef Schlehofer|Wed Oct 22 02:02:40 2025 +0200|python-flit-core: update to version 3.12.0
-83e0be6d3|ImmortalWrt AutoUpdate Bot|Tue Oct 28 03:49:19 2025 +0800|sing-box: Update to 1.12.12
-f7fbc5f98|Tianling Shen|Tue Oct 28 03:53:08 2025 +0800|Merge Official Source
-8dda4c85f|Eric Fahlgren|Fri Oct 24 14:54:24 2025 -0700|owut: update to 2025.10.24
-271029f67|Fabian Lipken|Mon Aug 11 09:47:18 2025 +0200|fx: update to 39.0.1
-81d40c53b|Fabian Lipken|Mon May 26 07:36:43 2025 +0200|fx: update to 36.0.3
-db7801ec3|Fabian Lipken|Fri May 16 18:10:39 2025 +0200|fx: update to 36.0.2
-fd188f0ae|Fabian Lipken|Tue May 13 10:22:02 2025 +0200|fx: update to 36.0.1
+2c2daa60e|Tianling Shen|Sun Nov 9 21:28:47 2025 +0800|naiveproxy: Update to 140.0.7339.123-3
+4d7bd2e9b|Tianling Shen|Sun Nov 9 21:25:03 2025 +0800|gn: update to Git HEAD (2025-11-07)
 </details>
