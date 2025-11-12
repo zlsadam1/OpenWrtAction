@@ -2,38 +2,6 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-ae51d0098e|Christian Marangi|Mon Nov 10 18:29:44 2025 +0100|airoha: refresh kernel patches
-2d05923d2e|Christian Marangi|Mon Nov 10 18:24:16 2025 +0100|airona: an7583: fix typo for CONFIG_PHY_AIROHA_USB
-81929a31af|Christian Marangi|Tue Nov 4 20:40:15 2025 +0100|airoha: replace PWM patch with upstream version
-b3e90139ce|Christian Marangi|Wed Oct 29 15:15:53 2025 +0100|airoha: backport minor fixes for NPU handling
-dcced671e2|Lorenzo Bianconi|Sun Oct 26 17:46:42 2025 +0100|airoha: Add missing board files for EN7581
-9d218f0853|Ziyang Huang|Mon Oct 20 23:10:19 2025 +0800|airoha: adjust and default the loadaddr
-e905c45b05|Christian Marangi|Tue Oct 28 13:19:24 2025 +0100|airoha: an7581: enable USB node on eMMC RFB board
-b5a66740c2|Christian Marangi|Tue Oct 28 13:17:38 2025 +0100|airoha: an7581: correctly attach the USB2 PHY for 3rd PCIe line
-64ad16e3ed|Christian Marangi|Tue Oct 28 13:16:18 2025 +0100|airoha: an7581: add USB nodes
-9aeda89c05|Christian Marangi|Tue Oct 28 13:14:56 2025 +0100|airoha: add pending patch for USB support on AN7581
-9097d73cbb|Christian Marangi|Mon Oct 27 11:08:46 2025 +0100|airoha: add nodes for 3rd PCIe line for AN7581
-7af48fdcd3|Christian Marangi|Fri Oct 24 12:16:11 2025 +0200|airoha: backport fix for Airoha offload support with airoha_hw_init fail
-518f3c6171|Christian Marangi|Fri Oct 24 12:15:27 2025 +0200|airoha: backport cleanup patch for Airoha Ethernet driver
-9babe16bd2|Christian Marangi|Fri Oct 24 11:48:13 2025 +0200|airoha: an7581: add Aeonsemi AS21xxx PHY to RFB eMMC board
-fda425adf4|Christian Marangi|Fri Oct 24 09:49:57 2025 +0200|airoha: an7581: add BL2 and BL31+U-Boot Artifacts for RFB board
-1f7de3311c|Christian Marangi|Thu Oct 23 16:52:53 2025 +0200|airoha: backport additional upstream patch for NPU support for AN7583
-4391bf8729|Christian Marangi|Thu Oct 23 16:23:42 2025 +0200|airoha: an7583: add NPU nodes and enable kernel config
-ed8ba06ced|Christian Marangi|Thu Oct 23 15:42:21 2025 +0200|airoha: an7583: drop bootloader artifacts entry and add default pkg
-89cee1bf3f|Christian Marangi|Thu Oct 23 15:38:36 2025 +0200|airoha: an7583: Add missing DTS for EMMC RFB board
-4d4fd4d125|Christian Marangi|Thu Oct 23 15:37:00 2025 +0200|airoha: an7583: add additional comments on EVB board
-262b537f48|Christian Marangi|Tue Oct 21 23:12:07 2025 +0200|airoha: backport upstream patch for AN7583 Ethernet support
-c56fbe156e|Aleksander Jan Bajkowski|Fri Sep 26 17:10:19 2025 +0200|airoha: fix scuclk node for an7581
-84944c0311|Chukun Pan|Tue Sep 9 23:06:02 2025 +0800|airoha: set default DEVICE_DTS/DEVICE_DTS_DIR
-0272d79e34|Christian Marangi|Fri Sep 26 04:55:19 2025 +0200|airoha: Introduce support for Airoha AN7583 SoC
-1181c031a0|Christian Marangi|Fri Sep 26 04:52:36 2025 +0200|airoha: en7581: Add pending ASOC driver
-48ec8469fd|Christian Marangi|Fri Sep 26 04:15:03 2025 +0200|airoha: en7581: Add support for external PHY
-8c5ad273b4|Aleksander Jan Bajkowski|Mon Sep 22 19:53:29 2025 +0200|airoha: en7581: dts: fix typo "disable"
-f364fe5e09|Aleksander Jan Bajkowski|Sun Sep 14 17:38:24 2025 +0200|airoha: an7581: enable uart baudrate control
-dc11868486|Christian Marangi|Mon Sep 8 20:22:09 2025 +0200|airoha: backport upstream fixes for pinctrl PHY LED and MDIO
-6a7b16e616|Christian Marangi|Mon Sep 1 18:30:27 2025 +0200|airoha: add NPU and reserved memory node for AN7581
-671f4d53ac|Christian Marangi|Mon Sep 1 18:24:57 2025 +0200|airoha: major backport of Airoha Ethernet driver feature support
-bac7ee02f9|Christian Marangi|Mon Sep 1 18:23:58 2025 +0200|airoha: backport trivial fixes for pinctrl and ethernet driver
-3b1fc6661a|Christian Marangi|Mon Sep 1 18:19:57 2025 +0200|airoha: backport patch adding support for AN7581 Ethernet PHY
-a6e8cbdf53|Christian Marangi|Sat Jul 5 12:44:03 2025 +0200|airoha: replace thermal patch with upstream version
+b01c68ddbd|Shiji Yang|Tue Nov 11 23:03:43 2025 +0200|ipq806x: migrate wifi configuration device paths for 6.12 kernel
+42ca1612a2|Shiji Yang|Tue Nov 11 23:02:22 2025 +0200|base-files: introduce a function to get kernel version number
 </details>
