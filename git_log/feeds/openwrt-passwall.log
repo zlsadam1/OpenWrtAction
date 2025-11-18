@@ -2,8 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-17eb46d|A-BO|Sun Nov 16 22:33:31 2025 +0800|luci: update default rules
-fb2c736|A-BO|Sun Nov 16 20:47:35 2025 +0800|luci: fix haproxy status
-8ed3e90|A-BO|Sun Nov 16 20:30:38 2025 +0800|luci: optimize
-646cddf|A-BO|Sun Nov 16 19:50:04 2025 +0800|luci: improve node list ui and toolbar styling
+e4da6b4|A-BO|Mon Nov 17 22:47:43 2025 +0800|luci: add udp remote dns support for xray/sing-box
 </details>
