@@ -2,5 +2,5 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-d6a876849|Internet1235|Wed Dec 3 11:16:56 2025 +0800|kernel: package kmod-drm-shmem-helper (#13825)
+dc762900b|Weikai Kong|Sat Mar 15 13:09:54 2025 -0400|target.mk: Fix features detection for PWM
 </details>
