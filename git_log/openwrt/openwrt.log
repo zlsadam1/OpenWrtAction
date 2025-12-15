@@ -1,0 +1,8 @@
+<details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+30b7a5f27a|Ayra Hikari|Thu Oct 30 19:08:50 2025 +0700|mediatek/filogic: fix Totolink X6000R sysupgrade failed
+8db7b6ff53|Ari Kurniawan|Mon Sep 15 20:13:29 2025 +0700|mediatek: filogic: add support for Totolink X6000R
+454fd69589|Hauke Mehrtens|Thu Dec 11 23:25:19 2025 +0100|mac80211: update to version 6.12.61
+</details>
