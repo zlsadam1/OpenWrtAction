@@ -1,0 +1,8 @@
+<details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+d9c5716d1d|Markus Petri|Thu Dec 4 21:28:51 2025 +0100|vrx518_tc: fix rx_len_adj
+e382fc552a|Hauke Mehrtens|Sat Oct 25 22:44:22 2025 +0200|wireless-regdb: Update to version 2025.10.07
+0f52a05723|Hauke Mehrtens|Wed Dec 17 00:41:30 2025 +0100|dropbear: backport security fixes
+</details>
