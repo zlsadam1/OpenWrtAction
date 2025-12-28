@@ -2,8 +2,7 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-b1d311a|A-BO|Fri Dec 26 00:19:23 2025 +0800|luci: escape html in group names for node_list
-70f8e6c|A-BO|Thu Dec 25 23:57:24 2025 +0800|luci: bump to 25.12.25 Merry Chrismas~!
-2dc70c8|A-BO|Thu Dec 25 23:55:49 2025 +0800|luci: sanitize group id in `listvalue` and `multivalue` template
-f51067b|A-BO|Thu Dec 25 11:04:55 2025 +0800|luci: optimize xray/sing-box user-agent settings
+8371a40|lwb1978|Sat Dec 27 23:45:36 2025 +0800|luci: optimize `listvalue` templates to adapt to some themes
+44526aa|zxl hhyccc|Sat Dec 27 14:11:09 2025 +0800|luci: fix clearing luci cache. (#4208)
+2991ae1|lwb1978|Sat Dec 27 13:43:10 2025 +0800|luci: optimize the experience of `listvalue` and `multivalue` templates on mobile devices
 </details>

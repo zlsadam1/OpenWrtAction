@@ -1,0 +1,6 @@
+<details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+b023a06cfb|Florian Maurer|Tue Dec 16 16:12:08 2025 +0100|ath79: cf-ew71-v2: set label-mac-device to eth1
+</details>

@@ -1,7 +1,0 @@
-<details> <summary> <b>luci new commit log :rocket: </b> </summary>
-
-SHA|Author|Date|Message
--|-|-|-
-f71b9385c8|Liangbin Lian|Thu Dec 25 12:58:32 2025 +0800|luci.mk: fix the rpcd reload command
-226faea3be|Paul Donald|Wed Dec 24 17:34:16 2025 +0100|luci-static: fix race condition when probing features
-</details>
