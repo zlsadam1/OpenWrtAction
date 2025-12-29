@@ -1,0 +1,7 @@
+<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+
+SHA|Author|Date|Message
+-|-|-|-
+db5674b7a|Josef Schlehofer|Sat Dec 6 14:39:03 2025 +0100|radicale: remove obsolete package
+489c5227d|Self-Hosting-Group|Thu Dec 18 00:00:00 2025 +0000|miniupnpd: update to 2.3.9 to fix issues, refresh building
+</details>
