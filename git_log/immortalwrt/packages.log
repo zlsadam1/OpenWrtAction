@@ -2,5 +2,17 @@
 
 SHA|Author|Date|Message
 -|-|-|-
-29073e51a|ImmortalWrt AutoUpdate Bot|Sun Dec 28 18:37:40 2025 +0800|sing-box: Update to 1.12.14
+9e1236ea0|Tianling Shen|Mon Dec 29 17:11:41 2025 +0800|Merge Official Source
+fac6812ee|Josef Schlehofer|Sat Dec 6 14:26:07 2025 +0100|python-sqlalchemy: update to version 2.0.35
+45a7df42d|Josef Schlehofer|Wed Dec 3 10:26:56 2025 +0100|python-pyopenssl: update to version 24.2.1
+739d60f49|Josef Schlehofer|Wed Dec 3 10:25:01 2025 +0100|python-pynacl: update to version 1.6.0
+c3dad539f|Josef Schlehofer|Wed Dec 3 10:23:19 2025 +0100|python-jinja2: update to version 3.1.4
+636eb9049|Josef Schlehofer|Wed Dec 3 10:19:54 2025 +0100|python-babel: update to version 2.15.0
+b7033c0b2|Josef Schlehofer|Wed Dec 3 10:16:35 2025 +0100|pillow: update to version 10.2.0
+db97af78f|Josef Schlehofer|Wed Dec 3 10:14:33 2025 +0100|python-werkzeug: update to version 2.3.8
+a4c022690|Josef Schlehofer|Wed Dec 3 10:12:53 2025 +0100|Flask: update to version 2.3.3
+a09779d22|Josef Schlehofer|Wed Dec 3 09:31:03 2025 +0100|python-markdown: update to version 3.7
+61d3d57a4|Josef Schlehofer|Tue Dec 2 13:58:37 2025 +0100|treewide: wheel names are in lowercase (PEP 625)
+db5674b7a|Josef Schlehofer|Sat Dec 6 14:39:03 2025 +0100|radicale: remove obsolete package
+489c5227d|Self-Hosting-Group|Thu Dec 18 00:00:00 2025 +0000|miniupnpd: update to 2.3.9 to fix issues, refresh building
 </details>
