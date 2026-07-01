@@ -28,7 +28,7 @@ fi
 rm -rf ./feeds/packages/net/open-app-filter
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.10.0.253/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 
 # Modify default passwd
 sed -i '/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF./ d' package/lean/default-settings/files/zzz-default-settings
