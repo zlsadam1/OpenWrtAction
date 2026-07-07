@@ -1,9 +1,0 @@
-<details> <summary> <b>packages new commit log :rocket: </b> </summary>
-
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/2ce5aea10d1aa12494e9c91f7c35c20c57aa439d...50ea41ea0b452da606048da92bfc832af5ca4599)  
-:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
-
-SHA|Author|Date|Message
--|-|-|-
-50ea41ea0|Thibaut VARÈNE|Tue Jun 30 10:44:41 2026 +0200|uspot: update to Git HEAD (2026-06-30)
-</details>
