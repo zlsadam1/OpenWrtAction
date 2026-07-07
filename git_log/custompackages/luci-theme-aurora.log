@@ -1,15 +1,11 @@
 <details> <summary> <b>luci-theme-aurora new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/3c3afcd7d37cfd842409a33cb7fdb751036b62f9...9cb8b1dc9fdfcababfd96d68d0ba044f2becf79c)  
+#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/9cb8b1dc9fdfcababfd96d68d0ba044f2becf79c...7ea3693b6362d5852d295c593d6f1921c65e32c4)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-9cb8b1d|Eamon|Tue Jul 7 00:24:19 2026 +0800|build: drop the remove-layers PostCSS pass, ship native @layer structure
-ac46144|eamonxg|Mon Jul 6 05:32:41 2026 +0800|agent: add theme performance skill
-5c9fd6b|Eamon|Sun Jul 5 11:40:35 2026 +0800|fix: crisp up light-mode neutrals and saturate the brand accent
-3c07a77|Eamon|Sat Jul 4 23:55:01 2026 +0800|feat: discover patches at render time, making patches/ a drop-in extension point
-ff8ba76|eamonxg|Fri Jul 3 01:14:49 2026 +0800|feat: expand mega-menu section icon map (#84)
-aecf9fa|eamonxg|Thu Jul 2 15:54:37 2026 +0800|perf: optimize mega-menu reveal and close animations (#83)
-2de5a76|Eamon|Thu Jul 2 10:33:08 2026 +0800|build: sync .ut files over ssh stdin instead of scp
+7ea3693|Eamon|Tue Jul 7 11:49:37 2026 +0800|chore: improve Vite HMR logs
+1d03479|Eamon|Tue Jul 7 10:09:22 2026 +0800|refactor: consume @eamonxg/aurora-tokens instead of in-tree token model
+336cddc|Eamon|Tue Jul 7 01:32:15 2026 +0800|build: zero-config dev environment and robust .ut template sync
 </details>
