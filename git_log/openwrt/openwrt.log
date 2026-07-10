@@ -1,0 +1,9 @@
+<details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/95e72dc9180d33334e026ae1a96a07e1b12237c2...ab08f6a5241d927e724d6de3f270aa2af173f13d)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+ab08f6a524|Rosen Penev|Thu Jul 2 14:53:21 2026 -0700|mac80211: ath9k: call reset on init
+</details>

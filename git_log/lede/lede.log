@@ -1,0 +1,10 @@
+<details> <summary> <b>lede new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/ad6a4eab7dbb8bb8b102ffba7a27007a969b84a6...03c6123bb4bde7b4a6389aaf9b1cf838290ea95f)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+03c6123bb|Felix Fietkau|Wed Jul 1 13:14:40 2026 +0200|mt76: update to Git HEAD (2026-07-01)
+a8d998876|computerqwq|Tue Jul 7 18:00:01 2026 +0800|amlogic: update dts path for OneCloud
+</details>
