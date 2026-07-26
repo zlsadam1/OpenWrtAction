@@ -31,7 +31,7 @@ clone_custom_packages () {
     git clone https://github.com/sirpdboy/luci-theme-kucat.git ${path}luci-theme-kucat
     git clone https://github.com/sirpdboy/luci-app-kucat-config.git ${path}luci-app-kucat-config
     git clone https://github.com/eamonxg/luci-theme-aurora.git ${path}luci-theme-aurora
-    git clone https://github.com/derisamedia/luci-theme-alpha-reborn.git ${path}luci-theme-alpha-reborn
+    git clone https://github.com/derisamedia/luci-theme-arwi.git ${path}luci-theme-arwi
     git clone https://github.com/derisamedia/luci-theme-alpha.git ${path}luci-theme-alpha
     git clone https://github.com/animegasan/luci-app-alpha-config.git ${path}luci-app-alpha-config
     git clone https://github.com/AngelaCooljx/luci-theme-material3.git ${path}luci-theme-material3
