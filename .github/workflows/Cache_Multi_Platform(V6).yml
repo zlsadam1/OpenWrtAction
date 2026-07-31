@@ -245,8 +245,8 @@ jobs:
           [ -e ${{ matrix.value.CONFIGS }}/${{ matrix.platform }}.config ] && cp -r ${{ matrix.value.CONFIGS }}/${{ matrix.platform }}.config openwrt/.config
           cd openwrt
           make defconfig
-          chmod +x ../diy_script/custom_compile_script.sh
-          source ../diy_script/custom_compile_script.sh
+          chmod +x $GITHUB_WORKSPACE/diy_script/custom_compile_script.sh
+          source $GITHUB_WORKSPACE/diy_script/custom_compile_script.sh
           install_rustdesk_server
 
       - name: Git Restore Mtime (True SSoT) And DL Restore Time
