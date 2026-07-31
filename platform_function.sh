@@ -385,8 +385,11 @@ Func_Defconfig(){
     rm -rf tmp/
     make defconfig | tee -a /home/${user_name}/${log_folder_name}/${folder_name}/Func_Main3_make_defconfig-git_log.log
 
-    source "/home/${user_name}/OpenWrtAction/diy_script/custom_compile_script.sh"
-    install_rustdesk_server
+    # 判定变量${openwrt_dir_front}等于openwrt，如果是openwrt则执行diy-part4.sh脚本，安装rustdesk-server
+    if [ "${openwrt_dir_front}" == "openwrt" ]; then
+        source "/home/${user_name}/OpenWrtAction/diy_script/openwrt_diy/diy-part4.sh"
+        install_rustdesk_server
+    fi
 
     cp -a /home/${user_name}/${openwrt_dir}/.config /home/${user_name}/${log_folder_name}/${folder_name}/.config_new
     diff /home/${user_name}/${log_folder_name}/${folder_name}/.config_old /home/${user_name}/${log_folder_name}/${folder_name}/.config_new -y -W 200 >/home/${user_name}/${log_folder_name}/${folder_name}/.config_diff
