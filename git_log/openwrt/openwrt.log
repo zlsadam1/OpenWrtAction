@@ -1,25 +1,25 @@
 <details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/0456d3d1c209f4e7b3ccb2a7cb0cc48606da26d9...4d0fec5a4845ba166203a782d08217b3f1cf2af9)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/4d0fec5a4845ba166203a782d08217b3f1cf2af9...9495b6e74aea9f56b1da345e26382fa37aef04f9)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-4d0fec5a48|Fil Dunsky|Fri May 1 10:05:22 2026 +0300|mediatek: cleanup Huasifei WH3000 / WH3000 Pro dts
-2a9a97a6ec|Fil Dunsky|Fri Apr 3 13:04:33 2026 +0300|mediatek: add support for Wavlink WL-WNT100X3 ubootmod
-ac12ba266e|Fil Dunsky|Fri Apr 3 12:44:50 2026 +0300|mediatek: add support for Wavlink WL-WNT100X3
-cedb1a8147|Hauke Mehrtens|Tue Jul 21 23:15:48 2026 +0200|mac80211: bump to version 6.18.39
-029fec8245|Hauke Mehrtens|Tue Jul 21 03:28:58 2026 +0200|rpcd: update to Git HEAD (2026-07-19)
-eae2afc352|Shine|Sun May 31 20:33:57 2026 +0200|scripts: dhcp: option to override preferred Client ID per interface
-da9b1abb5f|Hauke Mehrtens|Sun Jul 5 19:38:53 2026 +0200|wifi-scripts: restore priv_key/priv_key_pwd as config aliases
-d9a452e7cd|Hauke Mehrtens|Sun Jul 5 19:38:25 2026 +0200|wifi-scripts: ucode: fix EAP certificate constraint handling
-eca8636293|Hauke Mehrtens|Sun Jul 5 19:27:35 2026 +0200|wifi-scripts: ucode: fix EAP phase2 authentication method
-dd8cdc8a59|Hauke Mehrtens|Sat Jul 4 00:23:32 2026 +0200|wifi-scripts: ucode: add gcmp256 option, default GCMP-256 per WPA3 mode
-fdb8a8e5d1|Hauke Mehrtens|Sat Jul 4 00:23:32 2026 +0200|wifi-scripts: ucode: default the SAE-EXT-KEY AKM per WPA3 mode
-70e7f605cc|Hauke Mehrtens|Sun Jul 5 01:24:34 2026 +0200|wifi-scripts: ucode: only advertise GCMP-256 when the driver supports it
-311deeb644|Hauke Mehrtens|Tue Apr 21 00:12:50 2026 +0200|iw: backport scan print of RSN Element Override IEs
-e87d78b141|Hauke Mehrtens|Tue Apr 21 00:43:50 2026 +0200|iw: fix IW_FULL guards in size reduction patch
-2e905e0ca5|Hauke Mehrtens|Mon Apr 20 01:42:51 2026 +0200|wifi-scripts: ucode: default sae_groups to NIST ECP 19/20/21
+9495b6e74a|Christian Marangi|Thu Jul 30 15:53:31 2026 +0200|airoha: refresh patch after upstream patch backport
+7865e4bfae|Christian Marangi|Wed Jun 17 19:47:16 2026 +0200|airoha: replace multi serdes patch with upstream kernel version
+9e612796cd|Lorenzo Bianconi|Tue Jun 16 11:47:18 2026 +0200|airoha: introduce HW-GRO support
+2574384d6d|Lorenzo Bianconi|Sat May 30 09:44:49 2026 +0200|airoha: Fix max RX size configuration
+bfdda79bc2|Lorenzo Bianconi|Wed May 27 11:01:05 2026 +0200|airoha: apply minor fix for MTU and LRO for ethernet driver
+17c111aca9|Lorenzo Bianconi|Mon May 25 14:17:39 2026 +0200|airoha: Improve LRO performances
+beb5747f37|Christian Marangi|Fri May 22 12:41:54 2026 +0200|airoha: backport GDM2 loopback fixup for Ethernet driver
+9b5e071cbc|Lorenzo Bianconi|Tue May 19 19:54:25 2026 +0200|airoha: Do not allow to disable LRO if the QDMA is shared
+d0ee43721c|Lorenzo Bianconi|Mon May 18 16:00:40 2026 +0200|net: airoha: Introduce LRO TCP support for RX queues 19-12
+c3d9e1f345|Lorenzo Bianconi|Fri May 22 17:04:53 2026 +0200|airoha: Introduce support multi-serdes on the same GDM port
+6b3892c9d1|Lorenzo Bianconi|Wed Jun 24 17:20:54 2026 +0200|airoha: backport additional fixes for ethernet driver
+954e1f8632|Christian Marangi|Sat May 16 12:10:22 2026 +0200|airoha: backport upstream fix for Airoha reported bug for ethernet
+152b86e6ab|Florian Maurer|Mon Dec 29 01:30:27 2025 +0100|package: utils: umbim: add dns servers independent of peerdns
+75824a7524|Florian Maurer|Mon Dec 29 01:30:03 2025 +0100|package: utils: uqmi: add dns servers independent of peerdns
+5e8820fd2b|Tomáš Macholda|Tue Jul 7 17:47:52 2026 +0200|mvebu: turris-mox: fix USB2 detection
 
 
 </details>
