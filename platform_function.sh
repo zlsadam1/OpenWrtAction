@@ -385,6 +385,9 @@ Func_Defconfig(){
     rm -rf tmp/
     make defconfig | tee -a /home/${user_name}/${log_folder_name}/${folder_name}/Func_Main3_make_defconfig-git_log.log
 
+    source "/home/${user_name}/OpenWrtAction/diy_script/custom_compile_script.sh"
+    install_rustdesk_server
+
     cp -a /home/${user_name}/${openwrt_dir}/.config /home/${user_name}/${log_folder_name}/${folder_name}/.config_new
     diff /home/${user_name}/${log_folder_name}/${folder_name}/.config_old /home/${user_name}/${log_folder_name}/${folder_name}/.config_new -y -W 200 >/home/${user_name}/${log_folder_name}/${folder_name}/.config_diff
 

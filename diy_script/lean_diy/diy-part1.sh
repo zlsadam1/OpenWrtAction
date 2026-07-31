@@ -52,5 +52,3 @@ echo "Updated feeds.conf.default"
 # ---------------------------------------------------------------end feeds update---------------------------------------------------------------
 
 clone_custom_packages
-
-install_rustdesk_server
