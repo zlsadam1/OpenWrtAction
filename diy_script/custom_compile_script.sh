@@ -68,3 +68,4 @@ install_rustdesk_server() {
 
     echo "========== RustDesk Server 最新版 ($EXTRACT_DIR) 注入固件完成 =========="
 }
+
