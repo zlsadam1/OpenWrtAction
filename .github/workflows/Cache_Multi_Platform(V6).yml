@@ -35,7 +35,6 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_ARTIFACT: true
   UPLOAD_RELEASE: true
-  TZ: Asia/Shanghai
 
 jobs:
   job_init: 
@@ -67,7 +66,6 @@ jobs:
       - name: Init System
         id: init
         run: |
-          sudo timedatectl set-timezone "$TZ"
           sudo mkdir -p /workdir
           sudo chown -R $USER:$GROUPS /workdir
           cd /workdir
@@ -167,7 +165,6 @@ jobs:
       - name: Initialization Environment
         if: steps.matrix_status.outputs.status != 'success'
         run: |
-          sudo timedatectl set-timezone "$TZ"
           sudo mkdir -p /workdir
           sudo chown -R $USER:$GROUPS /workdir
           df -hT
@@ -192,7 +189,6 @@ jobs:
         run: |
           sudo -E apt-get -qq update
           sudo -E apt-get -qq install $(curl -fsSL https://github.com/smallprogram/OpenWrtAction/raw/main/diy_script/${{ matrix.source_code_platform }}_dependence)
-          sudo timedatectl set-timezone "$TZ"
 
       - name: Initialization Directory
         working-directory: /workdir
