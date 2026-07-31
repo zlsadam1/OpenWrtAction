@@ -53,8 +53,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          fetch-depth: 0
-          filter: 'blob:none'
           ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Read Platforms From File
@@ -86,8 +84,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          fetch-depth: 0
-          filter: 'blob:none'
           ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Clone Source Code
