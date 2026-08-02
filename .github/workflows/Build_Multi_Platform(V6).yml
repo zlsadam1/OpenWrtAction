@@ -430,11 +430,6 @@ jobs:
           [ -e ${{ matrix.value.CONFIGS }}/${{ matrix.platform }}.config ] && cp -r ${{ matrix.value.CONFIGS }}/${{ matrix.platform }}.config openwrt/.config
           cd openwrt
           make defconfig
-          if [[ "${{ matrix.source_code_platform }}" == "openwrt" ]]; then
-            chmod +x $GITHUB_WORKSPACE/diy_script/openwrt_diy/diy-part4.sh
-            source $GITHUB_WORKSPACE/diy_script/openwrt_diy/diy-part4.sh
-            install_rustdesk_server
-          fi
           
 
       - name: Git Restore Mtime (True SSoT) And DL Restore Time
@@ -661,6 +656,12 @@ jobs:
         run: |
           cd openwrt
           df -h
+
+          if [[ "${{ matrix.source_code_platform }}" == "openwrt" ]]; then
+            chmod +x $GITHUB_WORKSPACE/${{ matrix.value.DIY_P4_SH }} || true
+            source $GITHUB_WORKSPACE/${{ matrix.value.DIY_P4_SH }}
+            install_rustdesk_server
+          fi
           
 
           if [[ ${{ fromJSON(github.run_attempt) }} == 3 ]]; then

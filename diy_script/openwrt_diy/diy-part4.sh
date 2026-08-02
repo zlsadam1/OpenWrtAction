@@ -1,5 +1,5 @@
 #!/bin/bash
-# 该脚本会在make defconfig之后执行
+# 该脚本会在make编译之前执行
 
 # =================================================================
 # 函数: install_rustdesk_server
@@ -12,7 +12,7 @@ install_rustdesk_server() {
     # 1. 检查是否存在 .config 文件
     if [ ! -f "./.config" ]; then
         echo "错误：未找到 .config 文件，请确保在 OpenWrt 源码根目录且已执行 make defconfig！"
-        return 1
+        exit 1
     fi
 
     # 2. 设置临时目录与目标目录
@@ -24,13 +24,12 @@ install_rustdesk_server() {
     mkdir -p "${TMP_DIR}"
 
     # 3. 核心精髓：直接从 .config 提取最底层的架构名称
-    # 结果会是 x86_64, aarch64, arm, i386, mips 等
     local OPENWRT_ARCH
     OPENWRT_ARCH=$(grep "^CONFIG_ARCH=" ./.config | cut -d '"' -f 2)
     
     if [ -z "$OPENWRT_ARCH" ]; then
         echo "错误：无法从 .config 中读取 CONFIG_ARCH 变量！"
-        return 1
+        exit 1
     fi
     echo "检测到当前 OpenWrt 核心架构为: $OPENWRT_ARCH"
 
@@ -50,7 +49,7 @@ install_rustdesk_server() {
             ARCH_KEYWORD="linux-i386.zip"
             ;;
         *)
-            # 如果你编译了 MT7621 (mipsel) 或 AR9331 (mips)，RustDesk 是没包的
+            # 架构不支持时，安全跳过，不中断编译，使用 return 0
             echo "警告：RustDesk Server 官方暂不支持该架构 ($OPENWRT_ARCH)！"
             echo "跳过 RustDesk Server 的集成，不中断编译流程。"
             return 0 
@@ -69,15 +68,15 @@ install_rustdesk_server() {
 
     if [ -z "$TARGET_URL" ]; then
         echo "错误：未找到架构 [$ARCH_KEYWORD] 的下载链接，请检查网络或 GitHub API 限制！"
-        return 1 
+        exit 1 
     fi
     echo "匹配到下载链接: $TARGET_URL"
 
-    # 7. 下载并解压到临时目录
-    wget -qO "${TMP_DIR}/rustdesk-server.zip" "$TARGET_URL"
-    unzip -q "${TMP_DIR}/rustdesk-server.zip" -d "${TMP_DIR}"
+    # 7. 下载并解压到临时目录 (加入容错，防止静默崩溃)
+    wget -qO "${TMP_DIR}/rustdesk-server.zip" "$TARGET_URL" || { echo "错误：下载 RustDesk 失败！"; exit 1; }
+    unzip -q "${TMP_DIR}/rustdesk-server.zip" -d "${TMP_DIR}" || { echo "错误：解压 RustDesk 失败！"; exit 1; }
 
-    # 8. 彻底动态化：使用 find 查找文件，官方怎么乱给内部文件夹起名都不会报错
+    # 8. 彻底动态化：使用 find 查找文件
     local HBBS_PATH
     local HBBR_PATH
     HBBS_PATH=$(find "${TMP_DIR}" -type f -name "hbbs" | head -n 1)
@@ -86,16 +85,16 @@ install_rustdesk_server() {
     if [ -z "$HBBS_PATH" ] || [ -z "$HBBR_PATH" ]; then
         echo "错误：在解压目录中未能找到 hbbs 或 hbbr 文件！"
         ls -laR "${TMP_DIR}" # 打印目录结构方便排错
-        return 1
+        exit 1
     fi
 
     echo "成功提取文件:"
     echo "  -> $HBBS_PATH"
     echo "  -> $HBBR_PATH"
 
-    # 9. 拷贝并赋权
-    cp -f "$HBBS_PATH" "${FILES_DIR}/usr/bin/"
-    cp -f "$HBBR_PATH" "${FILES_DIR}/usr/bin/"
+    # 9. 拷贝并赋权 (加入容错)
+    cp -f "$HBBS_PATH" "${FILES_DIR}/usr/bin/" || { echo "错误：拷贝 hbbs 失败！"; exit 1; }
+    cp -f "$HBBR_PATH" "${FILES_DIR}/usr/bin/" || { echo "错误：拷贝 hbbr 失败！"; exit 1; }
 
     chmod +x "${FILES_DIR}/usr/bin/hbbs"
     chmod +x "${FILES_DIR}/usr/bin/hbbr"
