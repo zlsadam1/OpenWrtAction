@@ -1,0 +1,10 @@
+<details> <summary> <b>openwrt-passwall2 new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/5ef64bc0802924bc8fe2a0a06ce737dcb2905542...c1d3d4f0551d4f2f6b5fbb86b5ac8428af7853d2)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+c1d3d4f|garshany|Tue Aug 4 09:29:56 2026 +0300|luci: don't record a restart entry when the binary is missing (#1203)
+5b3ab64|garshany|Mon Aug 3 22:46:50 2026 +0300|luci-app-passwall2: fix hang on start with non-tty stdin (#1202)
+</details>

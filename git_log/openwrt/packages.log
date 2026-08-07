@@ -1,0 +1,16 @@
+<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/b49a19078c452f0616ac489ce063bf75f8d0425b...86c73a3c4aa9fec7a3d6f0a90192794c59093bca)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+86c73a3c4|Etienne Champetier|Thu Aug 6 20:49:31 2026 -0400|simple-captive-portal: update to 2026.08.06 / use port 80
+f39ad7f14|Andris PE|Mon May 18 18:00:25 2026 +0000|simple-captive-portal: order nft chains predictably
+da0b58341|Dirk Brenken|Thu Aug 6 21:26:44 2026 +0200|banip: report the last run timestamp as ISO 8601
+277ad304e|Dirk Brenken|Thu Aug 6 15:56:40 2026 +0200|travelmate: release 2.4.7-1
+9466674e5|Dirk Brenken|Wed Aug 5 18:27:10 2026 +0200|adblock: report the last run timestamp as ISO 8601
+cd7ba48b9|Hirokazu MORIKAWA|Sun Aug 2 10:01:48 2026 +0900|node: bump to 22.23.2
+b3f6f6e17|Hannu Nyman|Mon Aug 3 18:12:29 2026 +0300|nano: update to 9.2
+d0363b24f|Dirk Brenken|Sun Aug 2 20:32:12 2026 +0200|adblock: release 4.5.7-1
+</details>

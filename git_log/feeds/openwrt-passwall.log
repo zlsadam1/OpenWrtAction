@@ -1,9 +1,15 @@
 <details> <summary> <b>openwrt-passwall new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/37fa27540ed26caacc28a3a943f3e26e6687c7a4...b1bec1cf5b5e2ea858d60457ebe00c1388b6a55e)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/b1bec1cf5b5e2ea858d60457ebe00c1388b6a55e...3f8df5273b2066e19d87383e837c57df64d7dece)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-b1bec1cf|A-BO|Sat Aug 1 11:54:33 2026 +0800|luci: remove chinadns `chnlist-first` setting
+3f8df527|A-BO|Fri Aug 7 13:39:51 2026 +0800|luci: optimize dns related code
+0c986270|A-BO|Fri Aug 7 02:24:44 2026 +0800|luci: fixup in `iptables`
+08e44e62|A-BO|Fri Aug 7 01:49:05 2026 +0800|luci: optimize route rules for shunt node in gfw mode
+fbc8c1fb|A-BO|Tue Aug 4 23:35:43 2026 +0800|luci: fix translate
+c18815fc|A-BO|Tue Aug 4 22:28:04 2026 +0800|luciL: add anytls `client_metadata`
+c22d6752|A-BO|Tue Aug 4 14:32:13 2026 +0800|luci: skip start when binary is missing
+8cc915c9|A-BO|Tue Aug 4 14:05:07 2026 +0800|luci: fix hang on start with non-tty stdin
 </details>
