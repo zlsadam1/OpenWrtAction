@@ -1,16 +1,25 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/b49a19078c452f0616ac489ce063bf75f8d0425b...86c73a3c4aa9fec7a3d6f0a90192794c59093bca)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/86c73a3c4aa9fec7a3d6f0a90192794c59093bca...25b7a87f7c7c8d2be64cfb65cb67c475d4d6f500)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-86c73a3c4|Etienne Champetier|Thu Aug 6 20:49:31 2026 -0400|simple-captive-portal: update to 2026.08.06 / use port 80
-f39ad7f14|Andris PE|Mon May 18 18:00:25 2026 +0000|simple-captive-portal: order nft chains predictably
-da0b58341|Dirk Brenken|Thu Aug 6 21:26:44 2026 +0200|banip: report the last run timestamp as ISO 8601
-277ad304e|Dirk Brenken|Thu Aug 6 15:56:40 2026 +0200|travelmate: release 2.4.7-1
-9466674e5|Dirk Brenken|Wed Aug 5 18:27:10 2026 +0200|adblock: report the last run timestamp as ISO 8601
-cd7ba48b9|Hirokazu MORIKAWA|Sun Aug 2 10:01:48 2026 +0900|node: bump to 22.23.2
-b3f6f6e17|Hannu Nyman|Mon Aug 3 18:12:29 2026 +0300|nano: update to 9.2
-d0363b24f|Dirk Brenken|Sun Aug 2 20:32:12 2026 +0200|adblock: release 4.5.7-1
+25b7a87f7|Richard Muzik|Tue Jun 30 11:17:01 2026 +0200|transmission: update to version 4.1.3
+4e6946299|hingbong|Sat May 30 04:54:07 2026 +0000|rust: update to 1.96.0
+ae448b9e3|Josef Schlehofer|Mon Aug 10 10:46:16 2026 +0200|librespeed-cli: update to 1.0.13
+04a736ba4|Niklas Thorild|Mon Aug 10 23:27:29 2026 +0200|telegraf: update to 1.39.3
+d2236f370|Josef Schlehofer|Mon Aug 10 04:07:12 2026 +0200|librespeed-cli-rust: add new package
+5b3f98094|Daniel F. Dickinson|Sat Aug 8 18:09:46 2026 -0400|radicale3: bump to v3.7.8
+5bae464e3|Daniel F. Dickinson|Mon Jul 20 23:47:45 2026 -0400|radicale3: bump version to v3.7.7
+b003ac1d5|Sander van Deijck|Mon Aug 10 14:36:39 2026 +0200|openvpn: update to 2.7.6
+be41c07e4|Sander van Deijck|Mon Aug 10 14:33:13 2026 +0200|ovpn-dco: update to version 7.1.0.2026080300
+4c9742083|Dirk Brenken|Mon Aug 10 19:35:56 2026 +0200|banip: fix cpu core calculation
+6a6240d78|Dirk Brenken|Mon Aug 10 19:15:09 2026 +0200|adblock: fix cpu core calculation
+b13be99a2|Ray Wang|Fri Aug 7 13:32:05 2026 +0800|hev-socks5-server: update to 2.13.0
+a6b11e27b|Ray Wang|Fri Aug 7 13:32:16 2026 +0800|hev-socks5-tproxy: update to 2.13.0
+80610e3f1|Ray Wang|Wed Jul 22 20:07:08 2026 +0800|hev-socks5-tproxy: update to 2.12.0
+a1f98397d|Ray Wang|Fri Aug 7 13:32:21 2026 +0800|hev-socks5-tunnel: update to 2.17.0
+
+
 </details>
