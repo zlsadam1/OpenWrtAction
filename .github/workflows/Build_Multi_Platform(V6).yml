@@ -24,6 +24,8 @@ on:
         required: false
         type: boolean
         default: false
+  schedule:
+    - cron: 0 19 */5 * *
 
 permissions:
   contents: write
