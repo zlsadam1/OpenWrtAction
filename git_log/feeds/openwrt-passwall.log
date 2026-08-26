@@ -1,25 +1,9 @@
 <details> <summary> <b>openwrt-passwall new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/98896d195d30a677fec761ce8507461027f91e70...f2330bb1f9201fa0eee4369121ae35a9e35e0135)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/f2330bb1f9201fa0eee4369121ae35a9e35e0135...04bf780db869e23082496f98cc648e5967b9a6d9)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-f2330bb1|David Mandy|Wed Aug 26 16:21:50 2026 +0800|luci: Fixed an issue with refreshing server-side firewall rules
-548a6e45|A-BO|Wed Aug 26 00:33:15 2026 +0800|luci: 26.8.26
-0be900dd|A-BO|Wed Aug 26 00:28:40 2026 +0800|luci: optimize dnsmasq
-78aed603|A-BO|Tue Aug 25 11:34:52 2026 +0800|luci: fix socks
-68b91e0c|A-BO|Tue Aug 25 01:44:03 2026 +0800|luci: optimize socks node
-cfab3756|David Mandy|Mon Aug 24 23:26:28 2026 +0800|luci: fixed the issue where the server-side firewall was not refreshing. Signed-off-by: David Mandy <smallprogramzhusir@gmail.com>
-ec2b4e58|A-BO|Mon Aug 24 22:29:54 2026 +0800|luci: code format
-8b66690f|A-BO|Mon Aug 24 20:59:54 2026 +0800|luci: normalize text files to LF
-56a4939c|A-BO|Mon Aug 24 20:52:14 2026 +0800|luci: add .gitattributes
-5e207af8|A-BO|Mon Aug 24 16:43:42 2026 +0800|luci: fixup
-7ef73f08|A-BO|Sun Aug 23 21:54:58 2026 +0800|luci: server: use UCI config instead of firewall rules
-bc835e92|A-BO|Sun Aug 23 21:17:32 2026 +0800|luci: compatible with some themes
-c83f0431|A-BO|Sun Aug 23 20:23:44 2026 +0800|luci: optimize socks list status display
-7f44fe7a|A-BO|Sun Aug 23 16:43:00 2026 +0800| luci: adjust code
-c89cec73|A-BO|Sun Aug 23 16:16:55 2026 +0800|luci: fix when routing rules is null
-
-
+04bf780d|A-BO|Thu Aug 27 01:04:06 2026 +0800|luci: improved js luci logic
 </details>
