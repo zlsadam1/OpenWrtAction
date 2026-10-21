@@ -1,13 +1,15 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/packages/compare/7932e2af2573b98932fa3aa7d3f3129fbe7fa5de...d0f211716bf1f69f8a638b49023d2256749a1613)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/packages/compare/d0f211716bf1f69f8a638b49023d2256749a1613...ae3a5551ae44719062e728024f92db1d0dbd5fe0)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-d0f21171|coolsnowwolf|Fri Oct 16 16:33:03 2026 +0800|pon: import Airoha packages with conditional Linux 5.4 patches
-3ba0aeef|github-actions[bot]|Thu Oct 15 07:34:23 2026 +0000|ci: sync upstream packages
-3d95b298|github-actions[bot]|Wed Oct 14 03:06:16 2026 +0000|ci: sync upstream packages
-4c371ed4|coolsnowwolf|Wed Oct 14 11:05:52 2026 +0800|ci: add nikki to upstream package sync
-3cfeea42|coolsnowwolf|Tue Oct 13 19:38:55 2026 +0800|mwan3: retry disabled interfaces during startup
+ae3a5551|github-actions[bot]|Wed Oct 21 07:48:44 2026 +0000|ci: sync upstream packages
+6ca187cb|github-actions[bot]|Tue Oct 20 07:44:32 2026 +0000|ci: sync upstream packages
+37992e69|coolsnowwolf|Mon Oct 19 20:02:17 2026 +0800|luci-app-pon: add luci-app-iptv depend
+e91bf895|coolsnowwolf|Mon Oct 19 11:45:53 2026 +0800|luci-app-pon: add airoha-pon-debug depend by default
+db878c7c|coolsnowwolf|Sun Oct 18 22:21:40 2026 +0800|pon: clarify LOID status and retain OMCI parse error details
+2e083a2d|coolsnowwolf|Sun Oct 18 21:59:22 2026 +0800|pon: fix BSP EPON OAM FCS and CTC version negotiation
+0249bd55|coolsnowwolf|Sun Oct 18 14:02:43 2026 +0800|luci-app-pon: restore hardware identity menu marker at boot
 </details>

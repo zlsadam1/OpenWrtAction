@@ -1,24 +1,14 @@
 <details> <summary> <b>lede new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/d5ccef5f796981c79811f27722596173482a35e3...30169012ecc638da9a7ecde72037d624da67b131)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/30169012ecc638da9a7ecde72037d624da67b131...b941247a240b2e7e7e1245d96f09cd6605e779d1)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-30169012e|coolsnowwolf|Thu Oct 15 23:37:37 2026 +0800|dnsmasq: update to 2.93
-deb9903e2|coolsnowwolf|Thu Oct 15 23:20:07 2026 +0800|dnsmasq: use netlink for simple nftset address updates
-4ed9d50c0|coolsnowwolf|Thu Oct 15 23:19:11 2026 +0800|firewall4: fix undefined fullcone argument for IPv6 masquerading
-e2c1ff042|coolsnowwolf|Wed Oct 14 16:35:45 2026 +0800|linux-firmware: update to 20260910 and add RTL8261C firmware
-dcafc376a|coolsnowwolf|Tue Oct 13 19:27:50 2026 +0800|ipq-wifi: use zstd source archive
-6cec749dc|coolsnowwolf|Tue Oct 13 19:27:50 2026 +0800|ustream-ssl: use zstd source archive
-d56b61da8|coolsnowwolf|Tue Oct 13 19:27:50 2026 +0800|uclient: use zstd source archive
-a520c88ce|coolsnowwolf|Tue Oct 13 19:27:50 2026 +0800|hostapd: use zstd source archive
-ff7be3fa2|coolsnowwolf|Sun Oct 11 21:02:31 2026 +0800|tools: firmware-utils: update to Git HEAD (2026-09-30)
-ee9726bef|coolsnowwolf|Sun Oct 11 13:45:45 2026 +0800|ath10k-ct: fix fortify build error on Linux 6.6
-14ac60bd9|coolsnowwolf|Sun Oct 11 13:45:37 2026 +0800|ath79: fix builds with shared driver sources
-b50341874|DoveKi|Sun Oct 11 13:03:25 2026 +0800|mediatek: add stock layout support for Redmi Router AX6000 (#14212)
-d5ccef5f7|coolsnowwolf|Sun Oct 11 21:02:31 2026 +0800|tools: firmware-utils: update to Git HEAD (2026-09-30)
-27d57f45e|coolsnowwolf|Sun Oct 11 13:45:45 2026 +0800|ath10k-ct: fix fortify build error on Linux 6.6
-02629de75|coolsnowwolf|Sun Oct 11 13:45:37 2026 +0800|ath79: fix builds with shared driver sources
-
+b941247a2|coolsnowwolf|Wed Oct 21 15:44:14 2026 +0800|amlogic: enable GXL MDIO mux on Linux 6.18
+2def33628|coolsnowwolf|Wed Oct 21 13:58:36 2026 +0800|mac80211: fix brcmfmac build with stable kernels
+07cebbcf2|coolsnowwolf|Mon Oct 19 02:14:58 2026 +0800|fibocom-qmi-wwan: fix build with Linux 6.18
+4926579d2|coolsnowwolf|Mon Oct 19 01:57:26 2026 +0800|qualcommax: reduce ipq60xx kernel size
+20c3817f6|coolsnowwolf|Mon Oct 19 01:34:14 2026 +0800|amlogic: include Realtek PHY driver for Phicomm N1
+73824c52b|coolsnowwolf|Mon Oct 19 01:34:00 2026 +0800|mac80211: brcmfmac: disable survey dump for SDIO
 </details>
