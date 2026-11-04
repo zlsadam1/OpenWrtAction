@@ -1,10 +1,11 @@
 <details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/8303e9b2a004a6c3754aaa1edb32cfc7c0cfe55b...2d44c5ae2269efdc73a9febf4b99f60cfcafcd7d)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/2d44c5ae2269efdc73a9febf4b99f60cfcafcd7d...6c57f7cd04028d370f9360de71f5d59412046194)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-2d44c5ae22|David Bauer|Fri Jul 24 15:11:08 2026 +0200|mpc85xx: relocate simpleImage for WS-AP3710i
-f9d2a05684|Paul Donald|Wed May 27 19:16:22 2026 +0300|lldpd: bump to 1.0.22
+6c57f7cd04|Hauke Mehrtens|Tue Nov 3 01:27:41 2026 +0100|libubox: update to Git openwrt-25.12 (2026-11-03)
+5858ebc1fc|Jackie Han|Sat Oct 24 15:45:33 2026 +0800|ipq40xx: whw03v2: fix PHY reset GPIO description
+ba477a8a1c|Jackie Han|Sat Oct 24 15:45:33 2026 +0800|ipq40xx: revert qcom_scm SDI/download mode probe change
 </details>

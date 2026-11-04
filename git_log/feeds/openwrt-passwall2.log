@@ -1,10 +1,11 @@
 <details> <summary> <b>openwrt-passwall2 new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/d08e7f88fcb5c7f94b870f7281db0045a0477293...be8d917a3b88a090c084540af9bb9c1864578552)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/be8d917a3b88a090c084540af9bb9c1864578552...176e27cb8d9852ce9b30d2e180810b544d8fc9dc)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-be8d917|bruceliu1388|Sun Nov 1 13:10:48 2026 +0800|luci: restart rpcd only when ACL file changes during luci update (#1339)
-b611038|A-BO|Sun Nov 1 12:33:58 2026 +0800|luci: fix typos in English help text and comments
+176e27c|lwb1978|Tue Nov 3 23:28:37 2026 +0800|luci: bump 26.11.3
+fe90ae8|lwb1978|Tue Nov 3 20:12:42 2026 +0800|luci: fix the haproxy port auto-fill error
+8c67190|A-BO|Mon Nov 2 11:44:46 2026 +0800|luci: validate update assets before starting downloads
 </details>

@@ -1,13 +1,15 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/6d7a9186ae29d7b28c38bcbea83ab839dc71b666...630cd7a8155db7be16abd00a2f41330f2d016add)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/630cd7a8155db7be16abd00a2f41330f2d016add...15af690cfc263c12264a85e32dafdb1f926d7673)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-630cd7a81|Qingfang Deng|Mon Oct 26 22:24:56 2026 +0800|ovpn-dco: update to 7.3.0.2026100801
-62ea8befc|Qingfang Deng|Mon Oct 26 22:24:03 2026 +0800|openvpn: update to 2.7.8
-fae099b50|Martino Dell'Ambrogio|Sat Oct 31 12:29:58 2026 +0100|miniupnpd: backport the CVE-2026-5720 fix to 2.3.9
-9b52d3f7a|John Audia|Thu Oct 29 19:15:01 2026 +0000|openssh: add mldsa44-ed25519 host key
-b7d93a0bb|Olivier Poitrey|Thu Oct 29 23:33:57 2026 +0000|nextdns: update to version 1.49.0
+15af690cf|Elly Sai|Thu Oct 1 00:14:20 2026 +0300|ddns-scripts: add alviy.com provider
+8b272d2eb|Romain Isnel|Wed Sep 2 13:11:46 2026 +0200|msmtp: update to 1.8.34
+461a9f053|Josef Schlehofer|Mon Nov 2 23:40:36 2026 +0100|weechat: update to 4.10.2
+771281271|Tianling Shen|Tue Nov 3 17:43:30 2026 +0800|libtorrent-rasterbar: fix Python bindings on 25.12
+3c6f78aa7|Sami Salonen|Sun Oct 25 09:22:08 2026 +0200|netbird: update to 0.81.4
+3a4c00487|Dirk Brenken|Mon Nov 2 17:05:30 2026 +0100|banip: update 1.9.1-5
+e9a1c22d1|Dirk Brenken|Sun Nov 1 19:50:23 2026 +0100|banip: update 1.9.1-4
 </details>
