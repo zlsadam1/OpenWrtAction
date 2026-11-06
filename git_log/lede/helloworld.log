@@ -1,11 +1,10 @@
 <details> <summary> <b>helloworld new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/fw876/helloworld/compare/04fe559424048d44aaf7c53f3b3c9a775c513a3b...c66d5d3fbf8861a7eb2f0ef2a5190daa03bc5e1b)  
+#### [:mega: Full Changelog. ](https://github.com/fw876/helloworld/compare/c66d5d3fbf8861a7eb2f0ef2a5190daa03bc5e1b...ecac6bb5223400c362e519ed3d02a96d8bed504b)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-c66d5d3|zxl hhyccc|Tue Nov 3 23:40:07 2026 +0800|naiveproxy: update to 154.0.8037.49-5
-8b632b5|zxlhhyccc|Tue Nov 3 21:32:20 2026 +0800|luci-app-ssr-plus: add MASQUE support (Xray)
-b130d22|coolsnowwolf|Tue Nov 3 15:02:50 2026 +0800|mihomo: fix source mirror hash to avoid repeated rebuilds
+ecac6bb|zxl hhyccc|Fri Nov 6 22:58:32 2026 +0800|luci-app-ssr-plus: fix(clash): fix YAML generation defects for xhttp-opts.
+81c6320|coolsnowwolf|Wed Nov 4 18:55:30 2026 +0800|luci-app-ssr-plus: bump version to v198.3
 </details>
