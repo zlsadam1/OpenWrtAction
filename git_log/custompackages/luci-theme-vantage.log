@@ -1,19 +1,17 @@
 <details> <summary> <b>luci-theme-vantage new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/anothaDev/luci-theme-vantage/compare/cddbfb262b7a67a0d3762039e4af66fc0ac92000...c8f0d04058835a1f1a04dcb73ec01754f7e1c5b0)  
+#### [:mega: Full Changelog. ](https://github.com/anothaDev/luci-theme-vantage/compare/c8f0d04058835a1f1a04dcb73ec01754f7e1c5b0...ed6be0a7c2fb836164ac0c2be9530ae5e2a21deb)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-c8f0d04|anothaDev|Fri Nov 6 18:50:31 2026 +0100|Show the Wired branch on routers without Wi-Fi (#99)
-9d6669c|anothaDev|Fri Nov 6 12:17:15 2026 +0100|Add the promo as an animated image at the top of the README (#97)
-805beae|anothaDev|Fri Nov 6 11:43:30 2026 +0100|Release manifest for v1.0.16 (#95)
-aba6a45|anothaDev|Fri Nov 6 11:38:04 2026 +0100|Add the promo video to the landing page (#96)
-a0ed5b6|anothaDev|Fri Nov 6 10:54:49 2026 +0100|Release 1.0.16 (#94)
-20bf0c9|anothaDev|Fri Nov 6 10:49:38 2026 +0100|Fix what the 1.0.16 review found (#93)
-61a0096|anothaDev|Fri Nov 6 08:59:23 2026 +0100|Appearance saved on the router, for every browser (#89); simpler README (#91)
-e35a8e7|anothaDev|Thu Nov 5 21:34:45 2026 +0100|Network path: every line to the internet and a VPN's tunnel on it (#88); README and landing page (#90)
-9feb1e0|anothaDev|Wed Nov 4 21:47:22 2026 +0100|Release manifest for v1.0.15 (#87)
-fe8a8b3|anothaDev|Wed Nov 4 21:37:01 2026 +0100|Release 1.0.15 (#86)
-fcef2b5|QiuSimons|Thu Nov 5 03:04:53 2026 +0800|Repaint File Manager's own light palette with theme tokens (#84)
+ed6be0a|anothaDev|Wed Nov 11 10:19:14 2026 +0100|Release manifest for v1.0.19 (#120)
+6b4a121|anothaDev|Wed Nov 11 10:09:39 2026 +0100|Release 1.0.19: lighter polling and motion, wired hosts on switch-chip routers, CPU tile, equal Appearance options (#119)
+c2abe00|anothaDev|Wed Nov 11 09:12:23 2026 +0100|Fixes after 1.0.18: station IPv4, lighter polling and motion, equal Appearance options (#118)
+d6ffd96|anothaDev|Tue Nov 10 20:49:49 2026 +0100|Changelog: 1.0.18's poll numbers for the whole poll (#117)
+a18c2da|anothaDev|Tue Nov 10 20:42:07 2026 +0100|Release manifest for v1.0.18 (#116)
+b54990a|anothaDev|Tue Nov 10 20:32:08 2026 +0100|Release 1.0.18: theme switch, wide screens, lighter polling, Low-power router, quiet stations (#115)
+c4b03e5|yipush|Tue Nov 10 23:17:43 2026 +0800|Fix Vantage login with 2FA authentication challenges (#114)
+a370921|anothaDev|Sun Nov 8 08:19:21 2026 +0100|Release manifest for v1.0.17 (#108)
+5402c73|anothaDev|Sun Nov 8 08:09:11 2026 +0100|Release 1.0.17: pulse back, login hostname, version and update check, install hardening (#107)
 </details>

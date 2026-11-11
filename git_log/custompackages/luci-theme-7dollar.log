@@ -1,22 +1,12 @@
 <details> <summary> <b>luci-theme-7dollar new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/itsmaiGe/luci-theme-7dollar/compare/6f9841382961877815df1c5937016aeddc9dc0a2...1bc9e70226f8caf3e9522d6e61e057baffb21876)  
+#### [:mega: Full Changelog. ](https://github.com/itsmaiGe/luci-theme-7dollar/compare/1bc9e70226f8caf3e9522d6e61e057baffb21876...b7cdbbc92fed9e0ed3c829862d94635b9a528fe6)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-1bc9e70|github-actions[bot]|Fri Nov 6 05:45:13 2026 +0000|dist: luci-theme-7dollar-1.0.13-r1.apk
-1bc6390|itsmaiGe|Fri Nov 6 13:44:50 2026 +0800|1.0.13: 切换主题后菜单自动刷新，修复装了其他仪表盘时总览不是 7Dollar 首页（#10）；鼠标操作时标签栏放不下自动换行，内容区放宽到 1440px（#11）；CI 改用最新的 apk-tools-static
-63d4d8f|itsmaiGe|Fri Nov 6 10:06:53 2026 +0800|Wider content area; tab rows and pills wrap for mouse users instead of hiding overflow (#11)
-253a78f|itsmaiGe|Thu Nov 5 23:08:14 2026 +0800|Rebuild LuCI's menu when the theme is switched (#10)
-9a3627b|itsmaiGe|Thu Nov 5 19:47:57 2026 +0800|CI: use the newest apk-tools-static (3.0.8 left the mirror)
-624103a|itsmaiGe|Thu Nov 5 18:27:49 2026 +0800|README：改用平实、中性的中文表述
-84cfdf1|github-actions[bot]|Wed Nov 4 08:14:27 2026 +0000|dist: luci-theme-7dollar-1.0.12-r1.apk
-476acda|itsmaiGe|Wed Nov 4 16:13:52 2026 +0800|1.0.12: 首页「应用」卡片（默认关闭，自动列出正在运行的插件，#9）；断开的设备不再因 ARP 残留显示为有线在线；打包时压缩 JS / CSS，安装包 55 → 48 KB；轮询只在内容变化时重绘，网关 ping 改为 30 秒一次；网络接口提示文字颜色修正；手机上应用卡越界、极窄屏常用操作等若干小修
-305463c|itsmaiGe|Wed Nov 4 16:08:07 2026 +0800|全局检查：应用卡每 30 秒刷新一行信息（别处改了 OpenClash 模式首页也会跟上）；Wi‑Fi 全关时不再把关着的网络当主网络；问候语和日期随时间更新；设备页列表内容没变就不动 DOM；手机上应用卡右侧信息不再越出卡片；极窄屏常用操作改单列
-898a6a7|itsmaiGe|Wed Nov 4 15:46:24 2026 +0800|设备在线判断改用网桥转发表：Wi‑Fi 断开或拔掉网线超过 5 分钟的设备不再因为 ARP 缓存残留而显示为「有线在线」
-4c10999|itsmaiGe|Wed Nov 4 15:29:17 2026 +0800|打包时用 esbuild 压缩 JS / CSS（OpenWrt 官方构建 LuCI 本来就会做的一步），源码不变：安装包 57 → 47 KB，浏览器下载少 10 KB
-fa4d1dd|itsmaiGe|Wed Nov 4 14:20:51 2026 +0800|瘦身：轮询时只在内容变化时重绘（统一用 put()），速率图只更新路径不再重建 SVG，网关 ping 从 10 秒改为 30 秒，删掉未用的 3 个图标和 9 个导出，升级时清掉旧的 plugin_openclash 配置
-cd8d122|itsmaiGe|Wed Nov 4 12:11:35 2026 +0800|首页「应用」卡片（默认关闭）：打开后自动列出正在运行的插件，名字来自菜单、状态来自 procd 一次查询，任何插件都行。常见插件各多一行要紧信息（OpenClash 代理模式可切换、PassWall / PassWall 2 / SSR Plus+ / HomeProxy 当前节点、Nikki 模式、AdGuard Home / Open-Box 控制台入口、MosDNS / SmartDNS 端口、Bandix 监控网口、文件共享剩余空间），只读配置。替代原来的 OpenClash 专属卡片（#9）
-3610579|itsmaiGe|Wed Nov 4 01:40:39 2026 +0800|css: the interface tooltip on 网络接口 is a light badge, so it keeps its dark text; the canvas-coloured override was meant only for tooltips inside <var> (firewall rules) and is scoped there now
+b7cdbbc|github-actions[bot]|Sat Nov 7 15:59:34 2026 +0000|dist: luci-theme-7dollar-1.0.14-r1.apk
+6fee7b5|itsmaiGe|Sat Nov 7 23:59:01 2026 +0800|1.0.14
+7f444ab|itsmaiGe|Sat Nov 7 23:16:43 2026 +0800|Menu: plugins under System/Status go to Apps; rarely used pages fold behind More. Apps card shows a few rows and counts the rest
+d368be1|itsmaiGe|Sat Nov 7 10:07:33 2026 +0800|Devices: a box without its own Wi-Fi counts LAN devices as LAN, not wired (#12)
 </details>

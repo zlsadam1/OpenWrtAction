@@ -1,10 +1,12 @@
 <details> <summary> <b>helloworld new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/fw876/helloworld/compare/c66d5d3fbf8861a7eb2f0ef2a5190daa03bc5e1b...ecac6bb5223400c362e519ed3d02a96d8bed504b)  
+#### [:mega: Full Changelog. ](https://github.com/fw876/helloworld/compare/ecac6bb5223400c362e519ed3d02a96d8bed504b...e8efa31ae45ddf217863dced9068730bf24dd37a)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-ecac6bb|zxl hhyccc|Fri Nov 6 22:58:32 2026 +0800|luci-app-ssr-plus: fix(clash): fix YAML generation defects for xhttp-opts.
-81c6320|coolsnowwolf|Wed Nov 4 18:55:30 2026 +0800|luci-app-ssr-plus: bump version to v198.3
+e8efa31a|coolsnowwolf|Tue Nov 10 10:08:59 2026 +0800|xray-core: disable cronet build when in non-x64 host os
+425d4805|coolsnowwolf|Sun Nov 8 11:34:05 2026 +0800|luci-app-ssr-plus: remove NaiveProxy component updater
+c4a72267|zxl hhyccc|Fri Nov 6 22:58:32 2026 +0800|luci-app-ssr-plus: fix(clash): fix YAML generation defects for xhttp-opts.
+ecac6bb5|zxl hhyccc|Fri Nov 6 22:58:32 2026 +0800|luci-app-ssr-plus: fix(clash): fix YAML generation defects for xhttp-opts.
 </details>
