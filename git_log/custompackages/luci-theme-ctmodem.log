@@ -1,0 +1,13 @@
+<details> <summary> <b>luci-theme-ctmodem new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/hakureiyuyuko/luci-theme-ctmodem/compare/e74b366701c97a10c1b2f94057f21c46cfadbf4f...bea0ff08f77a06b15368937d42e40f186b3d731b)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+bea0ff0|hakureiyuyuko|Mon Nov 16 22:53:56 2026 +0800|CI: bump package version by editing the Makefile, not via make variables
+af1de92|hakureiyuyuko|Mon Nov 16 22:51:34 2026 +0800|README: correct the note about precompiled .ut templates
+3d4512c|hakureiyuyuko|Mon Nov 16 22:43:58 2026 +0800|CI: collect apk artifacts too (name-version.apk naming)
+9c30066|hakureiyuyuko|Mon Nov 16 22:37:24 2026 +0800|Package metadata fixes and CI builds for ipk/apk
+960d1cf|David Mandy|Mon Nov 2 23:06:14 2026 +0800|fixes: use $(TOPDIR)/feeds/luci/luci.mk so the package builds outside feeds/luci/themes
+</details>
