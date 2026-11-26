@@ -1,13 +1,10 @@
 <details> <summary> <b>openwrt-passwall2 new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/7d6bae5bdd164abfdae5a34e85af3774f7481497...8900ebcb1daeffce1aabe069b6b5af96901e5ffc)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/8900ebcb1daeffce1aabe069b6b5af96901e5ffc...c8c1c67d6f12ea3bf3d05a3b186dffd538955502)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-8900ebc|David Mandy|Tue Nov 24 18:56:54 2026 +0800|ci: fixes donwload sdk error Signed-off-by: David Mandy <smallprogramzhusir@gmail.com>
-d9ba18d|A-BO|Mon Nov 23 23:53:09 2026 +0800|luci: prevent line wrapping in client and server logs
-7cad798|A-BO|Mon Nov 23 22:26:19 2026 +0800|luci: bump 26.11.23
-31b5265|A-BO|Mon Nov 23 20:39:09 2026 +0800|luci: optimize
-ccae1fd|A-BO|Mon Nov 23 01:47:24 2026 +0800|luci: fix RAW HTTP Host and Path handling
+c8c1c67|Gypsophila|Fri Nov 27 00:51:53 2026 +0800|luci: detect built-in transparent proxy support (#1363)
+ba02b03|A-BO|Thu Nov 26 20:19:26 2026 +0800|luci: Show an error when a share URL is too long for a QR code
 </details>

@@ -1,13 +1,10 @@
 <details> <summary> <b>openwrt-passwall new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/b3cf8e768ba11d9172e9db7bdd6af17eaf8580f7...bc622894605a7b4d88028cb172e9807c57e6cdca)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/bc622894605a7b4d88028cb172e9807c57e6cdca...6dc121ea3545e01bff2c4dfa0551da5404c2dfa2)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-bc622894|A-BO|Mon Nov 23 23:45:06 2026 +0800|luci: prevent line wrapping in client and server logs
-c3a2c543|A-BO|Mon Nov 23 22:25:34 2026 +0800|luci: bump 26.11.23
-e1d97049|A-BO|Mon Nov 23 20:33:46 2026 +0800|luci: force the Monoio legacy driver for the Shadow-TLS plugin
-57a6a947|A-BO|Mon Nov 23 20:08:55 2026 +0800|luci: set probe user agent and update homepage test URLs
-89ecdea8|A-BO|Mon Nov 23 01:41:11 2026 +0800|luci: fix RAW HTTP Host and Path handling
+6dc121ea|A-BO|Fri Nov 27 00:53:05 2026 +0800|luci: detect built-in transparent proxy support
+6d4b5671|A-BO|Thu Nov 26 20:13:33 2026 +0800|luci: Show an error when a share URL is too long for a QR code
 </details>

@@ -1,21 +1,15 @@
 <details> <summary> <b>luci-theme-carbon new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/mrjoechen/luci-theme-carbon/compare/239cf7b2f33dd93c34251ad201c4322fa279b3bd...086d0d39ca0bd3dcaf72540671016e683f678cdc)  
+#### [:mega: Full Changelog. ](https://github.com/mrjoechen/luci-theme-carbon/compare/086d0d39ca0bd3dcaf72540671016e683f678cdc...5cd2c1afbf91c073867e06c8531c46dccf2a9b9d)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-086d0d3|mrjoechen|Wed Nov 25 15:27:35 2026 +0800|Add customizable Simple menu with UCI persistence (#19)
-fbb9fdb|mrjoechen|Wed Nov 25 12:17:59 2026 +0800|Unify button variants across input and button controls (#17)
-c73c70b|mrjoechen|Tue Nov 24 14:32:30 2026 +0800|Simplify feature descriptions in READMEs
-2d993df|mrjoechen|Tue Nov 24 14:24:03 2026 +0800|Clarify dashboard load average and show per-SSID wireless details
-0e57edc|mrjoechen|Mon Nov 23 21:33:40 2026 +0800|Fix browser test dashboardReady wait for single mock temperature sensor
-604eb8d|mrjoechen|Mon Nov 23 21:27:56 2026 +0800|Release Carbon v1.1.9
-80c0837|mrjoechen|Mon Nov 23 21:06:09 2026 +0800|Redesign Carbon logo with layered glass hexagon and aligned icon radii
-f0f6ad1|mrjoechen|Mon Nov 23 21:04:48 2026 +0800|Add desktop and mobile intro image and simplify preview temperature mock
-405e9fa|mrjoechen|Mon Nov 23 18:03:46 2026 +0800|Fall back to GitHub Pages when GitHub online update checks or downloads fail
-d93ad06|mrjoechen|Mon Nov 23 17:29:45 2026 +0800|Adapt online updater, installer, and tests for OpenWrt 23.05
-f2a2d57|Joe Chen|Mon Nov 23 15:34:07 2026 +0800|Update README.md
-cad08b7|mrjoechen|Mon Nov 23 14:15:49 2026 +0800|Deduplicate duplicate hwmon and thermal temperature sensors
-454998d|FateLightX|Mon Nov 23 14:08:57 2026 +0800|Add FlowCone, HONK and irqbalance sidebar icon mappings (#16)
+5cd2c1a|mrjoechen|Thu Nov 26 21:57:49 2026 +0800|Wait for button style transitions in browser tests
+4a55c93|mrjoechen|Thu Nov 26 21:36:48 2026 +0800|Make browser test screenshots opt-in and wait for stylesheet in button variants test
+4223120|mrjoechen|Thu Nov 26 21:27:11 2026 +0800|Release Carbon v1.2.0
+24c6b58|Joe Chen|Thu Nov 26 21:22:55 2026 +0800|Update asset link in Chinese README
+37d2a7c|Joe Chen|Thu Nov 26 21:22:37 2026 +0800|Update asset link in README.md
+ce60120|mrjoechen|Thu Nov 26 19:59:53 2026 +0800|Fix false "No wireless" status via luci-rpc and iwinfo fallbacks (#15)
+55184e9|mrjoechen|Wed Nov 25 17:42:48 2026 +0800|Support drag-to-reorder in Simple menu customizer and sidebar
 </details>
