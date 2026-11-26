@@ -378,7 +378,10 @@ jobs:
           DEBIAN_FRONTEND: noninteractive
         run: |
           sudo -E apt-get -qq update
-          sudo -E apt-get -qq install $(curl -fsSL https://github.com/smallprogram/OpenWrtAction/raw/main/diy_script/${{ matrix.source_code_platform }}_dependence)
+          # 改为读取本仓库内的依赖清单，避免 fork 后仍去拉上游仓库（读不到时按本仓库 raw 地址兜底）
+          DEP_FILE="$GITHUB_WORKSPACE/diy_script/${{ matrix.source_code_platform }}_dependence"
+          PKGS=$(cat "$DEP_FILE" 2>/dev/null || curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/diy_script/${{ matrix.source_code_platform }}_dependence")
+          sudo -E apt-get -qq install $PKGS
 
       - name: Initialization Directory
         working-directory: /workdir
@@ -471,7 +474,7 @@ jobs:
 
           REPO_OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
           PLATFORM_NAME=$(echo "${{ matrix.source_code_platform }}-${{ matrix.platform }}" | tr '[:upper:]' '[:lower:]')
-          IMAGE_NAME="ghcr.io/smallprogram/openwrt-base-cache-$PLATFORM_NAME:latest"
+          IMAGE_NAME="ghcr.io/${REPO_OWNER}/openwrt-base-cache-$PLATFORM_NAME:latest"
           
           if docker pull $IMAGE_NAME; then
             echo "==== 发现缓存，开始极速提取 ===="
@@ -633,7 +636,7 @@ jobs:
           df -hT
           REPO_OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
           PLATFORM_NAME=$(echo "${{ matrix.source_code_platform }}-${{ matrix.platform }}" | tr '[:upper:]' '[:lower:]')
-          IMAGE_NAME="ghcr.io/smallprogram/openwrt-base-cache-$PLATFORM_NAME:latest"
+          IMAGE_NAME="ghcr.io/${REPO_OWNER}/openwrt-base-cache-$PLATFORM_NAME:latest"
 
           docker build -t $IMAGE_NAME .
           docker push $IMAGE_NAME
@@ -796,30 +799,3 @@ jobs:
         run: |
           echo "Retry failed jobs for the ${{ fromJSON(github.run_attempt) }} time, Retry 3 times in total"
           gh workflow run Retry_Failure_Jobs.yml -F run_id=${{ github.run_id }}
-
-  final-execution-jobs:
-    runs-on: ubuntu-latest
-    needs: [rerun-failed-jobs, job_organize_tags]
-    if: ${{ always() && !cancelled() }}
-    steps:
-      - name: Trigger Release Update
-        if: ${{ needs.rerun-failed-jobs.result == 'skipped' && fromJSON(github.run_attempt) < 4 }}
-        uses: peter-evans/repository-dispatch@v4
-        with:
-          token: ${{ secrets.MY_SECRET_PAT }}
-          repository: smallprogram/MyAction
-          event-type: openwrt_compilation_completed
-
-      # - name: Stateful Lifecycle Check
-      #   id: lifecycle_check
-      #   run: |
-      #     chmod +x compile_script/check_lifecycle.sh
-      #     $GITHUB_WORKSPACE/compile_script/check_lifecycle.sh
-
-      # - name: Trigger Cache Update
-      #   if: ${{ needs.rerun-failed-jobs.result == 'skipped' }}
-      #   uses: peter-evans/repository-dispatch@v4
-      #   with:
-      #     token: ${{ github.token }}
-      #     event-type: openwrt_cache_update_v6
-      #     client-payload: '{"force_rebuild": "${{ steps.lifecycle_check.outputs.force_rebuild }}"}'
